@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="每日学习鲁米诗歌的双语网站，用于个人内在探索、默观练习与灵修日记。"
+    />
+    <title>鲁米诗歌365</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-media" aria-hidden="true">
+          <div class="sun-disc"></div>
+          <div class="rings"></div>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Rumi 365 Daily Practice</p>
+          <h1 id="page-title">鲁米诗歌365</h1>
+          <p class="lede">
+            A bilingual daily companion for contemplative reading, inner inquiry, and spiritual journaling.
+            <span>每日一则诗性默想，一次回到心的练习。</span>
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <button class="primary" id="todayButton" type="button">今日学习</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Study controls">
+        <div class="segmented" role="group" aria-label="Language">
+          <button class="active" type="button" data-lang="both">中英</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="en">English</button>
+        </div>
+      </section>
+
+      <section class="daily-layout" aria-live="polite">
+        <article class="daily-card">
+          <div class="day-header">
+            <div>
+              <h2 id="dayTitle"></h2>
+              <p class="reading-date" id="readingDate"></p>
+            </div>
+          </div>
+
+          <div class="poem-block lang-zh">
+            <p class="label">诗性默想</p>
+            <blockquote id="poemZh"></blockquote>
+          </div>
+          <div class="poem-block lang-en">
+            <p class="label">Poetic Meditation</p>
+            <blockquote id="poemEn"></blockquote>
+          </div>
+
+          <div class="practice-grid">
+            <section class="practice-panel lang-zh">
+              <h3>内在提问</h3>
+              <p id="inquiryZh"></p>
+            </section>
+            <section class="practice-panel lang-zh">
+              <h3>今日练习</h3>
+              <p id="practiceZh"></p>
+            </section>
+            <section class="practice-panel lang-en">
+              <h3>Inner Inquiry</h3>
+              <p id="inquiryEn"></p>
+            </section>
+            <section class="practice-panel lang-en">
+              <h3>Practice</h3>
+              <p id="practiceEn"></p>
+            </section>
+          </div>
+        </article>
+
+        <aside class="journal-panel" aria-labelledby="journal-title">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Private Journal</p>
+              <h2 id="journal-title">个人灵修日记</h2>
+            </div>
+            <span id="saveState">已保存</span>
+          </div>
+          <textarea
+            id="journal"
+            rows="12"
+            placeholder="写下今天触动你的词、身体感受、祈祷或一个真实的看见..."
+          ></textarea>
+          <div class="journal-actions">
+            <button class="secondary" id="saveButton" type="button">保存</button>
+            <button class="ghost" id="clearButton" type="button">清空记录</button>
+          </div>
+          <div class="progress">
+            <div class="progress-copy">
+              <span>已记录</span>
+            <strong id="progressCount">0 / 0</strong>
+            </div>
+            <div class="progress-track">
+              <span id="progressBar"></span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="share-panel" aria-labelledby="share-title">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Share</p>
+            <h2 id="share-title">分享</h2>
+          </div>
+          <button class="primary" id="shareButton" type="button">生成海报</button>
+        </div>
+        <div class="poster-output" id="posterOutput" hidden>
+          <img id="posterPreview" alt="鲁米诗歌365分享海报" />
+          <div class="journal-actions">
+            <a class="secondary download-link" id="downloadPoster" download="rumi365-poster.png">下载海报</a>
+            <span class="muted" id="shareStatus">右下角二维码可长按访问网站</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="vendor/qrcode.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

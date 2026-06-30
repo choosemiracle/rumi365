@@ -1,0 +1,3113 @@
+[
+  {
+    "type": "month",
+    "month": "January",
+    "monthIndex": 1,
+    "quoteEn": "The vendors of old goods are gone. We are the new vendors; this is our bazaar.",
+    "id": "month-1",
+    "quoteZh": "旧货的商贩已经离去。我们是新的商贩；这里，是我们的市集。"
+  },
+  {
+    "month": "January",
+    "weekday": "Monday",
+    "quoteEn": "Be free, O my son, and break your chains asunder!\nHow long will you be a slave to gold and silver?\nIf you try to pour a sea in a jar,\nHow much will it hold? At best, a day's worth!\nThe greedy eye's a jar never filled;\nThe pearl won't fill the discontented shell.",
+    "day": 1,
+    "type": "day",
+    "id": "day-1",
+    "quoteZh": "自由吧，我的孩子，挣断你的锁链！\n你还要做金银的奴隶到几时？\n若你想把大海倒进一只罐里，\n它能盛下多少？至多，不过一日之量！\n贪婪的眼，是永远填不满的罐；\n珍珠也填不满那不知足的贝壳。"
+  },
+  {
+    "month": "January",
+    "weekday": "Tuesday",
+    "quoteEn": "Come, come, whoever you are. Wanderer, worshipper, lover of leaving. It doesn't matter. Ours is not a caravan of despair.\nCome, even if you have broken your vow a hundred times. Come, yet again, come, come.",
+    "day": 2,
+    "type": "day",
+    "id": "day-2",
+    "quoteZh": "来吧，来吧，无论你是谁。流浪者、礼拜者、爱着离去的人，都无妨。我们这里不是绝望的商队。\n来吧，即使你已百次背弃誓言。来吧，再一次来，来吧，来吧。"
+  },
+  {
+    "month": "January",
+    "weekday": "Wednesday",
+    "quoteEn": "Whether one is slow or speedy in movement, he that is a seeker will be a finder. Always apply yourself with both hands\nwith all your might to seeking, for search is an excellent guide on the way.",
+    "day": 3,
+    "type": "day",
+    "id": "day-3",
+    "quoteZh": "无论脚步迟缓或迅疾，只要是寻求者，终将成为发现者。要时时用你的双手，\n以全副力量投入寻觅；因为寻觅，是路上极好的向导。"
+  },
+  {
+    "month": "January",
+    "weekday": "Thursday",
+    "quoteEn": "There is another soul in your soul, seek out for it.\nThere is a treasure in the Mount Body, seek out for that treasure.\nO mystic who goes on! If you are really capable then seek.\nNot outside, but seek what you are seeking for in yourself",
+    "day": 4,
+    "type": "day",
+    "id": "day-4",
+    "quoteZh": "你的灵魂里还有另一个灵魂，去寻它。\n身体这座山中藏着一份宝藏，去寻那宝藏。\n哦，继续前行的神秘行者！若你真有能力，就去寻吧。\n不是向外，而是在你自己里面，寻找你所寻求的。"
+  },
+  {
+    "month": "January",
+    "weekday": "Friday",
+    "quoteEn": "Love is higher than these two states of feeling:\nWithout spring and autumn, is it evergreen and fresh?",
+    "day": 5,
+    "type": "day",
+    "id": "day-5",
+    "quoteZh": "爱高于这两种情感的状态：\n没有春与秋，它岂不是常青常新？"
+  },
+  {
+    "month": "January",
+    "weekday": "Saturday",
+    "quoteEn": "If there is no benefit in speech, do not speak; and if there is, leave off making objections, and endeavor to give thanks.",
+    "day": 6,
+    "type": "day",
+    "id": "day-6",
+    "quoteZh": "若言语无益，就不要开口；若有益，就停止异议，努力献上感恩。"
+  },
+  {
+    "month": "January",
+    "weekday": "Sunday",
+    "quoteEn": "Since, in order to speak, one must first hear, do you\ncome to speech by the way of hearing?\nTake care of the hearts of the poor and distressed!\nDo not be with your own selfish pleasures possessed.\nSince the good and the wicked must pass as they came,\nIt is well when with goodness, they mention your name.",
+    "day": 7,
+    "type": "day",
+    "id": "day-7",
+    "quoteZh": "既然要说话，必先倾听，\n你是否经由倾听而抵达言说？\n照看贫苦与忧伤者的心吧！\n不要沉溺于自己的私欲欢愉。\n既然善人与恶人都要如来时一般离去，\n那么，当人们因你的善而提起你的名字，便是美好的。"
+  },
+  {
+    "month": "January",
+    "weekday": "Monday",
+    "quoteEn": "Anyone who offers his beauty to auction, a hundred evil fates set out towards him and overtake him. Plots and waves of\nanger and envy pour upon his head, like water from water skins. Foes tear him to pieces from jealousy; even friends take his\nlifetime away.",
+    "day": 8,
+    "type": "day",
+    "id": "day-8",
+    "quoteZh": "凡把自己的美貌拿出来叫卖的人，百种恶运便向他出发，将他追上。阴谋，以及愤怒与嫉妒的波浪，\n如水囊倾泻般落在他头上。仇敌因嫉妒将他撕碎；就连朋友，也会耗尽他的\n一生。"
+  },
+  {
+    "month": "January",
+    "weekday": "Tuesday",
+    "quoteEn": "How should a rock be covered with verdure by the spring? Become earth, that you may grow flowers of many a hue.\nYears have you been a heart-jagging rock: once, for the sake of experiment, be earth!",
+    "day": 9,
+    "type": "day",
+    "id": "day-9",
+    "quoteZh": "一块岩石怎能被春天覆上新绿？化作泥土吧，好让你生出万色花朵。\n多年来，你一直是一块刺痛人心的石头；这一次，姑且试一试，成为泥土吧！"
+  },
+  {
+    "month": "January",
+    "weekday": "Wednesday",
+    "quoteEn": "Go, help others; time will appreciate your help.\nIt never forgets your help... Everybody left his or her wealth behind, so yours will be left, too.\nThen, one's leaving goodness behind is better than his leaving wealth",
+    "day": 10,
+    "type": "day",
+    "id": "day-10",
+    "quoteZh": "去吧，帮助他人；时间会珍视你的相助。\n它从不忘记你的帮助……人人都把财富留在身后，你的财富也会如此。\n因此，一个人留下善行，胜过留下财富。"
+  },
+  {
+    "month": "January",
+    "weekday": "Thursday",
+    "quoteEn": "The wars of humankind are like children's fights, all meaningless, pithless, and contemptible. All their fights are fought with\nwooden swords; all their purposes are cantered in futility.",
+    "day": 11,
+    "type": "day",
+    "id": "day-11",
+    "quoteZh": "人类的战争如同孩童的争斗，全都无意义、无实质、可鄙可叹。他们所有的争斗，\n都挥舞着木剑；他们所有的目的，都奔向虚空。"
+  },
+  {
+    "month": "January",
+    "weekday": "Friday",
+    "quoteEn": "Where there is ruin, there is hope for a treasure.",
+    "day": 12,
+    "type": "day",
+    "id": "day-12",
+    "quoteZh": "哪里有废墟，哪里就有宝藏的希望。"
+  },
+  {
+    "month": "January",
+    "weekday": "Saturday",
+    "quoteEn": "Through love, bitter things become sweet,\nThrough love, bits of copper is turned to gold.\nThrough love, dregs become the purest wine;\nThrough love, pain becomes a healing balm.\nThrough love, the dead become alive.",
+    "day": 13,
+    "type": "day",
+    "id": "day-13",
+    "quoteZh": "经由爱，苦涩之物化为甘甜，\n经由爱，片片铜屑变成黄金。\n经由爱，酒渣化为最纯的美酒；\n经由爱，痛苦成为疗愈的香膏。\n经由爱，死者复归生命。"
+  },
+  {
+    "month": "January",
+    "weekday": "Sunday",
+    "quoteEn": "The intelligent person sees with her heart\nThe result from the beginning;\nThe one lacking in knowledge\nonly discovers it at the end.",
+    "day": 14,
+    "type": "day",
+    "id": "day-14",
+    "quoteZh": "有智慧的人以心观看，\n从开端便看见结局；\n缺少知识的人，\n只在最后才明白。"
+  },
+  {
+    "month": "January",
+    "weekday": "Monday",
+    "quoteEn": "Everything in the universe is within you. Ask all from our self.",
+    "day": 15,
+    "type": "day",
+    "id": "day-15",
+    "quoteZh": "宇宙万有皆在你之内。你所求的一切，都向自己求取。"
+  },
+  {
+    "month": "January",
+    "weekday": "Tuesday",
+    "quoteEn": "The man who is overcome by ambition listens to hundreds of stories; no remark enters into his ear with ambition.",
+    "day": 16,
+    "type": "day",
+    "id": "day-16",
+    "quoteZh": "被野心压倒的人，纵然听过千百个故事；凡不合他野心的话，都进不了他的耳。"
+  },
+  {
+    "month": "January",
+    "weekday": "Wednesday",
+    "quoteEn": "You are a volume in the divine book\nA mirror to the power that created the universe\nWhatever you want, ask it of yourself\nWhatever you're looking for can only be found\nInside of you.",
+    "day": 17,
+    "type": "day",
+    "id": "day-17",
+    "quoteZh": "你是神圣之书中的一卷，\n是创造宇宙之力的一面镜子。\n无论你想要什么，都向自己求取；\n无论你在寻找什么，最终都只能在\n你自己之内找到。"
+  },
+  {
+    "month": "January",
+    "weekday": "Thursday",
+    "quoteEn": "You are more precious than heaven and earth.\nWhat more can I say?\nYou do not know your own worth.",
+    "day": 18,
+    "type": "day",
+    "id": "day-18",
+    "quoteZh": "你比天地更珍贵。\n我还能再说什么呢？\n你并不知道自己的价值。"
+  },
+  {
+    "month": "January",
+    "weekday": "Friday",
+    "quoteEn": "Silence gives the answers.",
+    "day": 19,
+    "type": "day",
+    "id": "day-19",
+    "quoteZh": "沉默给出答案。"
+  },
+  {
+    "month": "January",
+    "weekday": "Saturday",
+    "quoteEn": "The thought is of the past and future; the difficulty is solved when it is emancipated from these two.",
+    "day": 20,
+    "type": "day",
+    "id": "day-20",
+    "quoteZh": "念头牵挂过去与未来；一旦从这两者中解脱，难题便迎刃而解。"
+  },
+  {
+    "month": "January",
+    "weekday": "Sunday",
+    "quoteEn": "Even if your words are gold, if your doings are worthless, You are worth nothing in people's eyes.",
+    "day": 21,
+    "type": "day",
+    "id": "day-21",
+    "quoteZh": "即使你的言语如黄金，若你的行为毫无价值，在人们眼中你也一文不值。"
+  },
+  {
+    "month": "January",
+    "weekday": "Monday",
+    "quoteEn": "All the people who are walking in the way of love are sultans. There is no place there for servants. Therefore, anyone who\nloves Allah can never become another person's servant.",
+    "day": 22,
+    "type": "day",
+    "id": "day-22",
+    "quoteZh": "凡行走在爱之道路上的人，都是苏丹。那里没有仆人的位置。因此，凡爱真主的人，永不会成为他人的奴仆。"
+  },
+  {
+    "month": "January",
+    "weekday": "Tuesday",
+    "quoteEn": "Whatever pearl you seek, there is another pearl inside that pearl because all the atoms are saying, \"There is a treasure\nhidden me",
+    "day": 23,
+    "type": "day",
+    "id": "day-23",
+    "quoteZh": "无论你寻求哪一颗珍珠，那珍珠之中仍藏着另一颗珍珠；因为万物的每一粒微尘都在说：“我里面藏着一座宝藏。”"
+  },
+  {
+    "month": "January",
+    "weekday": "Wednesday",
+    "quoteEn": "Therefore in form, you are the microcosm; therefore, in reality, you are the macrocosm. Externally the branch is the origin\nof the fruit; intrinsically, the branch came into existence for the sake of the fruit.",
+    "day": 24,
+    "type": "day",
+    "id": "day-24",
+    "quoteZh": "所以，从形相看，你是小宇宙；而在真实中，你是大宇宙。外在看来，枝条是果实的根源；内在而言，枝条的存在正是为了果实。"
+  },
+  {
+    "month": "January",
+    "weekday": "Thursday",
+    "quoteEn": "O you who is searching for faults in everything.\nDo not look down on anyone. God has a part of him in everyone , regardless of their nationalities and religions. The people\nare the mirrors of God.",
+    "day": 25,
+    "type": "day",
+    "id": "day-25",
+    "quoteZh": "啊，你这在万事万物中寻找过错的人。\n不要轻视任何人。无论民族与信仰如何，神都在每个人身上有一份显现。众人皆是神的明镜。"
+  },
+  {
+    "month": "January",
+    "weekday": "Friday",
+    "quoteEn": "You are mine so long as you seek for the jewel in the mine; you are bread as long as you desire for a morsel of bread. If you\nunderstand this secret meaning, then you understand everything; You will be whatever you are looking for.",
+    "day": 26,
+    "type": "day",
+    "id": "day-26",
+    "quoteZh": "只要你在矿中寻求宝石，你便属于矿；只要你渴望一口面包，你便是面包。若你明白这隐秘的意义，你便明白了一切：你所寻找的，终将成为你。"
+  },
+  {
+    "month": "January",
+    "weekday": "Saturday",
+    "quoteEn": "The more iniquitous one is, the more frightful is his well: Justice has ordained worse punishment for worse sin.\nO you who from iniquity are digging a well for others, you are making a snare for yourself.\nDo not weave a cocoon around yourself, like the silkworm. You are digging a well for yourself to fall in: dig with\nmoderation, not too deep.",
+    "day": 27,
+    "type": "day",
+    "id": "day-27",
+    "quoteZh": "人越不义，他的井便越可怖：公正已为更重的罪定下更重的惩罚。\n啊，你因不义而为他人掘井的人，你是在为自己设下罗网。\n不要像蚕一样，把茧织在自己周围。你正在为自己挖一口将要跌入的井：挖也要有分寸，不要太深。"
+  },
+  {
+    "month": "January",
+    "weekday": "Sunday",
+    "quoteEn": "We are toys before the power of God Almighty, Riches belong to Him, and we are all poor.\nThen what is the explanation of seeking pride?\nIn the end, we are all servants the same Palace",
+    "day": 28,
+    "type": "day",
+    "id": "day-28",
+    "quoteZh": "在全能之神的力量面前，我们不过是玩物；财富属于祂，我们全都贫乏。\n那么，追逐骄傲又该如何解释呢？\n到最后，我们都是同一座宫殿里的仆人。"
+  },
+  {
+    "type": "month",
+    "month": "February",
+    "monthIndex": 2,
+    "quoteEn": "The whole universe and all the people are like a single body.",
+    "id": "month-2",
+    "quoteZh": "整个宇宙与所有的人，宛如同一个身体。"
+  },
+  {
+    "month": "February",
+    "weekday": "Monday",
+    "quoteEn": "Every bird flies to its own congener.",
+    "day": 29,
+    "type": "day",
+    "id": "day-29",
+    "quoteZh": "每一只鸟，都飞向自己的同类。"
+  },
+  {
+    "month": "February",
+    "weekday": "Tuesday",
+    "quoteEn": "Consort with the followers of reality, that you may both win the gift and be generous.",
+    "day": 30,
+    "type": "day",
+    "id": "day-30",
+    "quoteZh": "与真实之道的追随者为伴，使你既能赢得恩赐，也能慷慨施予。"
+  },
+  {
+    "month": "February",
+    "weekday": "Wednesday",
+    "quoteEn": "Don't go to the neighborhood of despair: there are hopes.\nDon't go in the direction of darkness: there are suns.",
+    "day": 31,
+    "type": "day",
+    "id": "day-31",
+    "quoteZh": "不要走向绝望的街巷：那里仍有希望。\n不要朝黑暗的方向去：那里仍有太阳。"
+  },
+  {
+    "month": "February",
+    "weekday": "Thursday",
+    "quoteEn": "The heart leads you into the neighborhood of the men of heart; the body leads you into the prison of water and earth.",
+    "day": 32,
+    "type": "day",
+    "id": "day-32",
+    "quoteZh": "心会引你走入有心人的街巷；身体却引你走进水与土的囚牢。"
+  },
+  {
+    "month": "February",
+    "weekday": "Friday",
+    "quoteEn": "Oh, give your heart food from the conversation with one who is in accord with it; go, seek spiritual advancement from\nadvanced ones.",
+    "day": 33,
+    "type": "day",
+    "id": "day-33",
+    "quoteZh": "啊，让你的心从与契合之人的交谈中得食；去吧，向已臻进境者\n寻求灵性的提升。"
+  },
+  {
+    "month": "February",
+    "weekday": "Saturday",
+    "quoteEn": "The righteous departed and their ways remained, and from the vile, there remained nothing but injustice and execration.",
+    "day": 34,
+    "type": "day",
+    "id": "day-34",
+    "quoteZh": "义人离去了，他们的道路仍然存留；卑劣之人所留下的，不过是不义与咒诅。"
+  },
+  {
+    "month": "February",
+    "weekday": "Sunday",
+    "quoteEn": "That which is of the sea is going to the sea: it is going to the same place whence it came.",
+    "day": 35,
+    "type": "day",
+    "id": "day-35",
+    "quoteZh": "凡属海的，终将归于海：它正回到自己来时的地方。"
+  },
+  {
+    "month": "February",
+    "weekday": "Monday",
+    "quoteEn": "Wherever is flowing water, there is greenery: wherever are running tears, the Divine mercy",
+    "day": 36,
+    "type": "day",
+    "id": "day-36",
+    "quoteZh": "哪里有流水，哪里便有青绿；哪里有泪水奔流，哪里便有神圣的慈悯。"
+  },
+  {
+    "month": "February",
+    "weekday": "Tuesday",
+    "quoteEn": "If you desire tears, have mercy on one who sheds tears; if you want mercy, show mercy to the weak.",
+    "day": 37,
+    "type": "day",
+    "id": "day-37",
+    "quoteZh": "若你渴望泪水，就怜悯流泪的人；若你渴望慈悯，就怜悯弱者。"
+  },
+  {
+    "month": "February",
+    "weekday": "Wednesday",
+    "quoteEn": "The delight of every kind is certainly in its own kind congener: the pleasure of the part, observe, is in its whole.",
+    "day": 38,
+    "type": "day",
+    "id": "day-38",
+    "quoteZh": "每一类存在的喜悦，必在与自己同类者之中；你看，部分的欢愉，在于归向它的整体。"
+  },
+  {
+    "month": "February",
+    "weekday": "Thursday",
+    "quoteEn": "You have feet: why do you make yourself out to be lame? You have hands: why do you conceal the fingers whereby you\ngrasp?",
+    "day": 39,
+    "type": "day",
+    "id": "day-39",
+    "quoteZh": "你有双脚，为何装作跛行？你有双手，为何藏起那能\n握取的手指？"
+  },
+  {
+    "month": "February",
+    "weekday": "Friday",
+    "quoteEn": "If you are putting trust in God, put trust in Him regarding your work: sow the seed, then rely upon the Almighty.",
+    "day": 40,
+    "type": "day",
+    "id": "day-40",
+    "quoteZh": "若你信托真主，就在你的劳作中信托祂：先播下种子，然后倚靠全能者。"
+  },
+  {
+    "month": "February",
+    "weekday": "Saturday",
+    "quoteEn": "From whom shall we flee? From ourselves? Oh, absurdity! From whom shall we take (ourselves) away? From God? Oh,\ncrime!",
+    "day": 41,
+    "type": "day",
+    "id": "day-41",
+    "quoteZh": "我们要逃离谁？逃离自己吗？啊，荒谬！我们要把自己带离谁？离开真主吗？啊，\n罪过！"
+  },
+  {
+    "month": "February",
+    "weekday": "Sunday",
+    "quoteEn": "What is this world ? To be forgetful of God ; it is not merchandise and silver and weighing scales and women.",
+    "day": 42,
+    "type": "day",
+    "id": "day-42",
+    "quoteZh": "这世界是什么？就是忘却真主；并非货物、白银、天平与女子。"
+  },
+  {
+    "month": "February",
+    "weekday": "Monday",
+    "quoteEn": "Water in the boat is the ruin of the boat, but water underneath the boat is a support.",
+    "day": 43,
+    "type": "day",
+    "id": "day-43",
+    "quoteZh": "船中的水，会毁了船；船下的水，却托起船。"
+  },
+  {
+    "month": "February",
+    "weekday": "Tuesday",
+    "quoteEn": "Those loves which are for the sake of a color (outward beauty) do not love: in the end, they are a disgrace.",
+    "day": 44,
+    "type": "day",
+    "id": "day-44",
+    "quoteZh": "那些为色相、为外在美貌而生的爱，并不是真爱；到头来，只是一场羞辱。"
+  },
+  {
+    "month": "February",
+    "weekday": "Wednesday",
+    "quoteEn": "How long this regard for form? After all, O form-worshipper has your reality-lacking soul not yet escaped from the form.",
+    "day": 45,
+    "type": "day",
+    "id": "day-45",
+    "quoteZh": "还要迷恋形相多久？终究啊，崇拜形相的人，你那缺乏真实的灵魂，难道还未从形相中脱身吗？"
+  },
+  {
+    "month": "February",
+    "weekday": "Thursday",
+    "quoteEn": "Wait patiently for your bodily senses to be transmuted so that you may see them the invisible beings, and the difficulty may\nbe solved.",
+    "day": 46,
+    "type": "day",
+    "id": "day-46",
+    "quoteZh": "耐心等待你的肉身感官被转化吧；如此，你便能看见那些不可见者，难题也将\n迎刃而解。"
+  },
+  {
+    "month": "February",
+    "weekday": "Friday",
+    "quoteEn": "O adviser, take counsel with the trustworthy, for he whose counsel is sought is trusted.",
+    "day": 47,
+    "type": "day",
+    "id": "day-47",
+    "quoteZh": "噢，劝诫者啊，当向可信之人求教；因为被征询意见的人，正是受人信任的人。"
+  },
+  {
+    "month": "February",
+    "weekday": "Saturday",
+    "quoteEn": "He that searches after wisdom becomes a fountain of wisdom; he becomes independent of acquisition and ways and means.",
+    "day": 48,
+    "type": "day",
+    "id": "day-48",
+    "quoteZh": "追寻智慧的人，终将成为智慧的泉源；他不再仰赖求取，也不再依靠门径与手段。"
+  },
+  {
+    "month": "February",
+    "weekday": "Sunday",
+    "quoteEn": "Illness assumed in jest brings real disease so that the jester dies like a lamp.",
+    "day": 49,
+    "type": "day",
+    "id": "day-49",
+    "quoteZh": "戏言中装出的病，终会招来真实的疾患，使玩笑者如灯一般熄灭。"
+  },
+  {
+    "month": "February",
+    "weekday": "Monday",
+    "quoteEn": "Think, what worlds are in commerce with Reason! How vast is this ocean of Reason!",
+    "day": 50,
+    "type": "day",
+    "id": "day-50",
+    "quoteZh": "想一想，有多少世界与理性交往！这理性之海，又是何等浩瀚！"
+  },
+  {
+    "month": "February",
+    "weekday": "Tuesday",
+    "quoteEn": "God created pain and sorrow for the purpose that happiness might be made manifest through this opposite.",
+    "day": 51,
+    "type": "day",
+    "id": "day-51",
+    "quoteZh": "真主创造痛苦与忧伤，是为使喜乐借着它的对立而显明。"
+  },
+  {
+    "month": "February",
+    "weekday": "Wednesday",
+    "quoteEn": "Hidden things, then, are manifested through their opposite; since God has no opposite, He is hidden.",
+    "day": 52,
+    "type": "day",
+    "id": "day-52",
+    "quoteZh": "如此，隐秘之物借其对立而显现；而真主没有对立，所以祂是隐秘的。"
+  },
+  {
+    "month": "February",
+    "weekday": "Thursday",
+    "quoteEn": "Every moment the world is renewed, and we are unaware of its being restored while it remains the same in appearance.",
+    "day": 53,
+    "type": "day",
+    "id": "day-53",
+    "quoteZh": "每一刻，世界都在更新；它外貌依旧，我们却不知它正在复原。"
+  },
+  {
+    "month": "February",
+    "weekday": "Friday",
+    "quoteEn": "Life is ever arriving anew, like the stream, though it has the semblance of continuity in the body.",
+    "day": 54,
+    "type": "day",
+    "id": "day-54",
+    "quoteZh": "生命永远重新到来，如同溪流；虽在身体中显出连续的模样。"
+  },
+  {
+    "month": "February",
+    "weekday": "Saturday",
+    "quoteEn": "The fool's excuse is worse than his crime; the ignorant excuse is the poison that kills wisdom.",
+    "day": 55,
+    "type": "day",
+    "id": "day-55",
+    "quoteZh": "愚人的辩解，比他的罪更坏；无知的借口，是杀死智慧的毒。"
+  },
+  {
+    "month": "February",
+    "weekday": "Sunday",
+    "quoteEn": "The tongue of mutual understanding is different. Indeed, to be one in the heart is better than to be one in the language.",
+    "day": 56,
+    "type": "day",
+    "id": "day-56",
+    "quoteZh": "相互领会的语言，是另一种语言。诚然，心灵合一，胜过言语相同。"
+  },
+  {
+    "type": "month",
+    "month": "March",
+    "monthIndex": 3,
+    "quoteEn": "You are made of feeling and thought and passion; the rest is nothing but flesh and bone.",
+    "id": "month-3",
+    "quoteZh": "你由感受、思想与热情构成；其余不过是血肉与骨骼。"
+  },
+  {
+    "month": "March",
+    "weekday": "Monday",
+    "quoteEn": "The color of the face indicates the state of the heart.",
+    "day": 57,
+    "type": "day",
+    "id": "day-57",
+    "quoteZh": "面容的颜色，显露内心的状态。"
+  },
+  {
+    "month": "March",
+    "weekday": "Tuesday",
+    "quoteEn": "Life is the harmony of contraries; death is the fact that war arose between them.",
+    "day": 58,
+    "type": "day",
+    "id": "day-58",
+    "quoteZh": "生命，是相反者的和谐；死亡，则是它们之间兴起了战争。"
+  },
+  {
+    "month": "March",
+    "weekday": "Wednesday",
+    "quoteEn": "The laughing pomegranate makes the garden laughing.\nConversation with brave people makes you one of them.",
+    "day": 59,
+    "type": "day",
+    "id": "day-59",
+    "quoteZh": "含笑的石榴，使整座花园欢笑。\n与勇者交谈，也会使你成为他们的一员。"
+  },
+  {
+    "month": "March",
+    "weekday": "Thursday",
+    "quoteEn": "O you who from iniquity are digging a well for others, you are making a snare for yourself. Do not weave a cocoon round\nyourself, like the silkworm. You are digging a well for yourself to fall in: dig with moderation, not too deep.",
+    "day": 60,
+    "type": "day",
+    "id": "day-60",
+    "quoteZh": "噢，你以不义为他人掘井的人啊，你正为自己设下罗网。不要像蚕一样，\n在自己周围织起茧。你所挖的井，是要让自己跌落其中；挖掘要有节制，不可太深。"
+  },
+  {
+    "month": "March",
+    "weekday": "Friday",
+    "quoteEn": "Everyone in whose breast the gate is opened will behold from every city the sun shining.",
+    "day": 61,
+    "type": "day",
+    "id": "day-61",
+    "quoteZh": "凡胸中之门被开启的人，必能从每一座城，看见太阳照耀。"
+  },
+  {
+    "month": "March",
+    "weekday": "Saturday",
+    "quoteEn": "Man is the eye, and all the rest is worthless skin: the sight of that eye consists of seeing the Beloved.",
+    "day": 62,
+    "type": "day",
+    "id": "day-62",
+    "quoteZh": "人是那只眼，其余一切不过是无用的皮囊；而那只眼的明见，就在于看见至爱。"
+  },
+  {
+    "month": "March",
+    "weekday": "Sunday",
+    "quoteEn": "Whoever brings reverence gets reverence in return: whoever brings sugar eats almond cake.",
+    "day": 63,
+    "type": "day",
+    "id": "day-63",
+    "quoteZh": "带着敬意而来的人，必得敬意相迎；带着糖而来的人，便吃得上杏仁糕。"
+  },
+  {
+    "month": "March",
+    "weekday": "Monday",
+    "quoteEn": "For whom are the good women? For the good men. Treat your friend with honor; offend him and see what will happen.",
+    "day": 64,
+    "type": "day",
+    "id": "day-64",
+    "quoteZh": "良善的女子归于谁？归于良善的男子。以尊荣待你的朋友；若冒犯他，且看将会怎样。"
+  },
+  {
+    "month": "March",
+    "weekday": "Tuesday",
+    "quoteEn": "That you should not make yourself ill, exceedingly wretched, so that you may have to be let out from the cage of reputation.\nWorldly reputation is a strong chain: how is this less than a chain of iron in the way?",
+    "day": 65,
+    "type": "day",
+    "id": "day-65",
+    "quoteZh": "不要把自己弄得病弱、极其凄苦，仿佛非要如此，才得以从名声的笼中放出。\n世俗的名声是一条坚固的锁链；在道途中，它岂不比铁链更沉重？"
+  },
+  {
+    "month": "March",
+    "weekday": "Wednesday",
+    "quoteEn": "If there is no benefit in speech, do not speak; and if there is, leave off making objections and endeavor to give thanks.",
+    "day": 66,
+    "type": "day",
+    "id": "day-66",
+    "quoteZh": "若言语无益，就不要开口；若有益，就停止辩驳，努力去感恩。"
+  },
+  {
+    "month": "March",
+    "weekday": "Thursday",
+    "quoteEn": "The woman is a ray of God, and she is not that earthly beloved: she is creative, you must say she is not created.",
+    "day": 67,
+    "type": "day",
+    "id": "day-67",
+    "quoteZh": "女子是神的一道光辉，她并非那尘世的恋人；她有创造之力，你当说她并非受造之物。"
+  },
+  {
+    "month": "March",
+    "weekday": "Friday",
+    "quoteEn": "Know, O simple man, that words of wisdom on the tongue of the unwise are as borrowed robes.",
+    "day": 68,
+    "type": "day",
+    "id": "day-68",
+    "quoteZh": "要知道，单纯的人啊，智慧之言落在愚者舌上，犹如借来的华服。"
+  },
+  {
+    "month": "March",
+    "weekday": "Saturday",
+    "quoteEn": "Since, in order to speak, one must first hear, do you come to speech by the way of hearing.",
+    "day": 69,
+    "type": "day",
+    "id": "day-69",
+    "quoteZh": "既然要说话，必先聆听；那么你就经由聆听之路，抵达言说。"
+  },
+  {
+    "month": "March",
+    "weekday": "Sunday",
+    "quoteEn": "Iniquitous are those who shut their eyes and set a whole world ablaze by such vain words. A single word lays waste a world\nas a whole, turns dead foxes into lions.",
+    "day": 70,
+    "type": "day",
+    "id": "day-70",
+    "quoteZh": "那些闭上眼睛、凭空言妄语点燃整个世界的人，是不义的。一个字便能使整个世界荒芜，\n能把死去的狐狸变成狮子。"
+  },
+  {
+    "month": "March",
+    "weekday": "Monday",
+    "quoteEn": "Know that a word that suddenly shot from the tongue is like an arrow shot from the bow. O son, that arrow does not turn\nback on its way: you must dam a torrent at the source.",
+    "day": 71,
+    "type": "day",
+    "id": "day-71",
+    "quoteZh": "要知道，骤然从舌上射出的言语，就像离弦之箭。孩子啊，那箭一旦上路，便不会回头；\n你必须在源头拦住洪流。"
+  },
+  {
+    "month": "March",
+    "weekday": "Tuesday",
+    "quoteEn": "O tongue, you art both the fire and the stack: how long wilt you dart this fire upon this stack?",
+    "day": 72,
+    "type": "day",
+    "id": "day-72",
+    "quoteZh": "舌头啊，你既是火，也是柴堆；你还要把这火投向这柴堆多久呢？"
+  },
+  {
+    "month": "March",
+    "weekday": "Wednesday",
+    "quoteEn": "If two persons approach one another, no doubt, there is something familiar between them.",
+    "day": 73,
+    "type": "day",
+    "id": "day-73",
+    "quoteZh": "若两个人彼此走近，毫无疑问，他们之间必有某种相契之处。"
+  },
+  {
+    "month": "March",
+    "weekday": "Thursday",
+    "quoteEn": "He who is bound by sadness and laughter lives through these two borrowed transient and unreal things.",
+    "day": 74,
+    "type": "day",
+    "id": "day-74",
+    "quoteZh": "被悲伤与欢笑束缚的人，是靠这两样借来的、短暂而不真实之物活着。"
+  },
+  {
+    "month": "March",
+    "weekday": "Friday",
+    "quoteEn": "What is sainthood? It is giving up saying bad words. What is the meaning of being a true lover? It is never mentioning\nabout one's existence and ego.",
+    "day": 75,
+    "type": "day",
+    "id": "day-75",
+    "quoteZh": "什么是圣者之道？就是不再说恶言。什么是真正爱者的意义？就是永不提及\n自己的存在与自我。"
+  },
+  {
+    "month": "March",
+    "weekday": "Saturday",
+    "quoteEn": "In this way be you ever scraping and scratching (exerting thyself to the utmost): until thy last breath does not be unoccupied\nfor a moment.",
+    "day": 76,
+    "type": "day",
+    "id": "day-76",
+    "quoteZh": "你当如此不断磨砺、奋力前行；直到最后一息，也不要有片刻空过。"
+  },
+  {
+    "month": "March",
+    "weekday": "Sunday",
+    "quoteEn": "Anyone who offers his beauty to auction, a hundred evil fates set out towards him and overtake him. Plots and waves of\nanger and envy pour upon his head, like water from water skins. Foes tear him to pieces from jealousy; even friends take his\nlifetime away.",
+    "day": 77,
+    "type": "day",
+    "id": "day-77",
+    "quoteZh": "凡把自己的美貌拿出来叫卖的人，百种恶运便向他出发，将他追上。阴谋，以及愤怒与嫉妒的波浪，\n如水囊倾泻般落在他头上。仇敌因嫉妒将他撕碎；就连朋友，也会耗尽他的\n一生。"
+  },
+  {
+    "month": "March",
+    "weekday": "Monday",
+    "quoteEn": "O brother, collect your wits for an instant and think: from moment to moment incessantly, there are autumn and spring\nwithin thee. Behold the garden of the heart, green and moist and fresh, full of rosebuds and cypresses and jasmines.",
+    "day": 78,
+    "type": "day",
+    "id": "day-78",
+    "quoteZh": "兄弟啊，且收摄心神片刻，想一想：在你之内，时时刻刻，不息地有秋天，也有春天。\n看那心之花园，青翠、润泽、清新，满是玫瑰花苞、柏树与茉莉。"
+  },
+  {
+    "month": "March",
+    "weekday": "Tuesday",
+    "quoteEn": "How should a rock be covered with verdure by the spring? Become earth, that you may grow flowers of many a hue. Years\nhave you been a heart-jagging rock: once, for the sake of experiment, be earth!",
+    "day": 79,
+    "type": "day",
+    "id": "day-79",
+    "quoteZh": "春天怎能使顽石披上新绿？成为泥土吧，好让你长出种种颜色的花。\n多少年来，你一直是刺伤人心的石头；这一次，姑且试一试，成为泥土吧！"
+  },
+  {
+    "month": "March",
+    "weekday": "Wednesday",
+    "quoteEn": "That you are only this very body living in grief and joy. O you who are really non-existence, where are \"before\" and\n\"behind\" appertaining to non-existence?",
+    "day": 80,
+    "type": "day",
+    "id": "day-80",
+    "quoteZh": "你以为自己不过是这具在悲喜中生活的身体。\n啊，你本是真正的无有；对于无有而言，哪里还有“之前”与“之后”？"
+  },
+  {
+    "month": "March",
+    "weekday": "Thursday",
+    "quoteEn": "The wife must be of the same quality as the husband so that things may go rightly. The married pair must match one\nanother: look at a pair of shoes or boots. If one of the shoes is too tight for the foot, the pair of them is of no use to thee.",
+    "day": 81,
+    "type": "day",
+    "id": "day-81",
+    "quoteZh": "妻子与丈夫须有相称的品质，事情才会顺遂。夫妻二人必须彼此相配：且看一双鞋或靴子。\n若其中一只鞋对脚来说太紧，这一双对你便毫无用处。"
+  },
+  {
+    "month": "March",
+    "weekday": "Friday",
+    "quoteEn": "As long as I have my own glass of buttermilk,\nBy God! I never think of others' honey.\nEven if silliness twists my ear,\nI never sell my freedom in exchange for slavery.",
+    "day": 82,
+    "type": "day",
+    "id": "day-82",
+    "quoteZh": "只要我还有自己这一杯酪乳，\n凭着真主！我绝不惦念他人的蜜。\n即使愚痴扭住我的耳朵，\n我也绝不拿自由去换奴役。"
+  },
+  {
+    "month": "March",
+    "weekday": "Saturday",
+    "quoteEn": "Wealth and gold are as a cap to the head: It's the bald man that makes a shelter of his hat, But he that has curly and beautiful\nlocks is happier when his hat is gone.",
+    "day": 83,
+    "type": "day",
+    "id": "day-83",
+    "quoteZh": "财富与黄金，如同戴在头上的帽子：秃头的人把帽子当作遮蔽；\n而那有着美丽卷发的人，摘下帽子反倒更欢喜。"
+  },
+  {
+    "month": "March",
+    "weekday": "Sunday",
+    "quoteEn": "This discourse is milk in the teat of the soul: it will not flow well without some one to suck (the teat). When the hearer has\nbecome thirsty and craving, the preacher becomes eloquent even if he is as good as dead.\nWhen the hearer is fresh and without fatigue, the dumb and mute will find a hundred tongues to speak withal. When the\nhearer is fresh and without fatigue not bored, the dumb and mute will find a hundred tongues to speak withal.",
+    "day": 84,
+    "type": "day",
+    "id": "day-84",
+    "quoteZh": "这番言语，是灵魂乳房中的乳汁；若无人来吮吸，它便不能畅流。听者若已干渴、渴慕，讲说者即便近乎枯死，也会变得滔滔不绝。\n当听者清新而不疲倦，哑口无言者也会得着百条舌头来说话。当听者清新而不疲倦、不厌倦，哑口无言者也会得着百条舌头来说话。"
+  },
+  {
+    "type": "month",
+    "month": "April",
+    "monthIndex": 4,
+    "quoteEn": "Knowing yourself is the greatest one of all achievements.",
+    "id": "month-4",
+    "quoteZh": "认识你自己，是一切成就中最伟大的一项。"
+  },
+  {
+    "month": "April",
+    "weekday": "Monday",
+    "quoteEn": "Ignorant men prevail over women, for the animal's fierceness is imprisoned in them. They lack tenderness, kindness, and\naffection because animality predominates over their human nature. Love and tenderness are human qualities, anger and lust\nare animal qualities. The woman is a ray of God; she is not that earthly beloved: she is creative, you might say she is not\ncreated.",
+    "day": 85,
+    "type": "day",
+    "id": "day-85",
+    "quoteZh": "无知的男子辖制女子，因为兽性的凶猛被囚在他们心中。他们缺少温柔、仁慈与慈爱，因兽性压过了他们的人性。爱与温柔是人的品质，愤怒与贪欲是兽的品质。\n女子是真主的一道光；她并非尘世的恋人。她有创造之能，你几乎可以说，她不是被造之物。"
+  },
+  {
+    "month": "April",
+    "weekday": "Tuesday",
+    "quoteEn": "Love is higher than these two states of feeling: it is evergreen and fresh without spring and autumn.",
+    "day": 86,
+    "type": "day",
+    "id": "day-86",
+    "quoteZh": "爱高过这两种感受的境界：它常青常新，不借春秋。"
+  },
+  {
+    "month": "April",
+    "weekday": "Wednesday",
+    "quoteEn": "Why are you knocking at every door? Go, knock at the door of your own heart",
+    "day": 87,
+    "type": "day",
+    "id": "day-87",
+    "quoteZh": "你为何叩遍每一扇门？去吧，去叩你自己心上的门。"
+  },
+  {
+    "month": "April",
+    "weekday": "Thursday",
+    "quoteEn": "The appearance of collision arising from the narrow body is due to the spirits' being intermingled in peace or war.\nThe waves of peace dash against each other and root up hatreds from men's breasts.\nIn other forms, the waves of war turn men's loves upside down confound and destroy them.\nLove is drawing the bitter ones to the sweet because the foundation of all loves is righteousness.\nWrath is carrying away the sweet one to bitterness: how should the bitter sort with be suited to the sweet?\nThe bitter and the sweet are not visible to this ocular sight, but they can be seen through the window of the latter end.",
+    "day": 88,
+    "type": "day",
+    "id": "day-88",
+    "quoteZh": "狭小身体中显出的冲撞之相，源于灵魂在和平或战争中彼此交织。\n和平的浪潮相互拍击，从人的胸中连根拔起仇恨。\n在另一种形态里，战争的浪潮颠覆人的爱，使之混乱并毁坏。\n爱把苦涩者牵向甘甜，因为一切爱的根基都是正义。\n怒火把甘甜者卷入苦涩；苦涩之物又怎能与甘甜相称？\n苦与甜，并非这肉眼所能看见；却可从最终归宿的窗中望见。"
+  },
+  {
+    "month": "April",
+    "weekday": "Friday",
+    "quoteEn": "The gifts of lovers to one another are, in respect of love, naught but forms; But the purpose is that the gifts may have borne\ntestimony to feelings of love which are concealed in secrecy, Because of outward acts of kindness bear witness to feelings\nof love in the heart, O dear friend.",
+    "day": 89,
+    "type": "day",
+    "id": "day-89",
+    "quoteZh": "恋人彼此相赠的礼物，就爱而言，不过是形相；然而其用意，是让礼物为隐秘深处的爱意作证。\n因为外在的善行，能为心中的爱意作见证，亲爱的朋友啊。"
+  },
+  {
+    "month": "April",
+    "weekday": "Saturday",
+    "quoteEn": "Come on: choose the pain; make the choice of the pain. For, I do not know any other way but this...\nNever annoy your heart, saying that 'I am existent or non-existent'. Feel sad, indeed, if you do not have pain.",
+    "day": 90,
+    "type": "day",
+    "id": "day-90",
+    "quoteZh": "来吧：选择痛苦；把痛苦选为你的道路。因为除此之外，我不知道还有别的路……\n不要搅扰你的心，说什么“我存在”或“我不存在”。真正该悲伤的，是你没有痛苦。"
+  },
+  {
+    "month": "April",
+    "weekday": "Sunday",
+    "quoteEn": "Nothing in the world is without an object in its movement except the bodies and the souls of God's lovers.",
+    "day": 91,
+    "type": "day",
+    "id": "day-91",
+    "quoteZh": "世上万物的运行无不有其目的，唯有真主爱人的身体与灵魂除外。"
+  },
+  {
+    "month": "April",
+    "weekday": "Monday",
+    "quoteEn": "The lovers of the Whole are not those who love the part: he that longed for the part failed to attain unto the Whole.",
+    "day": 92,
+    "type": "day",
+    "id": "day-92",
+    "quoteZh": "爱整体的人，不是爱局部的人；凡渴望局部者，便未能抵达整体。"
+  },
+  {
+    "month": "April",
+    "weekday": "Tuesday",
+    "quoteEn": "When you knock at the door of Reality, it will be opened to you: beat the pinion of thought so that you may be made a king-\nfalcon.",
+    "day": 93,
+    "type": "day",
+    "id": "day-93",
+    "quoteZh": "当你叩响真实之门，它必为你开启：拍动思想的羽翼，好使你被成就为一只王者的\n猎隼。"
+  },
+  {
+    "month": "April",
+    "weekday": "Wednesday",
+    "quoteEn": "Do not burn a blanket on account of a flea, and do not let the day go to waste on account of every gnat's headache.",
+    "day": 94,
+    "type": "day",
+    "id": "day-94",
+    "quoteZh": "不要为了一只跳蚤烧掉整条毯子，也不要因每只蚊蚋的头痛，便白白耗尽一天。"
+  },
+  {
+    "month": "April",
+    "weekday": "Thursday",
+    "quoteEn": "Acts of abstinence are superior to medicines because scratching increases the itch's aggravation. Assuredly abstinence is the\nfirst principle of medicine: abstain and behold the strength of the spirit.",
+    "day": 95,
+    "type": "day",
+    "id": "day-95",
+    "quoteZh": "克己胜过药石，因为抓挠只会使痒处更加难忍。克己确是医治的\n第一原则：你当戒除，便会看见灵魂的力量。"
+  },
+  {
+    "month": "April",
+    "weekday": "Friday",
+    "quoteEn": "If you are wholly perplexed and in straits, have patience: patience is the key to joy.",
+    "day": 96,
+    "type": "day",
+    "id": "day-96",
+    "quoteZh": "若你全然困惑，身陷窘迫，就要忍耐：忍耐是通往喜乐的钥匙。"
+  },
+  {
+    "month": "April",
+    "weekday": "Saturday",
+    "quoteEn": "Abstain from distracting thoughts, abstain: thought like the lion and the wild ass, and men's hearts are the thickets which\nthey haunt.",
+    "day": 97,
+    "type": "day",
+    "id": "day-97",
+    "quoteZh": "戒除纷扰的念头，戒除吧：念头像狮子与野驴，而人的心正是它们出没的\n密林。"
+  },
+  {
+    "month": "April",
+    "weekday": "Sunday",
+    "quoteEn": "Choose a guide for you; this journey is exceeding full of woe and affright and danger without a guide.\nWithout an escort, you are bewildered even on the road you have traveled many times before:\nDo not, then, travel alone on a Way that you have not seen at all, do not turn your head away from the guide.",
+    "day": 98,
+    "type": "day",
+    "id": "day-98",
+    "quoteZh": "为自己择一位向导吧；这旅程若无向导，便充满悲苦、惊惧与危险。\n没有护送者，即使是你走过许多回的路，你也会迷失：\n那么，对于一条你从未见过的道路，就不要独自上路，也不要把头从向导那里转开。"
+  },
+  {
+    "month": "April",
+    "weekday": "Monday",
+    "quoteEn": "Since they have polished their hearts in commemoration of God and meditation, that the heart's mirror may receive the\noriginal image. Whoever is born beautiful from the loins of Creation, a mirror must be placed before him. The beauteous\nface is in love with the mirror: Such a face is a polisher of the soul and a kindler of the fear of God in (men's) hearts.",
+    "day": 99,
+    "type": "day",
+    "id": "day-99",
+    "quoteZh": "他们借着忆念真主与默观，擦亮了自己的心，好使心之明镜承受那\n本初的形象。凡从造化之腰际生来美丽者，都须在他面前安放一面镜子。美丽的\n容颜爱着镜子：这样的容颜能磨亮灵魂，并在人心中点燃敬畏真主之火。"
+  },
+  {
+    "month": "April",
+    "weekday": "Tuesday",
+    "quoteEn": "Sleep is wakefulness when it is together with knowledge. But, alas for the awaken man who is with the ignorant one!",
+    "day": 100,
+    "type": "day",
+    "id": "day-100",
+    "quoteZh": "睡眠若与知识同在，便是清醒。可是，清醒之人与无知之人相伴，何其可叹！"
+  },
+  {
+    "month": "April",
+    "weekday": "Wednesday",
+    "quoteEn": "Indeed envy is a defect, worse than any other.",
+    "day": 101,
+    "type": "day",
+    "id": "day-101",
+    "quoteZh": "嫉妒确是一种缺陷，比任何缺陷都更甚。"
+  },
+  {
+    "month": "April",
+    "weekday": "Thursday",
+    "quoteEn": "There is a candle in your heart, ready to be kindled.\nThere is a void in your soul, ready to be filled.\nYou feel it, don't you?",
+    "day": 102,
+    "type": "day",
+    "id": "day-102",
+    "quoteZh": "你心中有一支蜡烛，正等待被点燃。\n你灵魂里有一处空寂，正等待被填满。\n你感觉得到，不是吗？"
+  },
+  {
+    "month": "April",
+    "weekday": "Friday",
+    "quoteEn": "All humankind are children except him that is intoxicated with God; none is grownup except him that is freed from sensual\ndesire.",
+    "day": 103,
+    "type": "day",
+    "id": "day-103",
+    "quoteZh": "除非陶醉于真主之中，众人都只是孩童；除非从感官欲望中解脱，无人算得成熟。"
+  },
+  {
+    "month": "April",
+    "weekday": "Saturday",
+    "quoteEn": "The wars of humankind are like children's fights-all meaningless, pithless, and obnoxious. All their fights are fought with\nwooden swords; all their purposes are cantered in futility.",
+    "day": 104,
+    "type": "day",
+    "id": "day-104",
+    "quoteZh": "人类的战争，如孩童相斗，全然无义、空洞而可厌。他们所有的争斗，都挥舞着\n木剑；他们所有的目的，都归于徒劳。"
+  },
+  {
+    "month": "April",
+    "weekday": "Sunday",
+    "quoteEn": "Where there is ruin, there is hope for a treasure",
+    "day": 105,
+    "type": "day",
+    "id": "day-105",
+    "quoteZh": "哪里有废墟，哪里就有宝藏的希望。"
+  },
+  {
+    "month": "April",
+    "weekday": "Monday",
+    "quoteEn": "Then the Jews brought the property tribute in kind and land-tax, saying, \"Do not put us to shame, O Lamp of the world.\nThere is no end in sight to this discourse: give me your hand, since the twice eye has seen the Friend.",
+    "day": 106,
+    "type": "day",
+    "id": "day-106",
+    "quoteZh": "于是犹太人带来了实物贡赋与田税，说道：“世界之灯啊，不要使我们蒙羞。\n这番话看不见尽头：把你的手给我吧，因为这双眼已经看见了挚友。”"
+  },
+  {
+    "month": "April",
+    "weekday": "Tuesday",
+    "quoteEn": "Through love, bitter things become sweet,\nThrough love, bits of copper is turned to gold.\nThrough love, dregs become the purest wine;\nThrough love, pain becomes a healing balm.\nThrough love, the dead become alive.",
+    "day": 107,
+    "type": "day",
+    "id": "day-107",
+    "quoteZh": "经由爱，苦涩之物化为甘甜，\n经由爱，片片铜屑变成黄金。\n经由爱，酒渣化为最纯的美酒；\n经由爱，痛苦成为疗愈的香膏。\n经由爱，死者复归生命。"
+  },
+  {
+    "month": "April",
+    "weekday": "Wednesday",
+    "quoteEn": "The intelligent person sees with her heart\nThe result from the beginning;\nThe one lacking in knowledge,\nonly discovers it at the end.",
+    "day": 108,
+    "type": "day",
+    "id": "day-108",
+    "quoteZh": "智慧之人以心观看，\n从起初便看见结局；\n缺少知识的人，\n只在最后才明白。"
+  },
+  {
+    "month": "April",
+    "weekday": "Thursday",
+    "quoteEn": "If the intellect is paired with another mind, light increases and the way becomes plain.",
+    "day": 109,
+    "type": "day",
+    "id": "day-109",
+    "quoteZh": "若理智与另一颗心智相伴，光明便增长，道路也变得明晰。"
+  },
+  {
+    "month": "April",
+    "weekday": "Friday",
+    "quoteEn": "Everything in the universe is within you. Ask all from our self.",
+    "day": 110,
+    "type": "day",
+    "id": "day-110",
+    "quoteZh": "宇宙万有皆在你之内。你所求的一切，都向自己求取。"
+  },
+  {
+    "month": "April",
+    "weekday": "Saturday",
+    "quoteEn": "What is justice? Giving water to trees.\nWhat is injustice? To give water tot horns.\nJustice consists in bestowing bounty in its proper place,\nnot on every root that will absorb water.",
+    "day": 111,
+    "type": "day",
+    "id": "day-111",
+    "quoteZh": "何为公正？给树木浇水。\n何为不公？给荆棘浇水。\n公正，是把恩泽赐予它应在之处，\n而非赐给每一条会吸水的根。"
+  },
+  {
+    "month": "April",
+    "weekday": "Sunday",
+    "quoteEn": "The man who is overcome by the ambition listens to hundreds of stories; no remark enters into his ear with ambition.",
+    "day": 112,
+    "type": "day",
+    "id": "day-112",
+    "quoteZh": "被野心征服的人，听过百般故事；凡带着劝诫的话，都进不了他被野心塞满的耳。"
+  },
+  {
+    "type": "month",
+    "month": "May",
+    "monthIndex": 5,
+    "quoteEn": "Don't go to the neighborhood of despair: there are hopes. Don't go in the direction of darkness: there are suns.",
+    "id": "month-5",
+    "quoteZh": "不要走向绝望的街巷：那里仍有希望。不要朝黑暗的方向去：那里仍有太阳。"
+  },
+  {
+    "month": "May",
+    "weekday": "Monday",
+    "quoteEn": "From all sides at each moment, the summons to love rushes to us. Do you want to come with us?",
+    "day": 113,
+    "type": "day",
+    "id": "day-113",
+    "quoteZh": "每一刻，爱的召唤从四面八方向我们奔来。你愿意与我们同行吗？"
+  },
+  {
+    "month": "May",
+    "weekday": "Tuesday",
+    "quoteEn": "Your task is not to seek for love, but merely to seek and find all barriers within yourself that you have built against it.",
+    "day": 114,
+    "type": "day",
+    "id": "day-114",
+    "quoteZh": "你的功课并不是去寻找爱，而只是去寻找并发现：在你心中，那些由你亲手筑起、阻隔爱的墙。"
+  },
+  {
+    "month": "May",
+    "weekday": "Wednesday",
+    "quoteEn": "Words are a pretext. The inner bond draws one person to another, not words.",
+    "day": 115,
+    "type": "day",
+    "id": "day-115",
+    "quoteZh": "言语只是借口。使一个人被另一个人吸引的，是内在的联结，不是言语。"
+  },
+  {
+    "month": "May",
+    "weekday": "Thursday",
+    "quoteEn": "You are a volume in the divine book\nA mirror to the power that created the universe\nWhatever you want, ask it of yourself\nWhatever you're looking for can only be found\nInside of you.",
+    "day": 116,
+    "type": "day",
+    "id": "day-116",
+    "quoteZh": "你是神圣之书中的一卷，\n是创造宇宙之力的一面镜子。\n无论你想要什么，都向自己求取；\n无论你在寻找什么，最终都只能在\n你自己之内找到。"
+  },
+  {
+    "month": "May",
+    "weekday": "Friday",
+    "quoteEn": "It is a pity to reach the ocean and to be satisfied with a little pitcherful from the sea.",
+    "day": 117,
+    "type": "day",
+    "id": "day-117",
+    "quoteZh": "抵达了大海，却只满足于舀起一小罐海水，实在可惜。"
+  },
+  {
+    "month": "May",
+    "weekday": "Saturday",
+    "quoteEn": "You are more precious than heaven and earth.\nWhat more can I say?\nYou do not know your own worth.",
+    "day": 118,
+    "type": "day",
+    "id": "day-118",
+    "quoteZh": "你比天地更珍贵。\n我还能再说什么呢？\n你并不知道自己的价值。"
+  },
+  {
+    "month": "May",
+    "weekday": "Sunday",
+    "quoteEn": "I need to set out on a new journey and cover further distance every day.",
+    "day": 119,
+    "type": "day",
+    "id": "day-119",
+    "quoteZh": "我需要踏上一段新的旅程，并且每日都走得更远。\n \n\n \n第二周"
+  },
+  {
+    "month": "May",
+    "weekday": "Monday",
+    "quoteEn": "It is pain that guides us in every enterprise. But, until there is an ache within, a passion and a yearning for that thing arising\nwithin us, we will never strive to attain it.",
+    "day": 120,
+    "type": "day",
+    "id": "day-120",
+    "quoteZh": "在每一项事业中，引导我们的都是痛苦。然而，若内心没有疼痛，没有对那事物生起的热情与渴望，我们便永远不会奋力去抵达它。"
+  },
+  {
+    "month": "May",
+    "weekday": "Tuesday",
+    "quoteEn": "The Spirit is associated with knowledge and reason: what has the Spirit to do with Arabic and Turkish?",
+    "day": 121,
+    "type": "day",
+    "id": "day-121",
+    "quoteZh": "灵与知识和理性相伴；灵又何须分阿拉伯语或土耳其语呢？"
+  },
+  {
+    "month": "May",
+    "weekday": "Wednesday",
+    "quoteEn": "Patience is the key to success.",
+    "day": 122,
+    "type": "day",
+    "id": "day-122",
+    "quoteZh": "忍耐是通向成功的钥匙。"
+  },
+  {
+    "month": "May",
+    "weekday": "Thursday",
+    "quoteEn": "Like a sculptor, if necessary, carve a friend out of stone.\nRealize that your inner sight is blind and try to see a treasure in everyone.",
+    "day": 123,
+    "type": "day",
+    "id": "day-123",
+    "quoteZh": "像雕刻家一样，若有必要，就从石头中雕出一位朋友。\n要明白，你内在的眼目尚且失明；试着在每个人身上看见宝藏。"
+  },
+  {
+    "month": "May",
+    "weekday": "Friday",
+    "quoteEn": "Many are the prayers which are loss and destruction, and from kindness, the Holy God is not hearing them.",
+    "day": 124,
+    "type": "day",
+    "id": "day-124",
+    "quoteZh": "许多祈祷带来的，竟是损失与毁灭；\n出于慈悲，神圣的真主并不垂听它们。"
+  },
+  {
+    "month": "May",
+    "weekday": "Saturday",
+    "quoteEn": "The Súfí's book is not composed of ink and letters: it is naught but a heart white as snow.",
+    "day": 125,
+    "type": "day",
+    "id": "day-125",
+    "quoteZh": "苏菲的书并非由墨与字母写成；\n它只是一个洁白如雪的心。"
+  },
+  {
+    "month": "May",
+    "weekday": "Sunday",
+    "quoteEn": "The thought is of the past and future; the difficulty is solved when it is emancipated from these two.",
+    "day": 126,
+    "type": "day",
+    "id": "day-126",
+    "quoteZh": "念头牵挂过去与未来；一旦从这两者中解脱，难题便迎刃而解。"
+  },
+  {
+    "month": "May",
+    "weekday": "Monday",
+    "quoteEn": "The flow of speech from the heart is a sign of friendship. The obstruction of speech arises from a lack of intimacy.",
+    "day": 127,
+    "type": "day",
+    "id": "day-127",
+    "quoteZh": "言语从心中流出，是友爱的标记。\n言语受阻，则源于亲密的缺失。"
+  },
+  {
+    "month": "May",
+    "weekday": "Tuesday",
+    "quoteEn": "Without a doubt, the action is the practice of theory. Therefore man only exists in the pupil of the eye.",
+    "day": 128,
+    "type": "day",
+    "id": "day-128",
+    "quoteZh": "毫无疑问，行动是理论的实践。\n所以，人只存在于眼睛的瞳仁之中。"
+  },
+  {
+    "month": "May",
+    "weekday": "Wednesday",
+    "quoteEn": "Even if your words be gold; if your doings are worthless,\nYou are worth nothing in the eyes of people.\nYou never put the horse to a carriage,\nThe horse is not worth even a simple saddle.",
+    "day": 129,
+    "type": "day",
+    "id": "day-129",
+    "quoteZh": "即使你的言辞如黄金，若你的作为一文不值，\n在人们眼中，你也毫无价值。\n你从未把马套上车辕，\n那马便连一副简陋的鞍也配不上。"
+  },
+  {
+    "month": "May",
+    "weekday": "Thursday",
+    "quoteEn": "How can a chained man be cheerful? How can a man in prison feel free?",
+    "day": 130,
+    "type": "day",
+    "id": "day-130",
+    "quoteZh": "被锁链缠身的人，怎能欢欣？\n身在囚牢的人，怎能觉得自由？"
+  },
+  {
+    "month": "May",
+    "weekday": "Friday",
+    "quoteEn": "Remember the saying, 'Humanity is mineral'. It's such a valuable mineral that it is worth more than a hundred thousand\nnines.",
+    "day": 131,
+    "type": "day",
+    "id": "day-131",
+    "quoteZh": "记住这句话：“人性是一座矿藏。”\n它是如此珍贵的矿藏，价值胜过十万重九。"
+  },
+  {
+    "month": "May",
+    "weekday": "Saturday",
+    "quoteEn": "See how the Hand is hidden while the pen is writing.",
+    "day": 132,
+    "type": "day",
+    "id": "day-132",
+    "quoteZh": "看哪，当笔正在书写时，执笔之手却隐而不现。"
+  },
+  {
+    "month": "May",
+    "weekday": "Sunday",
+    "quoteEn": "Whatever a man's eye can see, that is his value as a human being.\n \n \n,",
+    "day": 133,
+    "type": "day",
+    "id": "day-133",
+    "quoteZh": "一个人的眼睛所能看见的，\n就是他作为人的价值。"
+  },
+  {
+    "month": "May",
+    "weekday": "Monday",
+    "quoteEn": "Without knowing evil, you can't recognize good. So proud contrariety can be seen in the company of its opposite.",
+    "day": 134,
+    "type": "day",
+    "id": "day-134",
+    "quoteZh": "不认识恶，便无法辨认善。\n因此，骄矜的相反之物，唯有在其对立者身旁才显现出来。"
+  },
+  {
+    "month": "May",
+    "weekday": "Tuesday",
+    "quoteEn": "Listen to my warning that the body is a strong bond: put off the old if you desire newness.",
+    "day": 135,
+    "type": "day",
+    "id": "day-135",
+    "quoteZh": "请听我的告诫：身体是一道坚固的束缚。\n若你渴望更新，就脱去旧我。"
+  },
+  {
+    "month": "May",
+    "weekday": "Wednesday",
+    "quoteEn": "The eye of your anger reckons milk to be blood.",
+    "day": 136,
+    "type": "day",
+    "id": "day-136",
+    "quoteZh": "你愤怒的眼，把乳汁也看作鲜血。"
+  },
+  {
+    "month": "May",
+    "weekday": "Thursday",
+    "quoteEn": "Oh, happy is the ugly one to whom the beauteous one has become a companion, alas for one of rosy countenance with\nwhom autumn has consorted.",
+    "day": 137,
+    "type": "day",
+    "id": "day-137",
+    "quoteZh": "啊，丑陋之人若有美者相伴，便是有福；\n可叹那玫瑰般的容颜，却与秋日为侣。"
+  },
+  {
+    "month": "May",
+    "weekday": "Friday",
+    "quoteEn": "Go! Be good towards anybody; time only knows the goodness. He never forgets the goodness of good people...\nEverybody left his property (in the world), so yours will be too, then it is better goodness should stay instead of property.",
+    "day": 138,
+    "type": "day",
+    "id": "day-138",
+    "quoteZh": "去吧！善待每一个人；唯有时间识得善。\n它从不忘记善人的善行……\n人人终将把财物留在世上，你的也会如此；\n那么，与其留下财产，不如让善留下。"
+  },
+  {
+    "month": "May",
+    "weekday": "Saturday",
+    "quoteEn": "Know in the end that a pretty and delicate figure with bad qualities is worthless.",
+    "day": 139,
+    "type": "day",
+    "id": "day-139",
+    "quoteZh": "你终会明白：\n美丽而娇柔的形貌，若伴随恶劣的品性，便毫无价值。"
+  },
+  {
+    "month": "May",
+    "weekday": "Sunday",
+    "quoteEn": "Before you say anything, first listen.",
+    "day": 140,
+    "type": "day",
+    "id": "day-140",
+    "quoteZh": "在你开口之前，先倾听。"
+  },
+  {
+    "type": "month",
+    "month": "June",
+    "monthIndex": 6,
+    "quoteEn": "The aim of the creation of the universe is the man.",
+    "id": "month-6",
+    "quoteZh": "宇宙被创造的旨归，是人。"
+  },
+  {
+    "month": "June",
+    "weekday": "Monday",
+    "quoteEn": "Are not you indeed a Sufi, then? That which is in hand is reduced to naught by postponing the payment.",
+    "day": 141,
+    "type": "day",
+    "id": "day-141",
+    "quoteZh": "那么，你岂不正是一位苏菲吗？手中已有之物，若因拖延偿付，终将化为乌有。"
+  },
+  {
+    "month": "June",
+    "weekday": "Tuesday",
+    "quoteEn": "So that you may have two wings fear and hope; for the bird that has only one wing is unable to fly, O excellent reader.",
+    "day": 142,
+    "type": "day",
+    "id": "day-142",
+    "quoteZh": "愿你有两只翅膀：敬畏与希望；因为只有一只翅膀的鸟，无法飞翔，啊，卓越的读者。"
+  },
+  {
+    "month": "June",
+    "weekday": "Wednesday",
+    "quoteEn": "You do not appreciate its value because you did not buy your soul in exchange for gold.\nSo the Indian, too, does not appreciate the value of a godsend.",
+    "day": 143,
+    "type": "day",
+    "id": "day-143",
+    "quoteZh": "你不懂得它的价值，因为你不是用黄金换来了自己的灵魂。\n所以，那印度人也不懂得天赐之物的价值。"
+  },
+  {
+    "month": "June",
+    "weekday": "Thursday",
+    "quoteEn": "Patience too is of good effect, for it is the protection and defense against pain everywhere.",
+    "day": 144,
+    "type": "day",
+    "id": "day-144",
+    "quoteZh": "忍耐也自有善果，因为它处处护卫人、抵挡痛苦。"
+  },
+  {
+    "month": "June",
+    "weekday": "Friday",
+    "quoteEn": "When you have made a search and your looking has been in earnest, the endeavor does not fail.",
+    "day": 145,
+    "type": "day",
+    "id": "day-145",
+    "quoteZh": "当你已经开始寻觅，并且真诚地凝望，努力便不会落空。"
+  },
+  {
+    "month": "June",
+    "weekday": "Saturday",
+    "quoteEn": "Every herb that has a propensity for moving upwards is in the state of increase and life and growth; When it has turned its\nhead towards the earth, it is in the state of decrease and dryness and failure and disappointment. So when the propensity of\nyour spirit is upwards, you are in the state of increase and that lofty place is the place to which you will return.",
+    "day": 146,
+    "type": "day",
+    "id": "day-146",
+    "quoteZh": "凡有向上趋向的草木，都处在增益、生命与生长之中；\n一旦它把头转向大地，便处在衰减、干枯、失败与失望之中。\n所以，当你的灵有向上的趋向，你便处在增益之中；那崇高之处，正是你将要归返的地方。"
+  },
+  {
+    "month": "June",
+    "weekday": "Sunday",
+    "quoteEn": "Since burdens are the foundation of ease, and bitter things, too, are the forerunners of enjoyment.",
+    "day": 147,
+    "type": "day",
+    "id": "day-147",
+    "quoteZh": "因为重负是安逸的根基，苦涩之物也是欢悦的先导。"
+  },
+  {
+    "month": "June",
+    "weekday": "Monday",
+    "quoteEn": "The remedy goes there wherever a pain is: wherever lowland is, the water runs there.",
+    "day": 148,
+    "type": "day",
+    "id": "day-148",
+    "quoteZh": "哪里有痛苦，疗药就往哪里去；哪里是低地，水就流向哪里。"
+  },
+  {
+    "month": "June",
+    "weekday": "Tuesday",
+    "quoteEn": "The friendship of a fool is worse than his enmity.",
+    "day": 149,
+    "type": "day",
+    "id": "day-149",
+    "quoteZh": "愚人的友谊，比他的敌意更糟。"
+  },
+  {
+    "month": "June",
+    "weekday": "Wednesday",
+    "quoteEn": "Suspicion is a thick barrier to a man.",
+    "day": 150,
+    "type": "day",
+    "id": "day-150",
+    "quoteZh": "猜疑，是人面前一道厚重的屏障。"
+  },
+  {
+    "month": "June",
+    "weekday": "Thursday",
+    "quoteEn": "Every kind is carried away enraptured by its own kind.",
+    "day": 151,
+    "type": "day",
+    "id": "day-151",
+    "quoteZh": "万物各随其类，被自己的同类迷醉着带走。"
+  },
+  {
+    "month": "June",
+    "weekday": "Friday",
+    "quoteEn": "The mirror of the heart must be clear, so that you may know there in the ugly form from the beautiful.",
+    "day": 152,
+    "type": "day",
+    "id": "day-152",
+    "quoteZh": "心的镜子必须清澈，如此你才能在那里从丑陋的形貌中辨出美。"
+  },
+  {
+    "month": "June",
+    "weekday": "Saturday",
+    "quoteEn": "Like the idol-maker, carve a friend out of the stone.",
+    "day": 153,
+    "type": "day",
+    "id": "day-153",
+    "quoteZh": "像造像者一样，从石头里雕出一个朋友。"
+  },
+  {
+    "month": "June",
+    "weekday": "Sunday",
+    "quoteEn": "Go in quest of a treasure, for worldly profit and loss come second regard them as the branch not as the root. Whoever sows\nis in quest of wheat; the chaff comes to him indeed, but only secondarily. If you sow chaff, no wheat will come up: seek a\nman, seek a man!",
+    "day": 154,
+    "type": "day",
+    "id": "day-154",
+    "quoteZh": "去寻求宝藏吧，因为世间的得失居于其次；把它们看作枝叶，不要看作根本。\n凡播种的人，所求的是麦子；糠秕也会来到他手中，但那只是附带而来。\n若你播下糠秕，麦子不会长出：寻求人吧，寻求人吧！"
+  },
+  {
+    "month": "June",
+    "weekday": "Monday",
+    "quoteEn": "The goods of wisdom, which have been lost by your heart, are certainly to be found with the man of heart (the saint).",
+    "day": 155,
+    "type": "day",
+    "id": "day-155",
+    "quoteZh": "你心中遗失的智慧珍宝，必能在有心之人那里寻得。"
+  },
+  {
+    "month": "June",
+    "weekday": "Tuesday",
+    "quoteEn": "If the sour branch is joined to a sweet one, that sweetness will strike impress itself on its nature.",
+    "day": 156,
+    "type": "day",
+    "id": "day-156",
+    "quoteZh": "若酸涩的枝条嫁接在甘美的枝上，那甘甜便会渗入它的本性。"
+  },
+  {
+    "month": "June",
+    "weekday": "Wednesday",
+    "quoteEn": "If there is no benefit in speech, do not speak; and if there is, leave off making objections, and endeavor to give thanks.",
+    "day": 157,
+    "type": "day",
+    "id": "day-157",
+    "quoteZh": "若言语无益，就不要开口；若有益，就停止异议，努力献上感恩。"
+  },
+  {
+    "month": "June",
+    "weekday": "Thursday",
+    "quoteEn": "Objectivity makes ignorance wise; prejudice makes knowledge perverse and iniquitous.",
+    "day": 158,
+    "type": "day",
+    "id": "day-158",
+    "quoteZh": "公正能使无知变得明智；偏见却使知识乖戾而不义。"
+  },
+  {
+    "month": "June",
+    "weekday": "Friday",
+    "quoteEn": "So that we may strain the pure folk from the dregs, how much tribulation must our minds endure! The trials of winter and\nautumn, the heat of summer, spring-like the spirit of life. Winds and clouds and lightings -all these are to the end that such\nhappenings may bring distinctions into view; To the end that dust-colored dusky earth may bring forth all that it holds in its\nbosom, whether ruby or stone.",
+    "day": 159,
+    "type": "day",
+    "id": "day-159",
+    "quoteZh": "为要从渣滓中滤出纯净之人，\n我们的心智要忍受多少磨难！\n冬与秋的试炼，夏日的炽热，\n以及春天般的生命之灵。\n风、云与闪电——这一切，\n都是为使种种际遇显明分别；\n为使那尘土色的幽暗大地，\n吐露怀中所藏的一切：\n无论是红宝石，还是顽石。"
+  },
+  {
+    "month": "June",
+    "weekday": "Saturday",
+    "quoteEn": "Oh, happy the soul that saw its own fault, and if anyone told found a fault, wished eagerly to take that fault upon itself!",
+    "day": 160,
+    "type": "day",
+    "id": "day-160",
+    "quoteZh": "幸福啊，那看见自身过失的灵魂；若有人指出它的缺失，它便热切愿意将那过失承担在自己身上。"
+  },
+  {
+    "month": "June",
+    "weekday": "Sunday",
+    "quoteEn": "Need, then, is the noose for all things that exist: Man has instruments in proportion to his need. Therefore quickly augment\nthy need, O needy one, so that the Sea of Bounty may surge up in loving kindness.",
+    "day": 161,
+    "type": "day",
+    "id": "day-161",
+    "quoteZh": "匮乏，乃是一切存在之物的套索：人的器具，正与他的需要相称。\n所以，贫乏的人啊，快快增长你的需要，\n好让恩赐之海以慈爱汹涌而起。"
+  },
+  {
+    "month": "June",
+    "weekday": "Monday",
+    "quoteEn": "I am the ruler of thought, not ruled by it because the builder is ruler over the building. All creatures are subjugated to\nthought; for that reason, they are sore in heart and practiced in sorrow.",
+    "day": 162,
+    "type": "day",
+    "id": "day-162",
+    "quoteZh": "我是思想的主人，而非受它支配；因为建造者统御着建筑。\n万物都受思想役使；因此，它们心中受苦，惯于忧伤。"
+  },
+  {
+    "month": "June",
+    "weekday": "Tuesday",
+    "quoteEn": "O brother, the story is like a measure: the real meaning in it resembles grain in the measure. The man of intelligence will\ntake the grain of meaning: he will not pay any regard to the measure, even if it is removed altogether.",
+    "day": 163,
+    "type": "day",
+    "id": "day-163",
+    "quoteZh": "兄弟啊，故事好比量器，其中的真义如同量器里的谷粒。\n有智慧的人会取走意义的谷粒；至于量器，即便全然撤去，他也不会在意。"
+  },
+  {
+    "month": "June",
+    "weekday": "Wednesday",
+    "quoteEn": "Names cause the disagreement of humanity: peace ensues when they advance to the reality denoted by the name.",
+    "day": 164,
+    "type": "day",
+    "id": "day-164",
+    "quoteZh": "名称使人类纷争；当人们走向名称所指的真实，和平便随之而来。"
+  },
+  {
+    "month": "June",
+    "weekday": "Thursday",
+    "quoteEn": "The believers are many, but faith is one. The lights are many when you look at the house yards illuminated by the sun in the\nsky. But if you abolish the walls, you will see that these light pieces are one.",
+    "day": 165,
+    "type": "day",
+    "id": "day-165",
+    "quoteZh": "信众虽多，信却为一。\n当你看见天上太阳照亮各家庭院，光似乎有许多。\n但若拆去墙垣，你便会看见：这些片片光明，本是一体。"
+  },
+  {
+    "month": "June",
+    "weekday": "Friday",
+    "quoteEn": "Desire closes the ear and hinders it from hearing; self-interest closes the eye and hinders it from beholding.",
+    "day": 166,
+    "type": "day",
+    "id": "day-166",
+    "quoteZh": "欲望封闭耳朵，使它不能听闻；私利蒙蔽眼睛，使它不能看见。"
+  },
+  {
+    "month": "June",
+    "weekday": "Saturday",
+    "quoteEn": "O son: how may victory be won without spiritual warfare and patience? To show patience for the sake of this is no hardship:\nshow patience, for patience, is the key to joy. None escaped without patience and prudence from this ambush: indeed,\npatience is the foot and hand.",
+    "day": 167,
+    "type": "day",
+    "id": "day-167",
+    "quoteZh": "孩子啊，若没有灵性的争战与忍耐，胜利怎能取得？\n为此而忍耐，并非艰难：\n忍耐吧，因为忍耐是喜乐的钥匙。\n无人能不凭忍耐与审慎而逃出这埋伏；\n indeed，忍耐就是人的手与足。"
+  },
+  {
+    "month": "June",
+    "weekday": "Sunday",
+    "quoteEn": "The essence of all wisdom as to know the answers to who am I? And what will become of me? On the Day of Judgment.",
+    "day": 168,
+    "type": "day",
+    "id": "day-168",
+    "quoteZh": "一切智慧的精髓，在于知晓这些问题的答案：我是谁？在审判之日，我将成为怎样的人？"
+  },
+  {
+    "type": "month",
+    "month": "July",
+    "monthIndex": 7,
+    "quoteEn": "You are what you are seeking.",
+    "id": "month-7",
+    "quoteZh": "你就是你所寻求的。"
+  },
+  {
+    "month": "July",
+    "weekday": "Monday",
+    "quoteEn": "O son: how may victory be won without spiritual warfare and patience? To show patience for the sake of this is no hardship:\nshow patience, for patience is the key to joy. From this ambush, none escaped without patience and prudence: indeed,\npatience is the foot and hand.",
+    "day": 169,
+    "type": "day",
+    "id": "day-169",
+    "quoteZh": "孩子啊，若没有灵性的争战与忍耐，胜利怎能取得？\n为此而忍耐，并非艰难：\n忍耐吧，因为忍耐是喜乐的钥匙。\n无人能不凭忍耐与审慎而逃出这埋伏；\n indeed，忍耐就是人的手与足。"
+  },
+  {
+    "month": "July",
+    "weekday": "Tuesday",
+    "quoteEn": "The essence of all wisdom as to know the answers to who am I? And what will become of me? On the Day of Judgment.",
+    "day": 170,
+    "type": "day",
+    "id": "day-170",
+    "quoteZh": "一切智慧的精髓，在于知晓这些问题的答案：我是谁？在审判之日，我将成为怎样的人？"
+  },
+  {
+    "month": "July",
+    "weekday": "Wednesday",
+    "quoteEn": "There is a friendship like a cutting sword, destructive as of December in the gardens and cornfields;\nThere is a friendship like spring, whence come restorations and produce incalculable.",
+    "day": 171,
+    "type": "day",
+    "id": "day-171",
+    "quoteZh": "有一种友谊，如利剑割裂，像十二月摧毁花园与麦田；\n有一种友谊，如春天降临，带来复苏，结出无可计量的丰饶。"
+  },
+  {
+    "month": "July",
+    "weekday": "Thursday",
+    "quoteEn": "Consider your inward contraction and expansion as a root. When it is a bad root, smite it quickly so that an ugly thorn may\nnot grow in the garden. You have felt the contraction: seek a remedy for it because all heads excrescences grow from the\nbottom root. You have felt the expansion: water your expansion, and when the fruit appears, give it to your friends.",
+    "day": 172,
+    "type": "day",
+    "id": "day-172",
+    "quoteZh": "要把你内在的收缩与舒展看作根。若是坏根，就当速速砍除，免得丑陋的荆棘\n在花园中滋长。你已感到收缩，便要寻求疗治，因为一切头上的赘生，都从\n底下的根而来。你已感到舒展，便浇灌你的舒展；待果实显现，就把它赠予你的朋友。"
+  },
+  {
+    "month": "July",
+    "weekday": "Friday",
+    "quoteEn": "This Heaven has been filled with light through discipline, and through discipline, the angels became immaculate and holy.",
+    "day": 173,
+    "type": "day",
+    "id": "day-173",
+    "quoteZh": "这天穹因修持而充满光明；也因修持，天使成为纯净而神圣的存在。"
+  },
+  {
+    "month": "July",
+    "weekday": "Sunday",
+    "quoteEn": "If anybody goes on the way without a leader, every two days' journey becomes one of a hundred years.",
+    "day": 174,
+    "type": "day",
+    "id": "day-174",
+    "quoteZh": "若有人行路而没有向导，两日的路程，也会变成百年的跋涉。"
+  },
+  {
+    "month": "July",
+    "weekday": "Monday",
+    "quoteEn": "From necessity, the good is often bound to the vile.",
+    "day": 175,
+    "type": "day",
+    "id": "day-175",
+    "quoteZh": "出于不得已，善者常常被系于卑劣之物。"
+  },
+  {
+    "month": "July",
+    "weekday": "Tuesday",
+    "quoteEn": "One injustice from kindred and friends and family is in heaviness as three hundred thousand because the sufferer did not set\nhis mind on his cruelty and injustice: his soul was accustomed to kindness and faithfulness from him.",
+    "day": 176,
+    "type": "day",
+    "id": "day-176",
+    "quoteZh": "来自亲族、朋友和家人的一次不义，其沉重胜过三十万次伤害；因为受苦者原本未曾防备他的残忍与不公，他的灵魂早已习惯从他那里期待仁慈与忠诚。"
+  },
+  {
+    "month": "July",
+    "weekday": "Wednesday",
+    "quoteEn": "There are pearls mingled with pebbles at the bottom of the sea: glories are to be found amongst shames.",
+    "day": 177,
+    "type": "day",
+    "id": "day-177",
+    "quoteZh": "海底有珍珠与卵石混杂；荣耀也常在羞辱之中被寻见。"
+  },
+  {
+    "month": "July",
+    "weekday": "Thursday",
+    "quoteEn": "I am the servant of the Qur'an as long as I have life.\nI am the dust on the path of Muhammad, the Chosen One.\nIf anyone quotes anything except this from my sayings,\nI am quite of him and outraged by these words.",
+    "day": 178,
+    "type": "day",
+    "id": "day-178",
+    "quoteZh": "只要我尚有生命，我便是《古兰经》的仆人。\n我是蒙选者穆罕默德道路上的尘土。\n若有人从我的言辞中引述除此之外的东西，\n我便与他无干，并为那些话语深感愤怒。"
+  },
+  {
+    "month": "July",
+    "weekday": "Friday",
+    "quoteEn": "Like a lion, hunt your prey yourself: leave (pay no heed to) the blandishment of stranger or relative.\nKnow that the regard of the base is like that servant; it's better to have nobody as your friend than (to accept) the flattery of\nnobodies worthless people.\nDo not make your home in other men's land: do your own work, don't do the work of a stranger.",
+    "day": 179,
+    "type": "day",
+    "id": "day-179",
+    "quoteZh": "要像狮子一样，亲自猎取你的猎物；不要理会陌生人或亲族的甜言。\n要知道，卑贱者的看重如同奴仆的奉承；没有朋友，也胜过接受\n无价值之人的谄媚。\n不要把家安在别人的土地上；做你自己的事，不要替陌生人劳作。"
+  },
+  {
+    "month": "July",
+    "weekday": "Saturday",
+    "quoteEn": "O brother, you are that same thought of yours; as for the rest of you, you are only bone and fiber. If your thought is a rose,\nyou are a rose garden; and if it is a thorn, you are fuel for the bath stove.",
+    "day": 180,
+    "type": "day",
+    "id": "day-180",
+    "quoteZh": "哦，兄弟，你就是你自己的念头；至于其余，不过是骨与筋。若你的念头像玫瑰，\n你便是一座玫瑰园；若它是荆棘，你便是浴炉中的柴薪。"
+  },
+  {
+    "month": "July",
+    "weekday": "Sunday",
+    "quoteEn": "We do not look at the tongue and the talk; we look at the soul and the state.",
+    "day": 181,
+    "type": "day",
+    "id": "day-181",
+    "quoteZh": "我们不看舌头与言谈；我们看灵魂与境界。"
+  },
+  {
+    "month": "July",
+    "weekday": "Monday",
+    "quoteEn": "If desire were to arise in the mirror, that mirror would be like us regarding hypocrisy. If the balance had a desire for riches,\nhow would the balance give a true description of the case?",
+    "day": 182,
+    "type": "day",
+    "id": "day-182",
+    "quoteZh": "若欲望在镜中生起，那镜子在虚伪上便会像我们一样。若天平贪恋财富，\n它又怎能如实称量此事？"
+  },
+  {
+    "month": "July",
+    "weekday": "Tuesday",
+    "quoteEn": "You were born with wings, why prefer to crawl through life?",
+    "day": 183,
+    "type": "day",
+    "id": "day-183",
+    "quoteZh": "你生来有翼，为何偏要一生匍匐而行？"
+  },
+  {
+    "month": "July",
+    "weekday": "Wednesday",
+    "quoteEn": "Man has fatness from thrives on fancy if his fancies are beautiful; And if his fancies show anything unlovely, he melts away\nas the wax is melted by fire.\nThe snakes and scorpions will be friendly to you because that fancy is the elixir that transmutes your copper into gold.\nPatience is sweetened by fair fancy, since in that case, the fancies of relief from pain have come before the mind. That relief\ncomes into the heart from faith: weakness of faith is despair and torment.",
+    "day": 184,
+    "type": "day",
+    "id": "day-184",
+    "quoteZh": "人靠想象而丰盈；若他的想象美好，他便兴盛。若他的想象显出丑陋之物，他便消融，\n如蜡在火中熔化。\n蛇与蝎也会与你为友，因为那想象是灵药，能把你的铜炼成金。\n美好的想象使忍耐变得甘甜，因为那时，脱离痛苦的图景已先来到心前。那宽慰\n从信仰进入心中；信仰软弱，便是绝望与煎熬。"
+  },
+  {
+    "month": "July",
+    "weekday": "Thursday",
+    "quoteEn": "It must bear the burden of patience and thanksgiving, whether for a hundred years or thirty or twenty. None that is laden\nsupported another's load; none reaped until he sowed something.' It's a raw absurd hope; eat not what is raw, O son: eating\nraw brings illness to men. Do not say to yourself, \"So-and-so suddenly found a treasure; I would like the same: neither work\nnor shop for me!\" That discovery of treasure is Fortune's doing a piece of luck, and moreover, it is rare: one must earn a\nliving so long as the body is able.",
+    "day": 185,
+    "type": "day",
+    "id": "day-185",
+    "quoteZh": "它必须背负忍耐与感恩的重担，无论是一百年，还是三十年、二十年。没有负重者\n能替别人承担担子；没有人不先播种就能收割。那是生涩而荒谬的指望；哦，孩子，莫吃生食：\n生食会使人染病。不要对自己说：“某某忽然发现了宝藏；我也愿如此：既不工作，\n也不开店！”发现宝藏是命运所赐，是一桩幸运，而且极其罕见；只要身体还能劳作，\n人就应当谋生。"
+  },
+  {
+    "month": "July",
+    "weekday": "Friday",
+    "quoteEn": "When you do things from your soul, you feel a river moving in you, a joy.",
+    "day": 186,
+    "type": "day",
+    "id": "day-186",
+    "quoteZh": "当你从灵魂深处行事，便会感到一条河在你体内流动，那是一种喜悦。"
+  },
+  {
+    "month": "July",
+    "weekday": "Saturday",
+    "quoteEn": "What you seek is seeking you.",
+    "day": 187,
+    "type": "day",
+    "id": "day-187",
+    "quoteZh": "你所寻求的，也正在寻求你。"
+  },
+  {
+    "month": "July",
+    "weekday": "Sunday",
+    "quoteEn": "In the world of search and seeking (trial and probation), I have not seen any worthiness better than a good disposition.",
+    "day": 188,
+    "type": "day",
+    "id": "day-188",
+    "quoteZh": "在寻觅与追寻的世间，在试炼与考验之中，我未曾见过比良善的性情更可贵的品格。"
+  },
+  {
+    "month": "July",
+    "weekday": "Monday",
+    "quoteEn": "Make your eyes straight in the moonshine so that you may see the moon as one. Lo, that is the answer. Tell your thought not\nto see awry and to look well rightly: that thought is the radiance of that Pearl.",
+    "day": 189,
+    "type": "day",
+    "id": "day-189",
+    "quoteZh": "在月光中端正你的双眼，好让你看见月亮本是一轮。看哪，这便是答案。告诉你的念头，\n不要斜视，要正直而明澈地观看：那念头正是那颗珍珠的光辉。"
+  },
+  {
+    "month": "July",
+    "weekday": "Tuesday",
+    "quoteEn": "Man is concealed underneath his tongue: this tongue is the curtain over the gate of the soul. When a gust of wind has rolled\nup the curtain, the secret of the interior of the house is disclosed to us, And we see) whether in that house there are pearls or\ngrains of wheat, a treasure of gold or whether all is snakes and scorpions; Or whether a treasure is there and a serpent beside\nit, since a treasure of gold is not without someone to keep watch.",
+    "day": 190,
+    "type": "day",
+    "id": "day-190",
+    "quoteZh": "人藏在自己的舌头之下：这舌头，是灵魂之门上的帘幕。当一阵风卷起\n帘幕，屋内深处的秘密便向我们显露：我们便看见，那屋中究竟有珍珠，还是\n麦粒；有黄金的宝藏，还是尽是蛇与蝎子；又或者那里有一座宝藏，旁边却有一条蛇，\n因为黄金的宝藏，从来不会没有守望者。"
+  },
+  {
+    "month": "July",
+    "weekday": "Wednesday",
+    "quoteEn": "The beginning, which is thought, comes to an end in action; know that in such wise was the world's construction in eternity.\nThe fruits are first in the mind's thought, but only, at last, do they become manifest actually: When you have done work and\nplanted the tree—at the end when the fruit appears, you read the first words. Although its boughs, leaves, and roots are first,\nyet all those are sent for the sake of the fruit.",
+    "day": 191,
+    "type": "day",
+    "id": "day-191",
+    "quoteZh": "开端是思想，终点是行动；你当知道，世界在永恒中也是如此建成。\n果实最初存在于心的意念里，直到最后，才真实显现：当你完成劳作，\n种下树木，到了末后果实出现时，你才读懂最初的话语。枝条、叶子与根虽先长出，\n然而这一切，都是为了果实而被遣来。"
+  },
+  {
+    "month": "July",
+    "weekday": "Thursday",
+    "quoteEn": "Only to the senseless is this sense confided: the tongue hath no customer save the ear.",
+    "day": 192,
+    "type": "day",
+    "id": "day-192",
+    "quoteZh": "这意义只托付给无知觉者：舌头除了耳朵，并无别的顾客。"
+  },
+  {
+    "month": "July",
+    "weekday": "Friday",
+    "quoteEn": "Every human being's outer form is like a cup; only the spiritual eye is a percipient of their reality. You eat receive something\nfrom meeting with anyone, and you carry away something from conjunction with any associate. When a planet comes into\nconjunction with the planet, the effect appropriate to them both is assuredly produced, As for example the conjunction of\nman and woman brings to birth the human being, and as sparks arise from the conjunction of stone and iron; And as from\nthe conjunction of the earth with rains there are produced fruits and greenery and sweet herbs.",
+    "day": 193,
+    "type": "day",
+    "id": "day-193",
+    "quoteZh": "每个人的外在形貌都像一只杯；唯有灵性的眼睛，能觉察他们的真实。你与任何人相遇，都会从中领受一些东西；\n你与任何同伴相交，也都会带走一些东西。当一颗星与另一颗星相会，\n属于二者的影响必定产生。譬如男人与女人相合，便诞生人；石与铁相击，便迸出火花；\n大地与雨水相遇，便生出果实、青翠与芳香的草木。"
+  },
+  {
+    "month": "July",
+    "weekday": "Saturday",
+    "quoteEn": "And as from the conjunction of green things plants and verdant spots with a man here is produced joy of heart and\ncarelessness and happiness; And as from the conjunction of happiness with our souls are born our goodness and\nbeneficence. Our bodies become capable of eating and drinking when our desire for recreation in the open air is satisfied.",
+    "day": 194,
+    "type": "day",
+    "id": "day-194",
+    "quoteZh": "正如绿色的草木、植物与葱茏之地同人相遇，便在此处生出心中的喜悦、\n无忧与幸福；又如幸福与我们的灵魂相遇，便诞生我们的善良与\n仁慈。当我们在旷野中休憩的渴望得以满足，我们的身体便有了吃喝的能力。"
+  },
+  {
+    "month": "July",
+    "weekday": "Sunday",
+    "quoteEn": "The anger of humankind is for the sake of Peace; restlessness is ever the snare for Rest. Every blow is for the sake of\nfondness; every complaint makes aware of gratitude due for benefits received.",
+    "day": 195,
+    "type": "day",
+    "id": "day-195",
+    "quoteZh": "人的愤怒，是为了和平；不安，永远是安息的罗网。每一次击打，都是为了\n亲爱；每一声抱怨，都使人觉知：对于所领受的恩惠，理当感恩。"
+  },
+  {
+    "type": "month",
+    "month": "August",
+    "monthIndex": 8,
+    "quoteEn": "What you seek is seeking you.",
+    "id": "month-8",
+    "quoteZh": "你所寻求的，也正在寻求你。"
+  },
+  {
+    "month": "August",
+    "weekday": "Monday",
+    "quoteEn": "There is a secret way from difficulty to ease.",
+    "day": 196,
+    "type": "day",
+    "id": "day-196",
+    "quoteZh": "从艰难通向安适，有一条隐秘的路。"
+  },
+  {
+    "month": "August",
+    "weekday": "Tuesday",
+    "quoteEn": "The source is within you. And this whole world is springing from it.",
+    "day": 197,
+    "type": "day",
+    "id": "day-197",
+    "quoteZh": "源头就在你之内。而这整个世界，正从其中涌出。"
+  },
+  {
+    "month": "August",
+    "weekday": "Wednesday",
+    "quoteEn": "To take a tight hold and to attach one's self firmly a sign of immaturity.",
+    "day": 198,
+    "type": "day",
+    "id": "day-198",
+    "quoteZh": "紧紧抓住，并牢牢依附，是尚未成熟的标记。"
+  },
+  {
+    "month": "August",
+    "weekday": "Thursday",
+    "quoteEn": "Do not feel lonely; the entire universe is inside you",
+    "day": 199,
+    "type": "day",
+    "id": "day-199",
+    "quoteZh": "不要感到孤独；整个宇宙都在你之内。"
+  },
+  {
+    "month": "August",
+    "weekday": "Friday",
+    "quoteEn": "A man who has not suffered any pain is made ill by a bad sign.",
+    "day": 200,
+    "type": "day",
+    "id": "day-200",
+    "quoteZh": "未曾受过痛苦的人，会被一个不祥的征兆击倒成病。"
+  },
+  {
+    "month": "August",
+    "weekday": "Saturday",
+    "quoteEn": "If you are a believer and sweet, your death is a believer too. But, if you are an unbeliever and bitter, your death is an\nunbeliever too.",
+    "day": 201,
+    "type": "day",
+    "id": "day-201",
+    "quoteZh": "若你是信者，且心中甘美，你的死亡也会是信者。若你是不信者，且心中苦涩，你的死亡\n也会是不信者。"
+  },
+  {
+    "month": "August",
+    "weekday": "Sunday",
+    "quoteEn": "A man who has not suffered any pain is made ill by a bad omen.",
+    "day": 202,
+    "type": "day",
+    "id": "day-202",
+    "quoteZh": "未曾受过痛苦的人，会被一个凶兆击倒成病。"
+  },
+  {
+    "month": "August",
+    "weekday": "Monday",
+    "quoteEn": "Everyone has been made for some particular work, and the desire for that (work) has been put into his heart. How should\nhand and foot be set in motion without desire? How should sticks and straws go (from their place) without any water or\nwind?",
+    "day": 203,
+    "type": "day",
+    "id": "day-203",
+    "quoteZh": "每个人生来都有一项特定的工，而对那工的渴望已被放入他的心中。\n若没有渴望，手足怎会行动？若没有水与风，枝条与草芥又怎会离开原处？"
+  },
+  {
+    "month": "August",
+    "weekday": "Tuesday",
+    "quoteEn": "Oh, many of the learned and honest judges were disgraced by greed and bribery!",
+    "day": 204,
+    "type": "day",
+    "id": "day-204",
+    "quoteZh": "啊，多少博学而正直的法官，竟因贪欲与贿赂而蒙羞！"
+  },
+  {
+    "month": "August",
+    "weekday": "Wednesday",
+    "quoteEn": "This world is a dream; do not rest in false opinion; it's no harm if a hand goes lost in a dream.",
+    "day": 205,
+    "type": "day",
+    "id": "day-205",
+    "quoteZh": "这世界是一场梦；不要安住在虚妄的想法里；梦中失去一只手，也算不得伤害。"
+  },
+  {
+    "month": "August",
+    "weekday": "Thursday",
+    "quoteEn": "Patience is the key to joy.",
+    "day": 206,
+    "type": "day",
+    "id": "day-206",
+    "quoteZh": "忍耐是通往喜乐的钥匙。"
+  },
+  {
+    "month": "August",
+    "weekday": "Friday",
+    "quoteEn": "What is easy will be made difficult by your impatience.",
+    "day": 207,
+    "type": "day",
+    "id": "day-207",
+    "quoteZh": "本来容易的事，会因你的急躁而变得艰难。"
+  },
+  {
+    "month": "August",
+    "weekday": "Saturday",
+    "quoteEn": "God created thousands of elixirs, but man has not seen an elixir like patience.",
+    "day": 208,
+    "type": "day",
+    "id": "day-208",
+    "quoteZh": "真主创造了千万种灵药，而人尚未见过一种灵药能与忍耐相比。"
+  },
+  {
+    "month": "August",
+    "weekday": "Sunday",
+    "quoteEn": "If you look too closely at the form, you miss the essence.",
+    "day": 209,
+    "type": "day",
+    "id": "day-209",
+    "quoteZh": "若你过分凝视外形，便会错失本质。"
+  },
+  {
+    "month": "August",
+    "weekday": "Monday",
+    "quoteEn": "Your desire for a phantom is like a wing, so that the seeker may ascend to the Reality through that wing.",
+    "day": 210,
+    "type": "day",
+    "id": "day-210",
+    "quoteZh": "你对幻影的渴望，如同一双翅膀；追寻者可凭这双翅膀，升向真实。"
+  },
+  {
+    "month": "August",
+    "weekday": "Tuesday",
+    "quoteEn": "That what the ignorant will see in the end; the wise see from the first step.",
+    "day": 211,
+    "type": "day",
+    "id": "day-211",
+    "quoteZh": "无知者到终点才看见的，智者从第一步便已看见。"
+  },
+  {
+    "month": "August",
+    "weekday": "Wednesday",
+    "quoteEn": "Every success consists in depends on fixing the heart upon the object of desire.",
+    "day": 212,
+    "type": "day",
+    "id": "day-212",
+    "quoteZh": "一切成就，都系于将心安定在所渴望之物上。"
+  },
+  {
+    "month": "August",
+    "weekday": "Thursday",
+    "quoteEn": "Go, help others; time will appreciate your help.\nIt never forgets your help... Everybody left their wealth behind, so yours will be left, too.\nThen, one's leaving goodness behind is better than his leaving wealth",
+    "day": 213,
+    "type": "day",
+    "id": "day-213",
+    "quoteZh": "去吧，帮助他人；时间会珍惜你的帮助。\n它从不忘记你的相助……人人都把财富留在身后，你的财富也终将如此。\n因此，留下善行，比留下财富更好。"
+  },
+  {
+    "month": "August",
+    "weekday": "Friday",
+    "quoteEn": "Thanksgiving for the bounty is sweeter than the bounty itself: how should he that is addicted to thanksgiving go towards\ndirect his attention to the bounty? Thanksgiving is the soul of the bounty, and the bounty is the husk because thanksgiving\nbrings you to the Beloved's abode.",
+    "day": 214,
+    "type": "day",
+    "id": "day-214",
+    "quoteZh": "为恩赐而感恩，比恩赐本身更甘美；沉醉于感恩的人，又怎会只把心转向恩赐？\n感恩是恩赐的灵魂，恩赐只是外壳；因为感恩会把你带到挚爱者的居所。"
+  },
+  {
+    "month": "August",
+    "weekday": "Saturday",
+    "quoteEn": "Though the final object of a book is the science it contains, if you make it a pillow to rest on, it will become serve as that\ntoo. Still, this function of being a pillow was not its final object: it the last object was learning and knowledge and proper\nguidance and profit.\nIf you have made the sword a tent-pin, you have preferred defeat to victory.",
+    "day": 215,
+    "type": "day",
+    "id": "day-215",
+    "quoteZh": "一本书的终极目的，虽是其中所含的学问；若你把它当作枕头安睡，它也可以作枕头。\n然而，作枕头并不是它的终极目的；它最终是为学习、知识、正道与益处而来。\n若你把宝剑当作帐钉，便是宁取失败，不取胜利。"
+  },
+  {
+    "month": "August",
+    "weekday": "Sunday",
+    "quoteEn": "When a feeling of spiritual contraction comes over you, O traveler,' it's for your good: do not become afire with grief in\nyour heart, For in that contrary state of expansion and delight you are spending: the expenditure of enthusiasm) requires an\nincome of painful preparation to balance it.",
+    "day": 216,
+    "type": "day",
+    "id": "day-216",
+    "quoteZh": "旅人啊，当灵性的收缩感临到你，那是为了你的益处；不要让悲伤在心中燃烧。\n因为在那相反的舒展与欢悦之境里，你正在耗费；热忱的支出，需要痛苦预备的收入来平衡。"
+  },
+  {
+    "month": "August",
+    "weekday": "Monday",
+    "quoteEn": "Love is like a lawsuit; suffering harsh treatment is like the evidence: the case is lost when you have no proof.",
+    "day": 217,
+    "type": "day",
+    "id": "day-217",
+    "quoteZh": "爱如一场诉讼；忍受严酷的对待，便如呈上的证据：若没有凭据，这案子就败了。"
+  },
+  {
+    "month": "August",
+    "weekday": "Tuesday",
+    "quoteEn": "Exertion is a reality, and medicine and disease are realities: the skeptic in his denial of exertion practiced and thereby\naffirmed exertion.",
+    "day": 218,
+    "type": "day",
+    "id": "day-218",
+    "quoteZh": "精进是真实的，药与病也是真实的：怀疑者否认精进，却在修习之中\n亲自证成了精进。"
+  },
+  {
+    "month": "August",
+    "weekday": "Wednesday",
+    "quoteEn": "Words are a pretext. The inner bond draws one person to another, not words.",
+    "day": 219,
+    "type": "day",
+    "id": "day-219",
+    "quoteZh": "言语只是借口。使一个人被另一个人吸引的，是内在的联结，不是言语。"
+  },
+  {
+    "month": "August",
+    "weekday": "Thursday",
+    "quoteEn": "The iniquity of evil-doers became for them a dark well: so have said all the wise.\nO you who from iniquity are digging a well for others, you are making a snare for yourself.",
+    "day": 220,
+    "type": "day",
+    "id": "day-220",
+    "quoteZh": "作恶者的不义，终成了他们自己的黑井：一切智者都这样说。\n你啊，以不义为他人掘井的人，其实是在为自己设下陷阱。"
+  },
+  {
+    "month": "August",
+    "weekday": "Friday",
+    "quoteEn": "It is the thought that brings us. The thought of a garden brings us to the garden. The thought of a shop brings us to the shop.\nHowever, within these thoughts is a secret deception.",
+    "day": 221,
+    "type": "day",
+    "id": "day-221",
+    "quoteZh": "是念头把我们带去。花园的念头，把我们带到花园；店铺的念头，把我们带到店铺。\n然而，在这些念头之中，藏着一种隐秘的欺瞒。"
+  },
+  {
+    "month": "August",
+    "weekday": "Saturday",
+    "quoteEn": "You are more precious than heaven and earth. What more can I say? You do not know your own worth.",
+    "day": 222,
+    "type": "day",
+    "id": "day-222",
+    "quoteZh": "你比天地更珍贵。我还能再说什么？你并不知道自己的价值。"
+  },
+  {
+    "month": "August",
+    "weekday": "Sunday",
+    "quoteEn": "Still, you offer another excuse, saying, \"But I apply myself to lofty tasks. I study law, philosophy, logic, astronomy,\nmedicine and the rest.\" Well, for whose sake but your own do you study these? When you consider this matter well, the root\nof all your studies is yourself. All these lofty tasks are but branches of you.",
+    "day": 223,
+    "type": "day",
+    "id": "day-223",
+    "quoteZh": "你仍又找出一个借口，说：“可是我投身于高贵的事业。我研习法律、哲学、逻辑、天文学、\n医学，诸如此类。”那么，你研习这些，若不是为了自己，又是为了谁？细细思量此事，一切学问的根本\n都是你自己。所有这些高贵的事业，不过是从你身上生出的枝条。"
+  },
+  {
+    "type": "month",
+    "month": "September",
+    "monthIndex": 9,
+    "quoteEn": "Before you say anything, first listen.",
+    "id": "month-9",
+    "quoteZh": "在你开口之前，先倾听。"
+  },
+  {
+    "month": "September",
+    "weekday": "Monday",
+    "quoteEn": "Not only do the thirsty seek the water, the water as well seeks the thirsty.",
+    "day": 224,
+    "type": "day",
+    "id": "day-224",
+    "quoteZh": "不只是口渴的人寻找水，水也在寻找口渴的人。"
+  },
+  {
+    "month": "September",
+    "weekday": "Tuesday",
+    "quoteEn": "Words are like water sprinkled on the flour according to the moisture needed. But unless the water soaks in, it cannot make\na dough.",
+    "day": 225,
+    "type": "day",
+    "id": "day-225",
+    "quoteZh": "言语好比洒在面粉上的水，多少取决于所需的湿润。但若水不渗入其中，便不能和成\n面团。"
+  },
+  {
+    "month": "September",
+    "weekday": "Wednesday",
+    "quoteEn": "Humanity is a mighty volume. All things are written within the people of this world, but veils and darkness do not allow\nmen and women to read the knowledge within themselves.",
+    "day": 226,
+    "type": "day",
+    "id": "day-226",
+    "quoteZh": "人是一部宏大的书卷。万物都写在世人之中，只是帷幕与黑暗不许\n男女读出自己内在的知识。"
+  },
+  {
+    "month": "September",
+    "weekday": "Thursday",
+    "quoteEn": "All these pleasures and pursuits are like a ladder. The ladder's rungs are not a place to make one's home; they are for passing\nby. Fortunate are those who learn this. The long road becomes short for them, and they do not waste their lives upon the\nsteps.",
+    "day": 227,
+    "type": "day",
+    "id": "day-227",
+    "quoteZh": "这一切享乐与追逐，都像一架梯子。梯级不是安家的地方；它们只是让人经过。\n懂得这一点的人有福了。漫长的道路对他们变短，他们也不把生命耗费在\n台阶之上。"
+  },
+  {
+    "month": "September",
+    "weekday": "Friday",
+    "quoteEn": "You are the true transcription of the Archetype Divine. A glass through which the Sun's own loveliness does shine. Within\nor without, wherever it may lie, accept every desire, and declare, \"it's Me!\"",
+    "day": 228,
+    "type": "day",
+    "id": "day-228",
+    "quoteZh": "你是真本，抄录自神圣的原型。你是一面明镜，太阳自身的美由你映照。无论在内\n或在外，无论它在何处，接纳每一个愿望，并宣告：“那就是我！”"
+  },
+  {
+    "month": "September",
+    "weekday": "Saturday",
+    "quoteEn": "The heart is a free world. Beliefs are subtle things and cannot be judged.",
+    "day": 229,
+    "type": "day",
+    "id": "day-229",
+    "quoteZh": "心是一个自由的世界。信念幽微细致，不可轻易评判。"
+  },
+  {
+    "month": "September",
+    "weekday": "Sunday",
+    "quoteEn": "We, too, dispense our words according to everyone's degree and qualification. \"Speaking to each according to the degree of\ntheir understanding.\"",
+    "day": 230,
+    "type": "day",
+    "id": "day-230",
+    "quoteZh": "我们也按每个人的程度与资质分授言语。“依照各人理解的程度\n与之说话。”"
+  },
+  {
+    "month": "September",
+    "weekday": "Monday",
+    "quoteEn": "Jesus was asked, \"What is the most difficult thing in this world and the next?\" He said, \"The wrath of God.\" They asked,\n\"And what can save us from that?\" He answered, \"Master your own wrath and anger towards others.\"",
+    "day": 231,
+    "type": "day",
+    "id": "day-231",
+    "quoteZh": "有人问耶稣：“今世与来世最艰难的事是什么？”他说：“真主的震怒。”他们又问：\n“什么能使我们免于此？”他回答：“制伏你自己对他人的愤怒与怒气。”"
+  },
+  {
+    "month": "September",
+    "weekday": "Tuesday",
+    "quoteEn": "The wife must be of the same quality as the husband so that things may go rightly. The married pair must match one\nanother: look at a pair of shoes or boots.\nIf one of the shoes is too tight for the foot, the pair of them is of no use to you. Have you ever seen one leaf of a folding\ndoor small and the other large, or a wolf mated with the lion of the?",
+    "day": 232,
+    "type": "day",
+    "id": "day-232",
+    "quoteZh": "妻子与丈夫应当质地相合，事情方能顺遂。夫妻二人必须彼此相配：且看一双鞋履。\n若其中一只太紧，勒住了脚，这一双便对你毫无用处。你可曾见过折门的一扇小、一扇大，或狼与狮子结为伴侣？"
+  },
+  {
+    "month": "September",
+    "weekday": "Wednesday",
+    "quoteEn": "Throw greed, envy and grudge away from your heart;\nAbandon your bad habits and thoughts.\nDenying gives you harm, so deny less;\nAffirmation is helpful for you, so increase your affirmation.",
+    "day": 233,
+    "type": "day",
+    "id": "day-233",
+    "quoteZh": "把贪婪、嫉妒与怨恨从心中抛去；\n舍弃你的恶习与恶念。\n否认会使你受损，所以少些否认；\n肯定对你有益，所以多些肯定。"
+  },
+  {
+    "month": "September",
+    "weekday": "Thursday",
+    "quoteEn": "This tongue is like stone and is also fire-like, and that which springs from the tongue is like fire. Do not vainly strike stone\nand iron against each other, now for the sake of relating (a story), now for the sake of boasting,",
+    "day": 234,
+    "type": "day",
+    "id": "day-234",
+    "quoteZh": "这舌头如石，也如火；从舌头迸出的，也像火。不要徒然让石与铁相击，时而为了讲述故事，时而为了夸耀自己。"
+  },
+  {
+    "month": "September",
+    "weekday": "Friday",
+    "quoteEn": "Love and tenderness are human qualities; anger and lust are animal qualities.",
+    "day": 235,
+    "type": "day",
+    "id": "day-235",
+    "quoteZh": "爱与柔情，是人的品性；愤怒与欲念，是兽的品性。"
+  },
+  {
+    "month": "September",
+    "weekday": "Saturday",
+    "quoteEn": "The heart leads you into the neighborhood of the men of heart ; the body leads you into the prison of water and earth.",
+    "day": 236,
+    "type": "day",
+    "id": "day-236",
+    "quoteZh": "心引你走近有心之人的居所；身体却把你带入水与土的牢狱。"
+  },
+  {
+    "month": "September",
+    "weekday": "Sunday",
+    "quoteEn": "Which heart does not contain your love?\nIt is an infidel; it cannot be a Muslim.\nIf a city does not have the grandeur of the king,\nIf it is yet to demolish, you consider that heart as destroyed.",
+    "day": 237,
+    "type": "day",
+    "id": "day-237",
+    "quoteZh": "哪一颗心不藏有你的爱？\n若没有，那便是不信之心，不能称为归顺者。\n若一座城没有君王的威仪，\n即便尚未倾塌，你也当视它为废墟。"
+  },
+  {
+    "month": "September",
+    "weekday": "Monday",
+    "quoteEn": "By its proper nature, intellect is a seer of the end (consequence); it is the fleshly soul that does not see the end.",
+    "day": 238,
+    "type": "day",
+    "id": "day-238",
+    "quoteZh": "理智按其本性，能看见结局；看不见结局的，是肉身的私我。"
+  },
+  {
+    "month": "September",
+    "weekday": "Tuesday",
+    "quoteEn": "Intelligence is wings and feathers to a man: when he lacks intelligence, he must rely on the intelligence of a guide.",
+    "day": 239,
+    "type": "day",
+    "id": "day-239",
+    "quoteZh": "智慧是人的翅与羽；若他缺少智慧，就必须依凭向导的智慧。"
+  },
+  {
+    "month": "September",
+    "weekday": "Wednesday",
+    "quoteEn": "Deficient knowledge cannot discriminate: of necessity, it deems the lightning to be the sun.",
+    "day": 240,
+    "type": "day",
+    "id": "day-240",
+    "quoteZh": "残缺的知识不能分辨；它必然会把闪电误认为太阳。"
+  },
+  {
+    "month": "September",
+    "weekday": "Thursday",
+    "quoteEn": "Knowledge is the seal of the kingdom of Solomon: the whole world is the form, and knowledge is the spirit. Because of this\nvirtue, the creatures of the seas and those of the mountains and the plains are helpless before man.",
+    "day": 241,
+    "type": "day",
+    "id": "day-241",
+    "quoteZh": "知识是所罗门王国的印玺：整个世界是形体，知识则是灵魂。正因这德性，海中的生灵、山野与平原上的万物，都在人面前显得无力。"
+  },
+  {
+    "month": "September",
+    "weekday": "Friday",
+    "quoteEn": "O, my Lord! Guard me against useless knowledge, arrogant heart, greedy soul, and unaccepted prayer.",
+    "day": 242,
+    "type": "day",
+    "id": "day-242",
+    "quoteZh": "主啊！求你护佑我，远离无益的知识、傲慢的心、贪婪的灵魂，以及不蒙悦纳的祈祷。"
+  },
+  {
+    "month": "September",
+    "weekday": "Saturday",
+    "quoteEn": "Are you now expecting goodness, as you were misbehaving? Badness is the compensation for badness.\nGod has mercy and is merciful for everyone.\nHowever, if you sow barley, you cannot reap wheat.",
+    "day": 243,
+    "type": "day",
+    "id": "day-243",
+    "quoteZh": "你既曾行事不端，如今还期待善果吗？恶行的报偿便是恶果。\n真主仁慈，也怜悯众人。\n然而，你若播下大麦，便不能收获小麦。"
+  },
+  {
+    "month": "September",
+    "weekday": "Sunday",
+    "quoteEn": "Do you think you will collect roses when you sow horns in the soil? If you do not plant a rose, no tree will ever give you a\nrose .\nThe rivers are a kind of wheat, and this world is a kind of mill; But if you take bricks to the mill, you will get nothing but\nonly soil.",
+    "day": 244,
+    "type": "day",
+    "id": "day-244",
+    "quoteZh": "你把荆棘播进土里，还以为会采得玫瑰吗？若不栽下玫瑰，任何树都不会为你开出玫瑰。\n河流如同麦粒，这世界如同磨坊；可你若把砖头送进磨坊，所得的也不过只是尘土。"
+  },
+  {
+    "month": "September",
+    "weekday": "Monday",
+    "quoteEn": "The spirit is wanting in that resplendent form: go, seek that jewel rarely found!",
+    "day": 245,
+    "type": "day",
+    "id": "day-245",
+    "quoteZh": "那灿烂的形体中缺少灵魂：去吧，寻觅那稀世难逢的珍宝！"
+  },
+  {
+    "month": "September",
+    "weekday": "Tuesday",
+    "quoteEn": "Go, strive after reality, O worshipper of form, in as much as reality is the wing on form's body.",
+    "day": 246,
+    "type": "day",
+    "id": "day-246",
+    "quoteZh": "去吧，追求真实吧，崇拜形相的人啊；因为真实，正是形相之身上的翅膀。"
+  },
+  {
+    "month": "September",
+    "weekday": "Wednesday",
+    "quoteEn": "O tongue, you are a treasure without end. O tongue, you are also a disease without remedy.",
+    "day": 247,
+    "type": "day",
+    "id": "day-247",
+    "quoteZh": "舌头啊，你是无尽的宝藏。舌头啊，你也是无药可医的病。"
+  },
+  {
+    "month": "September",
+    "weekday": "Thursday",
+    "quoteEn": "O you who is unaware of the essence and is duped with appearance is proud of it.\nAct with proper prudence; you have a friend in your soul.\nThe sentiment is the core of the body, and the core of your sentiment is the soul.\nBut if you leave off your body, sentiment, and soul, everything becomes Him.",
+    "day": 248,
+    "type": "day",
+    "id": "day-248",
+    "quoteZh": "啊，你不识本质，却被外相蒙蔽，并为之自傲。\n当以明智谨慎行事；你的灵魂之中有一位朋友。\n情感是身体的核心，而你情感的核心，便是灵魂。\n但若你舍下身体、情感与灵魂，万物便都成为祂。"
+  },
+  {
+    "month": "September",
+    "weekday": "Friday",
+    "quoteEn": "If, on account of the darkness of ignorance, you do not recognize a person to discern his real nature, look at him whom he\nhas made his leader.",
+    "day": 249,
+    "type": "day",
+    "id": "day-249",
+    "quoteZh": "若因无知的黑暗，你不能认出一个人、分辨他的真实本性，\n就看他把谁奉为自己的引路人。"
+  },
+  {
+    "month": "September",
+    "weekday": "Saturday",
+    "quoteEn": "If you become a friend with an illiterate person, you lose the true path.\nAnd if you become a friend with the wise people, then you are dead.\nBe like the gold, and steady in the true path,\nIf you go astray, then you are in a complete loss.",
+    "day": 250,
+    "type": "day",
+    "id": "day-250",
+    "quoteZh": "若你与无知者为友，便会失去真正的道路。\n若你与智者为友，便如同向旧我死去。\n要像黄金一样，在真道上坚定不移；\n若你偏离道路，便会全然亏损。"
+  },
+  {
+    "month": "September",
+    "weekday": "Sunday",
+    "quoteEn": "Even if he is an enemy of you, this kindness is good; Because through kindness, many enemies became good friends.",
+    "day": 251,
+    "type": "day",
+    "id": "day-251",
+    "quoteZh": "即使他是你的敌人，这份仁慈也是好的；因为借着仁慈，许多敌人都成了良友。"
+  },
+  {
+    "type": "month",
+    "month": "October",
+    "monthIndex": 10,
+    "quoteEn": "As you are not a slave, talk like a King. Tell your opinions as you wish!",
+    "id": "month-10",
+    "quoteZh": "既然你不是奴仆，就像君王一样说话。把你的心意尽情说出！"
+  },
+  {
+    "month": "October",
+    "weekday": "Monday",
+    "quoteEn": "Man's sole breath is worth a soul;\nHis exclusive hair is worth a mine.\nHowever, there is another kind of man, let alone speak with him; Seeing not him is worthy of the world's wealth.",
+    "day": 252,
+    "type": "day",
+    "id": "day-252",
+    "quoteZh": "人的一息，价值如一条灵魂；\n他独有的一根发丝，也抵得上一座矿藏。\n然而，还有另一种人，莫说与他说话；不见他一面，便已值尽世间财富。"
+  },
+  {
+    "month": "October",
+    "weekday": "Tuesday",
+    "quoteEn": "Leave the ignorant, hold on to the skirts of the prudent.\nNever waste your breath for the ignorant; when you throw the mirror into the water, it indeed gets rusty.",
+    "day": 253,
+    "type": "day",
+    "id": "day-253",
+    "quoteZh": "离开无知者，紧紧牵住明智者的衣襟。\n切莫为无知者白费气息；你把镜子投进水里，它终究会生锈。"
+  },
+  {
+    "month": "October",
+    "weekday": "Wednesday",
+    "quoteEn": "Know that words resemble this body and that their inward meaning resembles the soul.",
+    "day": 254,
+    "type": "day",
+    "id": "day-254",
+    "quoteZh": "要知道，言语如同这身体，而它内里的意义，如同灵魂。"
+  },
+  {
+    "month": "October",
+    "weekday": "Thursday",
+    "quoteEn": "O, lover! Hold on to the skirts of the prudent.\nFruits become ripe in their own trees,\nThe Greek people reconcile with the Greek people.\nSimilarly, the Ethiopians agree with the Ethiopians; the grapes become black in seeing one another.",
+    "day": 255,
+    "type": "day",
+    "id": "day-255",
+    "quoteZh": "啊，爱者！紧紧牵住明智者的衣襟。\n果实在自己的树上成熟，\n希腊人与希腊人相和。\n同样，埃塞俄比亚人与埃塞俄比亚人相契；葡萄彼此相望，便渐渐转黑。"
+  },
+  {
+    "month": "October",
+    "weekday": "Friday",
+    "quoteEn": "Pain or hardship always shows man the right way. When one should not have a love, a willingness, and a pain for any job in\nthe world, then he could not achieve it, and it never becomes easy for him without pain and hardship. This is valid in every\nfield and case, whether it be for the world, the here-after, the kingdom, the knowledge, the astronomy, or any other thing.",
+    "day": 256,
+    "type": "day",
+    "id": "day-256",
+    "quoteZh": "痛苦与艰辛，总会向人显明正路。人在世上做任何事，若没有爱、没有意愿、没有为之承受的痛，便不能成就；没有痛苦与艰辛，那事也绝不会变得容易。无论是在世间、后世、王国、知识、天文学，或任何领域与境遇中，皆是如此。"
+  },
+  {
+    "month": "October",
+    "weekday": "Saturday",
+    "quoteEn": "There is a different taste in death for the people of religion and justice; Pure hearts become tranquilized and secure by\ndeath...\nDeath is not suffering or disgusting but meeting with God...But he who is incorrigible dies every day; this is the thing that\nmatters.",
+    "day": 257,
+    "type": "day",
+    "id": "day-257",
+    "quoteZh": "对有信仰与公义的人而言，死亡另有一种滋味；纯净的心因死亡而安宁、稳妥……\n死亡不是痛苦，也不是可憎之事，而是与真主相会……可是那不可救药的人，每一天都在死去；这才是真正要紧的事。"
+  },
+  {
+    "month": "October",
+    "weekday": "Sunday",
+    "quoteEn": "Let us implore God to help us to self-control: one who lacks self-control is deprived of the grace of the Lord.\nThe undisciplined man does not maltreat himself alone, but he sets the whole world on fire.",
+    "day": 258,
+    "type": "day",
+    "id": "day-258",
+    "quoteZh": "让我们祈求真主帮助我们节制自身：缺乏自制的人，便失去了主的恩典。\n放纵无度的人，不只亏待自己，还会把整个世界点燃。"
+  },
+  {
+    "month": "October",
+    "weekday": "Monday",
+    "quoteEn": "Being egoist and boasting of yourself does not suit you; in fact, everything belongs to its real Owner (God).",
+    "day": 259,
+    "type": "day",
+    "id": "day-259",
+    "quoteZh": "自我膨胀、夸耀自己，并不适合你；事实上，一切都属于真正的主人——真主。"
+  },
+  {
+    "month": "October",
+    "weekday": "Tuesday",
+    "quoteEn": "If you trust God, put trust in Him regarding your work: sow the seed, then rely upon the Almighty.",
+    "day": 260,
+    "type": "day",
+    "id": "day-260",
+    "quoteZh": "若你信靠真主，就在你的事务上信靠祂：先播下种子，然后托靠全能者。"
+  },
+  {
+    "month": "October",
+    "weekday": "Wednesday",
+    "quoteEn": "If your hands do not work, try to work with your feet;\nIf your feet reject to work, then shout, call out...\nIf you do not have a voice to shout, then try to work with your intellect;\nIn short, show sincerity and loyalty in every breath you take.",
+    "day": 261,
+    "type": "day",
+    "id": "day-261",
+    "quoteZh": "若你的双手不能劳作，就试着用双脚去做；\n若你的双脚也拒绝行动，就呼喊，召唤……\n若你连呼喊的声音也没有，就试着用你的理智去做；\n总之，在你每一次呼吸里，都显出真诚与忠贞。"
+  },
+  {
+    "month": "October",
+    "weekday": "Thursday",
+    "quoteEn": "Riches were never diminished by alms-giving: in fact, acts of charity are an excellent means of attaching wealth to one's\nself.",
+    "day": 262,
+    "type": "day",
+    "id": "day-262",
+    "quoteZh": "财富从不会因施舍而减少；事实上，慈善之举正是使财富依附于人的绝佳方式。"
+  },
+  {
+    "month": "October",
+    "weekday": "Friday",
+    "quoteEn": "Water in the boat is the ruin of the boat, but water underneath the boat is a support.",
+    "day": 263,
+    "type": "day",
+    "id": "day-263",
+    "quoteZh": "船中的水，会毁了船；船下的水，却托起船。"
+  },
+  {
+    "month": "October",
+    "weekday": "Saturday",
+    "quoteEn": "Never look at man's knowledge and skill; Look at whether he keeps his promises.\nIf he keeps his promises, praise him then as much as you want. He deserves much more than that...",
+    "day": 264,
+    "type": "day",
+    "id": "day-264",
+    "quoteZh": "不要只看人的学识与技艺；要看他是否信守承诺。\n若他守诺，你尽可赞美他。其实，他配得的远不止这些……"
+  },
+  {
+    "month": "October",
+    "weekday": "Sunday",
+    "quoteEn": "Gullet and mouth are the eye-bandage that makes you blind to yonder world: close this mouth so you may see it plain.",
+    "day": 265,
+    "type": "day",
+    "id": "day-265",
+    "quoteZh": "喉咙与口腹，是蒙住你眼睛的布，使你看不见那边的世界；闭上这张口，你便能清楚看见。"
+  },
+  {
+    "month": "October",
+    "weekday": "Monday",
+    "quoteEn": "The moment you accept what pains you've been given, the door will open.",
+    "day": 266,
+    "type": "day",
+    "id": "day-266",
+    "quoteZh": "当你接纳所赐予你的痛苦时，门便会开启。"
+  },
+  {
+    "month": "October",
+    "weekday": "Tuesday",
+    "quoteEn": "Enter the ruins of your heart, and learn the meaning of humility. Close both eyes and see the secrets of your inner eye.",
+    "day": 267,
+    "type": "day",
+    "id": "day-267",
+    "quoteZh": "走进你心的废墟，学习谦卑的意义。闭上双眼，便能看见内在之眼的奥秘。"
+  },
+  {
+    "month": "October",
+    "weekday": "Wednesday",
+    "quoteEn": "Why was the time occupied in the creation of Adam forty mornings? Because He (God) was adding perfections to that clay\nlittle by little.",
+    "day": 268,
+    "type": "day",
+    "id": "day-268",
+    "quoteZh": "为何创造亚当要用四十个清晨？因为祂（真主）正将圆满一点一点添入那泥土之中。"
+  },
+  {
+    "month": "October",
+    "weekday": "Thursday",
+    "quoteEn": "Hide your work from your own eyes, that your work may be safe from the evil eye.",
+    "day": 269,
+    "type": "day",
+    "id": "day-269",
+    "quoteZh": "把你的作为藏过自己的眼睛，好使你的作为免受邪眼的伤害。"
+  },
+  {
+    "month": "October",
+    "weekday": "Friday",
+    "quoteEn": "O, you who are soul and the world, they make their living by producing sugar from the sugar-cane and weaving cloth from\nthe leaves of the mulberry tree.\nTake it easy; hurry up not! Have patience! They even produce sweetness from bitterness.",
+    "day": 270,
+    "type": "day",
+    "id": "day-270",
+    "quoteZh": "哦，你这灵魂与世界啊，人们从甘蔗中制糖，从桑树叶中织布，以此谋生。\n放轻些；不要急！要有耐心！他们甚至能从苦涩中酿出甘甜。"
+  },
+  {
+    "month": "October",
+    "weekday": "Saturday",
+    "quoteEn": "Patience is better: patience is the quickest guide to the object of one's quest.\nWhen you ask no question, the sooner will it (the secret) be disclosed to you: the bird, patience, flies faster than all (others);\nAnd if you ask, the more slowly will your object be gained:\nWhat is easy will be made difficult by your impatience.",
+    "day": 271,
+    "type": "day",
+    "id": "day-271",
+    "quoteZh": "忍耐更好：忍耐是通往所求之物最快的向导。\n当你不再追问，那秘密反而更快向你显明；忍耐之鸟，比一切飞得更疾。\n若你一味追问，你所求之物便来得更慢。\n本来容易的事，会因你的急躁而变得艰难。"
+  },
+  {
+    "month": "October",
+    "weekday": "Sunday",
+    "quoteEn": "This world is even as the tree, O noble ones: we are like the half-ripened fruit upon it.\nThe unripe fruits cling fast to the bough because they are not met for the palace during their immaturity.",
+    "day": 272,
+    "type": "day",
+    "id": "day-272",
+    "quoteZh": "这世界恰如一棵树，哦，高贵的人们；我们像树上半熟的果实。\n未熟的果子紧紧攀住枝头，因为在尚未成熟时，它们还不适合进入宫殿。"
+  },
+  {
+    "month": "October",
+    "weekday": "Monday",
+    "quoteEn": "Worldly possessions cause nothing except a headache for a man. O stupid! Suffer not such a headache.\nEven if you place the sun and the moon as crowns on your head, you will place your head on the soil when your life has\nended.",
+    "day": 273,
+    "type": "day",
+    "id": "day-273",
+    "quoteZh": "世间的财物，除了使人头痛，别无所成。哦，愚人！不要受这等头痛之苦。\n即便你把太阳和月亮戴作头冠，生命终了时，你仍要把头放在尘土之上。"
+  },
+  {
+    "month": "October",
+    "weekday": "Tuesday",
+    "quoteEn": "If you are looking for the Beloved, then you are the Beloved one. If you are after a piece of bread, then you are bread. If you\nunderstand this secret word, then you know that; It is nobody else but You who you are looking for...",
+    "day": 274,
+    "type": "day",
+    "id": "day-274",
+    "quoteZh": "若你寻找的是至爱，那么你自己就是被爱者。若你追逐的是一片面包，那么你就是面包。若你明白这句隐秘之言，便会知道：你所寻找的，不是别人，正是你自己……"
+  },
+  {
+    "month": "October",
+    "weekday": "Wednesday",
+    "quoteEn": "If there is no benefit in speech, do not speak; and if there is, leave off making objections and endeavor to give thanks.",
+    "day": 275,
+    "type": "day",
+    "id": "day-275",
+    "quoteZh": "若言语无益，就不要开口；若有益，就停止辩驳，努力去感恩。"
+  },
+  {
+    "month": "October",
+    "weekday": "Thursday",
+    "quoteEn": "When you practice deceit and envy against one without envy, a black stain arises in your heart from that envy.",
+    "day": 276,
+    "type": "day",
+    "id": "day-276",
+    "quoteZh": "当你以欺瞒和嫉妒对待一个没有嫉妒的人时，那嫉妒便会在你心中生出一块黑斑。"
+  },
+  {
+    "month": "October",
+    "weekday": "Friday",
+    "quoteEn": "If you pour the sea into a pitcher, how much will it hold? One day's store. The pitcher, the eye of the covetous, never\nbecomes full: the oyster-shell is not filled with pearls until it is contented.",
+    "day": 277,
+    "type": "day",
+    "id": "day-277",
+    "quoteZh": "若把大海倒入水罐，它能盛下多少？不过一日之需。贪婪之眼这只水罐，永远不会满；贝壳唯有知足，才会盈满珍珠。"
+  },
+  {
+    "month": "October",
+    "weekday": "Saturday",
+    "quoteEn": "O, Joseph! You do find peace in your father's house;\nValley and brothers mean death and danger for you.\nNeither make peace with the wolf nor sit with the envious people;\nThe envious wolf is worse than the wolf outside.",
+    "day": 278,
+    "type": "day",
+    "id": "day-278",
+    "quoteZh": "哦，约瑟啊！你在父亲家中自会得安宁；\n山谷与兄弟，对你意味着死亡与险境。\n不要与狼和解，也不要与嫉妒的人同坐；\n嫉妒之狼，比外面的狼更可怕。"
+  },
+  {
+    "month": "October",
+    "weekday": "Sunday",
+    "quoteEn": "Know that every single bad habit of yours is a thorn bush: many a time, after all, have its thorns pierced your foot.\nMany a time have you been wounded by your own (evil) habits -you have no sense, you are very senseless.\nIf to the wounding of other persons, which comes to pass from your evil nature,\nYou are indifferent, at any rate, you are not indifferent to your own wounds: you are the torment of yourself and every\nstrange.",
+    "day": 279,
+    "type": "day",
+    "id": "day-279",
+    "quoteZh": "要知道，你每一个恶习都是一丛荆棘：它的刺早已多次扎伤你的脚。\n你屡屡被自己的恶习所伤，可你仍不醒悟，仍这般昏昧。\n若你对自己恶性所造成的、加诸他人的创伤无动于衷，\n至少，你不能对自己的伤口无动于衷：你折磨着自己，也折磨着每一个陌生人。"
+  },
+  {
+    "type": "month",
+    "month": "November",
+    "monthIndex": 11,
+    "quoteEn": "Go, help others; time will appreciate your help.",
+    "id": "month-11",
+    "quoteZh": "去帮助他人；时间终会珍重你的相助。"
+  },
+  {
+    "month": "November",
+    "weekday": "Monday",
+    "quoteEn": "If the kings and their secretaries become treacherous,\nso the judges make wrong decisions deliberately.\nThen God, who is the highest and the owner of the final judgment,\nWill give them such painful calamities; what a pity for them, what a pity for them!",
+    "day": 280,
+    "type": "day",
+    "id": "day-280",
+    "quoteZh": "若君王与书记官变得背信弃义，\n若审判者明知故犯，作出不义的判决，\n那么，至高的主、最终审判的拥有者，\n必使他们遭受痛苦的灾厄；可悲啊，可悲啊！"
+  },
+  {
+    "month": "November",
+    "weekday": "Tuesday",
+    "quoteEn": "We are toys before the power of God Almighty.\nRiches belong to Him, we are all poor.\nThen, what is the explanation of seeking pride?\nIn the end, we are all servants of the same Palace",
+    "day": 281,
+    "type": "day",
+    "id": "day-281",
+    "quoteZh": "在全能真主的威力面前，我们不过是玩偶。\n富有属于祂，我们全都是贫者。\n那么，追求骄傲又该如何解释？\n到头来，我们都是同一座宫殿的仆人。"
+  },
+  {
+    "month": "November",
+    "weekday": "Wednesday",
+    "quoteEn": "When the judge lets bribery gain hold of his heart, how should he know the wronger from the wretched victim of wrong?",
+    "day": 282,
+    "type": "day",
+    "id": "day-282",
+    "quoteZh": "当法官任由贿赂占据他的心，他又怎能分辨作恶者与蒙冤受苦的人？"
+  },
+  {
+    "month": "November",
+    "weekday": "Thursday",
+    "quoteEn": "Know, but say not, so they become not a laughing stock. The beauty of a man is in his keeping secrets.",
+    "day": 283,
+    "type": "day",
+    "id": "day-283",
+    "quoteZh": "知晓，却不要说出，免得他们沦为笑柄。人的美，在于守得住秘密。"
+  },
+  {
+    "month": "November",
+    "weekday": "Friday",
+    "quoteEn": "The aim of the creation of the universe is the man.",
+    "day": 284,
+    "type": "day",
+    "id": "day-284",
+    "quoteZh": "宇宙被创造的旨归，是人。"
+  },
+  {
+    "month": "November",
+    "weekday": "Saturday",
+    "quoteEn": "Someone asked, \"What is love?\" I answered, \"You will know when you become like me!\"",
+    "day": 285,
+    "type": "day",
+    "id": "day-285",
+    "quoteZh": "有人问：“爱是什么？”\n我答道：“当你变得像我一样时，你便会知道。”"
+  },
+  {
+    "month": "November",
+    "weekday": "Sunday",
+    "quoteEn": "\"When love has no care for him, he is left as a bird without wings. Alas for him then!\"",
+    "day": 286,
+    "type": "day",
+    "id": "day-286",
+    "quoteZh": "当爱不再眷顾他，他便如无翼之鸟被遗落。那时的他，何其可叹！"
+  },
+  {
+    "month": "November",
+    "weekday": "Monday",
+    "quoteEn": "If you bring a hundred sacks of gold, O rich man, God will say, 'Bring the heart, O you that are prostrated in devotion.\"",
+    "day": 287,
+    "type": "day",
+    "id": "day-287",
+    "quoteZh": "富有的人啊，即使你带来百袋黄金，真主也会说：“虔敬叩拜的人啊，把心带来。”"
+  },
+  {
+    "month": "November",
+    "weekday": "Tuesday",
+    "quoteEn": "\"The prosperity and wealth of this palace are a chain for the restless soul. However, the soul is deceived by that gold chain,\nand therefore, could not pass over that desert (the world), and remained in that well-hole.\nThat well-hole is heaven in outlook, but it, in fact, is a hell. It is rose-faced in appearance, but, is, in fact, a poisonous\nserpent.\nO, immature fellows! Take care of that rose-faced one; for, that rose-faced one is in hell, it is a hell in this age of\nconversation.\"",
+    "day": 288,
+    "type": "day",
+    "id": "day-288",
+    "quoteZh": "这座宫殿的繁华与财富，是套住不安灵魂的锁链。然而灵魂被那金链所迷惑，\n于是不能越过那片荒漠——这尘世，便滞留在那口井穴之中。\n那井穴外观看似天堂，实则是地狱；表面如玫瑰般美丽，实则是毒蛇。\n未成熟的人啊！当心那玫瑰般的面容；因为那玫瑰之面就在地狱之中，在这个言谈的时代，它本身就是地狱。"
+  },
+  {
+    "month": "November",
+    "weekday": "Wednesday",
+    "quoteEn": "Love is the whole thing.\nWe are only pieces.\nLove is the sea of no end.\nWe are a drop of it.\nHe brings forth hundreds of proofs.\nWe can find our way only through them.",
+    "day": 289,
+    "type": "day",
+    "id": "day-289",
+    "quoteZh": "爱是全部。\n我们只是碎片。\n爱是无尽之海。\n我们只是其中一滴。\n祂显出千百种明证。\n我们唯有凭借它们，才能找到归途。"
+  },
+  {
+    "month": "November",
+    "weekday": "Thursday",
+    "quoteEn": "The intellectual quest is exquisite like pearls and coral,\nBut it is not the same as the spiritual quest.\nThe spiritual quest is on another level altogether,\nSpiritual wine has a subtler taste.\nThe intellect and the senses investigate cause and effect.\nThe spiritual seeker surrenders to the wonder.",
+    "day": 290,
+    "type": "day",
+    "id": "day-290",
+    "quoteZh": "理智的探寻精美如珍珠与珊瑚，\n却不同于灵性的寻求。\n灵性的寻求全然在另一重境界，\n灵性的酒有更幽微的滋味。\n理智与感官追问因果，\n灵性的寻求者则把自己交付给惊奇。"
+  },
+  {
+    "month": "November",
+    "weekday": "Friday",
+    "quoteEn": "The book of Sufi wisdom\nIs not written on the blank page,\nBut on a heart white as virgin snow.",
+    "day": 291,
+    "type": "day",
+    "id": "day-291",
+    "quoteZh": "苏菲智慧之书，\n并非写在空白的纸页上，\n而是写在一颗洁白如初雪的心上。"
+  },
+  {
+    "month": "November",
+    "weekday": "Saturday",
+    "quoteEn": "Every enemy is your medicine, your beneficial alchemy and heart healing.",
+    "day": 292,
+    "type": "day",
+    "id": "day-292",
+    "quoteZh": "每一个敌人，都是你的药，是有益于你的炼金术，也是医治你心的良方。"
+  },
+  {
+    "month": "November",
+    "weekday": "Sunday",
+    "quoteEn": "The lover's cause is separate from all other causes\nLove is the astrolabe of God's mysteries",
+    "day": 293,
+    "type": "day",
+    "id": "day-293",
+    "quoteZh": "爱者的缘由，不同于一切缘由；\n爱是真主奥秘的星盘。"
+  },
+  {
+    "month": "November",
+    "weekday": "Monday",
+    "quoteEn": "Love is the Water of Life.",
+    "day": 294,
+    "type": "day",
+    "id": "day-294",
+    "quoteZh": "爱，是生命之水。"
+  },
+  {
+    "month": "November",
+    "weekday": "Tuesday",
+    "quoteEn": "You are the pump of my pulse, so the good or bad I do is due to you. Now my eyesight's going, which is also your fault,\nsince you're the light points in my eyes!",
+    "day": 295,
+    "type": "day",
+    "id": "day-295",
+    "quoteZh": "你是我脉搏的泵动，所以我所行的善与恶，都因你而起。如今我的视力渐渐消逝，这也是你的过错，\n因为你正是我眼中的光点！"
+  },
+  {
+    "month": "November",
+    "weekday": "Wednesday",
+    "quoteEn": "Inside the Great Mystery that is, we don't really own anything. So what is this competition we feel then, before we go\nthrough the same gate, one at a time?",
+    "day": 296,
+    "type": "day",
+    "id": "day-296",
+    "quoteZh": "在那如是存在的伟大奥秘之中，我们其实并不真正拥有任何东西。那么，在我们一个接一个穿过\n同一道门之前，心中所感到的争竞又是什么呢？"
+  },
+  {
+    "month": "November",
+    "weekday": "Thursday",
+    "quoteEn": "Everyone has been made for some particular work, and the desire for that work has been put in every heart.",
+    "day": 297,
+    "type": "day",
+    "id": "day-297",
+    "quoteZh": "每个人都为某一种特定的工作而被造，而对那工作的渴望，已被安放在每一颗心中。"
+  },
+  {
+    "month": "November",
+    "weekday": "Friday",
+    "quoteEn": "Sell your cleverness and buy bewilderment.",
+    "day": 298,
+    "type": "day",
+    "id": "day-298",
+    "quoteZh": "卖掉你的聪明，买来惊奇与迷醉。"
+  },
+  {
+    "month": "November",
+    "weekday": "Saturday",
+    "quoteEn": "Return from existence to nonexistence. You are seeking the Lord and you belong to him. Nonexistence is a place of income;\nflee it not. This existence of more and less is a place of expenditure.",
+    "day": 299,
+    "type": "day",
+    "id": "day-299",
+    "quoteZh": "从存在归回非存在。你在寻求主，而你本属于他。非存在是收入之地；\n不要逃离它。这有多有少的存在，才是耗费之地。"
+  },
+  {
+    "month": "November",
+    "weekday": "Sunday",
+    "quoteEn": "Don't grieve. Anything you lose comes round in another form.",
+    "day": 300,
+    "type": "day",
+    "id": "day-300",
+    "quoteZh": "不要悲伤。你所失去的一切，都会以另一种形态归来。"
+  },
+  {
+    "month": "November",
+    "weekday": "Monday",
+    "quoteEn": "Stay in the company of lovers. Those other kinds of people, they each want to show you something. A crow will lead you to\nan empty barn, a parrot to sugar.",
+    "day": 301,
+    "type": "day",
+    "id": "day-301",
+    "quoteZh": "与爱者为伴。其他那些人，各自都想带你去看些什么。乌鸦会把你引向\n空谷仓，鹦鹉会把你引向糖。"
+  },
+  {
+    "month": "November",
+    "weekday": "Tuesday",
+    "quoteEn": "The moon sheds light and the dog barks: everyone proceeds according to his nature.",
+    "day": 302,
+    "type": "day",
+    "id": "day-302",
+    "quoteZh": "月亮洒下清光，犬在一旁吠叫；万物各依自己的本性而行。"
+  },
+  {
+    "month": "November",
+    "weekday": "Wednesday",
+    "quoteEn": "Colorlessness is the origin of colors, states of peace are the origins of wars.",
+    "day": 303,
+    "type": "day",
+    "id": "day-303",
+    "quoteZh": "无色是一切色彩的本源，平和之境亦是战争的源头。"
+  },
+  {
+    "month": "November",
+    "weekday": "Thursday",
+    "quoteEn": "If you are thirsting for the spiritual Ocean, make a breach in the island of the Masnavi.\nMake such a significant breach that you will see the Masnavi be only spiritual at every moment.",
+    "day": 304,
+    "type": "day",
+    "id": "day-304",
+    "quoteZh": "若你渴望灵性之海，就在《玛斯纳维》这座岛上打开一道缺口。\n打开一道如此深要的缺口，使你时时看见，《玛斯纳维》唯有灵性。"
+  },
+  {
+    "month": "November",
+    "weekday": "Friday",
+    "quoteEn": "What is the heart? It's not human, and it is not imaginary. I call it you!",
+    "day": 305,
+    "type": "day",
+    "id": "day-305",
+    "quoteZh": "心是什么？它并非凡人，也并非想象。我称它为你！"
+  },
+  {
+    "month": "November",
+    "weekday": "Saturday",
+    "quoteEn": "What you say is as much as your understanding. True understandings, that's what I deadly feel the absence of.",
+    "day": 306,
+    "type": "day",
+    "id": "day-306",
+    "quoteZh": "你所说的，只与你的理解相称。真正的理解，正是我深深感到缺席之物。"
+  },
+  {
+    "month": "November",
+    "weekday": "Sunday",
+    "quoteEn": "Find the sweetness in your own heart so that you may find the sweetness in every Heart.",
+    "day": 307,
+    "type": "day",
+    "id": "day-307",
+    "quoteZh": "在你自己的心中找到甘美，如此你便能在每一颗心中找到甘美。"
+  },
+  {
+    "type": "month",
+    "month": "December",
+    "monthIndex": 12,
+    "quoteEn": "Now is the time to say new thing.",
+    "id": "month-12",
+    "quoteZh": "此刻，正是说出新事物的时候。"
+  },
+  {
+    "month": "December",
+    "weekday": "Monday",
+    "quoteEn": "If any one abandons the world by his own act of renunciation, the world comes to him with homage more and more.",
+    "day": 308,
+    "type": "day",
+    "id": "day-308",
+    "quoteZh": "若有人凭自己的弃绝之行舍离世界，世界反而会带着越来越深的敬意来到他面前。"
+  },
+  {
+    "month": "December",
+    "weekday": "Tuesday",
+    "quoteEn": "Let the beauty of what you love to be what you do.",
+    "day": 309,
+    "type": "day",
+    "id": "day-309",
+    "quoteZh": "让你所爱的美，成为你所做的事。"
+  },
+  {
+    "month": "December",
+    "weekday": "Wednesday",
+    "quoteEn": "Only from the heart, you can touch the sky.",
+    "day": 310,
+    "type": "day",
+    "id": "day-310",
+    "quoteZh": "唯有从心出发，你才能触摸天空。"
+  },
+  {
+    "month": "December",
+    "weekday": "Thursday",
+    "quoteEn": "When we are dead, seek not our tomb in the earth,\nbut find it in the hearts of men",
+    "day": 311,
+    "type": "day",
+    "id": "day-311",
+    "quoteZh": "当我们死去，不要在大地中寻觅我们的坟墓，\n而要在众人的心里找到它。"
+  },
+  {
+    "month": "December",
+    "weekday": "Friday",
+    "quoteEn": "The Beloved you seek is none other than you.",
+    "day": 312,
+    "type": "day",
+    "id": "day-312",
+    "quoteZh": "你所寻觅的挚爱，原来不是别人，正是你自己。"
+  },
+  {
+    "month": "December",
+    "weekday": "Saturday",
+    "quoteEn": "Love is from the infinite and will remain until eternity.\nThe seeker of love escapes the chains of birth and death.\nTomorrow, when resurrection comes,\nThe heart that is not in love will fail the test",
+    "day": 313,
+    "type": "day",
+    "id": "day-313",
+    "quoteZh": "爱来自无穷，也将存留至永恒。\n寻爱之人，挣脱生死的锁链。\n明日，当复活来临，\n不在爱中的心，终将经不起考验。"
+  },
+  {
+    "month": "December",
+    "weekday": "Sunday",
+    "quoteEn": "Through love, thorns become roses, and\nThrough love, vinegar becomes sweet wine.",
+    "day": 314,
+    "type": "day",
+    "id": "day-314",
+    "quoteZh": "因着爱，荆棘化作玫瑰；\n因着爱，酸醋化作甜酒。"
+  },
+  {
+    "month": "December",
+    "weekday": "Monday",
+    "quoteEn": "Y tent is not a tent, it is a continent\nMy jest is not a jest, it is a lesson.",
+    "day": 315,
+    "type": "day",
+    "id": "day-315",
+    "quoteZh": "我的帐篷不是帐篷，而是一片大陆；\n我的玩笑不是玩笑，而是一堂教诲。"
+  },
+  {
+    "month": "December",
+    "weekday": "Tuesday",
+    "quoteEn": "He who can't see the hand that affects the writing fancies the effect proceeds from the pen's motion.",
+    "day": 316,
+    "type": "day",
+    "id": "day-316",
+    "quoteZh": "看不见那只执笔之手的人，便以为字迹出自笔自身的移动。"
+  },
+  {
+    "month": "December",
+    "weekday": "Wednesday",
+    "quoteEn": "The flow of speech from the heart is a sign of friendship. Conversely, being tongue-tied arises from a lack\nof intimacy.",
+    "day": 317,
+    "type": "day",
+    "id": "day-317",
+    "quoteZh": "话语从心中流出，是友爱的征兆。相反，舌头打结，常是亲密不足所致。"
+  },
+  {
+    "month": "December",
+    "weekday": "Thursday",
+    "quoteEn": "Purify yourself of your own attributes, that you may behold your own pure, untarnished essence.",
+    "day": 318,
+    "type": "day",
+    "id": "day-318",
+    "quoteZh": "洗净你自身的种种属性，好让你看见自己纯净无瑕的本质。"
+  },
+  {
+    "month": "December",
+    "weekday": "Friday",
+    "quoteEn": "I would have liked to explain this secret to everyone, but I fear that some week-minded man may stumble\nand fall over his own protest.",
+    "day": 319,
+    "type": "day",
+    "id": "day-319",
+    "quoteZh": "我本愿向众人说明这个秘密，却又担心某个心智薄弱的人会绊倒，\n跌在他自己的抗拒之上。"
+  },
+  {
+    "month": "December",
+    "weekday": "Saturday",
+    "quoteEn": "Without a doubt, the action is the practice of theory. Therefore man only exists in the pupil of the eye",
+    "day": 320,
+    "type": "day",
+    "id": "day-320",
+    "quoteZh": "毫无疑问，行动是理论的修行。因此，人只存在于眼眸的瞳仁之中。"
+  },
+  {
+    "month": "December",
+    "weekday": "Sunday",
+    "quoteEn": "When you forget yourself, you re-remembered. When you are enslaved, they set you free.",
+    "day": 321,
+    "type": "day",
+    "id": "day-321",
+    "quoteZh": "当你忘却自己，你便重新被记起；当你沦为奴仆，他们便使你自由。"
+  },
+  {
+    "month": "December",
+    "weekday": "Monday",
+    "quoteEn": "To become a whole human being, do not waste your thoughts on earthly riches, food, or drink, so you don't become a slave\nto your desires.",
+    "day": 322,
+    "type": "day",
+    "id": "day-322",
+    "quoteZh": "若要成为完整的人，就不要把心思耗费在尘世的财富、饮食之上，免得你沦为欲望的奴仆。"
+  },
+  {
+    "month": "December",
+    "weekday": "Tuesday",
+    "quoteEn": "Knowledge is the seal of the kingdom of Solomon. The whole world is like a corpse, and knowledge is its spirit.",
+    "day": 323,
+    "type": "day",
+    "id": "day-323",
+    "quoteZh": "知识是所罗门王国的印玺。整个世界如同一具躯壳，而知识便是它的灵魂。"
+  },
+  {
+    "month": "December",
+    "weekday": "Wednesday",
+    "quoteEn": "Whether good or evil, every human being has an angelic friend just like himself.",
+    "day": 324,
+    "type": "day",
+    "id": "day-324",
+    "quoteZh": "无论善恶，每个人都有一位与自己相似的天使之友。"
+  },
+  {
+    "month": "December",
+    "weekday": "Thursday",
+    "quoteEn": "Understand everything by considering its opposite.",
+    "day": 325,
+    "type": "day",
+    "id": "day-325",
+    "quoteZh": "要理解万物，就从它的对立面去观照。"
+  },
+  {
+    "month": "December",
+    "weekday": "Friday",
+    "quoteEn": "Until you abandon your toys you are still a child. Without purifying your spirit, how can you be clean?",
+    "day": 326,
+    "type": "day",
+    "id": "day-326",
+    "quoteZh": "直到你舍弃手中的玩物，你仍只是孩童。若不净化你的灵魂，又怎能称得上洁净？"
+  },
+  {
+    "month": "December",
+    "weekday": "Saturday",
+    "quoteEn": "Go, seek one who is a friend of yours. That friend no doubt wants what is good for his friend.",
+    "day": 327,
+    "type": "day",
+    "id": "day-327",
+    "quoteZh": "去吧，去寻那位真正的朋友。毫无疑问，朋友所愿的，必是朋友的益处。"
+  },
+  {
+    "month": "December",
+    "weekday": "Sunday",
+    "quoteEn": "Everything turns toward what it deserves.",
+    "day": 328,
+    "type": "day",
+    "id": "day-328",
+    "quoteZh": "万物都会转向它所配得之处。"
+  },
+  {
+    "month": "December",
+    "weekday": "Monday",
+    "quoteEn": "Intelligence is the arm, the wings of man. When he lacks intelligence, he must rely on the intelligence of a guide.",
+    "day": 329,
+    "type": "day",
+    "id": "day-329",
+    "quoteZh": "智慧是人的臂膀，是人的双翼。若他缺少智慧，就必须倚靠向导的智慧。"
+  },
+  {
+    "month": "December",
+    "weekday": "Tuesday",
+    "quoteEn": "Love is thirsty and seeks the thirsty.",
+    "day": 330,
+    "type": "day",
+    "id": "day-330",
+    "quoteZh": "爱本身干渴，也寻觅干渴的人。"
+  },
+  {
+    "month": "December",
+    "weekday": "Wednesday",
+    "quoteEn": "Don't worry about what is past. Don't go into mourning for a missed opportunity.",
+    "day": 331,
+    "type": "day",
+    "id": "day-331",
+    "quoteZh": "不要为过去忧心。不要为错失的机缘披上丧服。"
+  },
+  {
+    "month": "December",
+    "weekday": "Thursday",
+    "quoteEn": "Be grateful, not seduced by vanity, and do not give yourself so much importance.",
+    "day": 332,
+    "type": "day",
+    "id": "day-332",
+    "quoteZh": "要心怀感恩，不被虚荣诱惑，也不要把自己看得太重。"
+  },
+  {
+    "month": "December",
+    "weekday": "Friday",
+    "quoteEn": "Be a friend, that you may have countless friends ; but if you are not a friend yourself, you will be friendless and helpless.",
+    "day": 333,
+    "type": "day",
+    "id": "day-333",
+    "quoteZh": "成为朋友，你便会拥有无数朋友；若你自己不是朋友，便会无友可依，孤立无援。"
+  },
+  {
+    "month": "December",
+    "weekday": "Saturday",
+    "quoteEn": "When you know at a door, at least a head will come forth from it. İ f you dig soil from a pit in the ground every day, you\nwill eventually reach pure water.",
+    "day": 334,
+    "type": "day",
+    "id": "day-334",
+    "quoteZh": "当你叩一扇门，至少会有一颗头从门内探出。若你日日从地上的坑中掘土，\n终将抵达清澈的水。"
+  },
+  {
+    "month": "December",
+    "weekday": "Sunday",
+    "quoteEn": "I look at his spirit; you look at his color.",
+    "day": 335,
+    "type": "day",
+    "id": "day-335",
+    "quoteZh": "我看见他的灵魂；你只看见他的肤色。"
+  }
+]
