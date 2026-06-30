@@ -263,14 +263,14 @@ function loadImage(src) {
 function posterSections() {
   const sections = [];
   if (language !== "en") {
-    sections.push({ label: "诗性默想", text: currentEntry?.quoteZh || "", font: "36px 'Noto Serif SC', serif", line: 58 });
-    sections.push({ label: "内在提问", text: currentInquiry?.zh || "", font: "29px 'Noto Serif SC', serif", line: 46 });
-    sections.push({ label: "今日练习", text: currentPractice?.zh || "", font: "29px 'Noto Serif SC', serif", line: 46 });
+    sections.push({ label: "诗性默想", text: currentEntry?.quoteZh || "", font: "42px 'Noto Serif SC', serif", line: 66, maxLines: 11 });
+    sections.push({ label: "内在提问", text: currentInquiry?.zh || "", font: "33px 'Noto Serif SC', serif", line: 52, maxLines: 4 });
+    sections.push({ label: "今日练习", text: currentPractice?.zh || "", font: "33px 'Noto Serif SC', serif", line: 52, maxLines: 4 });
   }
   if (language !== "zh") {
-    sections.push({ label: "Poetic Meditation", text: currentEntry?.quoteEn || "", font: "28px Georgia, serif", line: 43 });
-    sections.push({ label: "Inner Inquiry", text: currentInquiry?.en || "", font: "24px Georgia, serif", line: 37 });
-    sections.push({ label: "Practice", text: currentPractice?.en || "", font: "24px Georgia, serif", line: 37 });
+    sections.push({ label: "Poetic Meditation", text: currentEntry?.quoteEn || "", font: "31px Georgia, serif", line: 47, maxLines: 8 });
+    sections.push({ label: "Inner Inquiry", text: currentInquiry?.en || "", font: "27px Georgia, serif", line: 42, maxLines: 3 });
+    sections.push({ label: "Practice", text: currentPractice?.en || "", font: "27px Georgia, serif", line: 42, maxLines: 3 });
   }
   return sections;
 }
@@ -288,17 +288,11 @@ async function generatePoster() {
   }
 
   const width = 1080;
-  const margin = 88;
+  const height = 1920;
+  const margin = 86;
   const contentWidth = width - margin * 2;
-  const qrSize = 178;
-  const measure = document.createElement("canvas").getContext("2d");
+  const qrSize = 190;
   const sections = posterSections();
-  let estimatedHeight = 310;
-  sections.forEach((section) => {
-    measure.font = section.font;
-    estimatedHeight += 46 + wrapLines(measure, section.text, contentWidth).length * section.line + 30;
-  });
-  const height = Math.max(1500, Math.min(2600, estimatedHeight + 260));
   const canvas = document.createElement("canvas");
   canvas.width = width;
   canvas.height = height;
@@ -327,9 +321,9 @@ async function generatePoster() {
   ctx.strokeRect(56, 52, width - 112, height - 104);
 
   const figureX = margin;
-  const figureY = 78;
-  const figureWidth = 230;
-  const figureHeight = 288;
+  const figureY = 84;
+  const figureWidth = 250;
+  const figureHeight = 312;
   ctx.save();
   ctx.shadowColor = "rgba(77, 52, 29, 0.2)";
   ctx.shadowBlur = 28;
@@ -339,33 +333,31 @@ async function generatePoster() {
 
   const titleX = figureX + figureWidth + 36;
   ctx.fillStyle = "#a14f2a";
-  ctx.font = "800 22px Inter, sans-serif";
-  ctx.fillText("Rumi 365 Daily Practice", titleX, 126);
+  ctx.font = "800 24px Inter, sans-serif";
+  ctx.fillText("Rumi 365 Daily Practice", titleX, 130);
   ctx.fillStyle = "#202124";
-  ctx.font = "700 66px 'Noto Serif SC', Georgia, serif";
-  ctx.fillText("鲁米诗歌365", titleX, 208);
-  ctx.font = "600 30px Inter, sans-serif";
+  ctx.font = "700 74px 'Noto Serif SC', Georgia, serif";
+  ctx.fillText("鲁米诗歌365", titleX, 218);
+  ctx.font = "600 32px Inter, sans-serif";
   ctx.fillStyle = "#65625d";
-  ctx.fillText("365 Days with Rumi", titleX, 258);
-  ctx.font = "600 26px 'Noto Serif SC', Inter, sans-serif";
+  ctx.fillText("365 Days with Rumi", titleX, 274);
+  ctx.font = "600 29px 'Noto Serif SC', Inter, sans-serif";
   ctx.fillStyle = "#a14f2a";
-  ctx.fillText(formatDisplayDate(currentDate), titleX, 304);
+  ctx.fillText(formatDisplayDate(currentDate), titleX, 325);
 
-  let y = 456;
+  let y = 472;
   sections.forEach((section) => {
     ctx.fillStyle = "#1f6f6a";
-    ctx.font = "800 21px Inter, sans-serif";
+    ctx.font = "800 24px Inter, sans-serif";
     ctx.fillText(section.label, margin, y);
-    y += 42;
+    y += 48;
     ctx.fillStyle = "#202124";
     ctx.font = section.font;
-    y = drawWrappedText(ctx, section.text, margin, y, contentWidth, section.line, {
-      maxLines: section.label === "Poetic Meditation" || section.label === "诗性默想" ? 13 : 5,
-    });
-    y += 38;
+    y = drawWrappedText(ctx, section.text, margin, y, contentWidth, section.line, { maxLines: section.maxLines });
+    y += 34;
   });
 
-  const footerY = height - 235;
+  const footerY = height - 255;
   ctx.strokeStyle = "#ded2bd";
   ctx.lineWidth = 2;
   ctx.beginPath();
@@ -376,10 +368,10 @@ async function generatePoster() {
   const url = getShareUrl();
   drawPosterQr(ctx, url, width - margin - qrSize, footerY + 38, qrSize);
   ctx.fillStyle = "#65625d";
-  ctx.font = "600 22px Inter, sans-serif";
-  ctx.fillText("长按二维码访问网站", margin, footerY + 88);
-  ctx.font = "500 20px Inter, sans-serif";
-  drawWrappedText(ctx, url, margin, footerY + 128, width - margin * 2 - qrSize - 42, 30, { maxLines: 2 });
+  ctx.font = "600 26px Inter, sans-serif";
+  ctx.fillText("长按二维码访问网站", margin, footerY + 92);
+  ctx.font = "500 22px Inter, sans-serif";
+  drawWrappedText(ctx, url, margin, footerY + 136, width - margin * 2 - qrSize - 48, 34, { maxLines: 2 });
 
   const dataUrl = canvas.toDataURL("image/png");
   els.posterPreview.src = dataUrl;
