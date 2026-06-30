@@ -103,6 +103,7 @@ let currentInquiry = null;
 let currentPractice = null;
 let posterBackground = null;
 let currentDate = new Date();
+const basePath = window.__RUMI_BASE_PATH__ || "/";
 
 function dayOfYear(date) {
   const start = new Date(date.getFullYear(), 0, 0);
@@ -113,6 +114,34 @@ function dayOfYear(date) {
 function entryDayForDate(date) {
   if (!dailyEntries.length) return 1;
   return ((dayOfYear(date) - 1) % dailyEntries.length) + 1;
+}
+
+function dateFromRoute() {
+  const path = window.location.pathname;
+  const relative = path.startsWith(basePath) ? path.slice(basePath.length) : path.replace(/^\/+/, "");
+  const parts = relative.split("/").filter(Boolean);
+  if (parts.length < 2) return null;
+  const month = Number(parts[0]);
+  const day = Number(parts[1]);
+  if (!Number.isInteger(month) || !Number.isInteger(day)) return null;
+  const year = new Date().getFullYear();
+  const date = new Date(year, month - 1, day, 12);
+  if (date.getFullYear() !== year || date.getMonth() !== month - 1 || date.getDate() !== day) return null;
+  return date;
+}
+
+function routeForDate(date) {
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  return `${basePath}${month}/${day}`;
+}
+
+function showDate(date, options = {}) {
+  currentDate = date;
+  render(entryDayForDate(date));
+  if (options.updateUrl) {
+    window.history.pushState({}, "", routeForDate(date));
+  }
 }
 
 function formatDisplayDate(date) {
@@ -390,14 +419,13 @@ async function loadData() {
   records = await response.json();
   dailyEntries = records.filter((item) => item.type === "day");
   setLanguage(language);
-  currentDate = new Date();
-  render(entryDayForDate(currentDate));
+  showDate(dateFromRoute() || new Date());
 }
 
 els.todayButton.addEventListener("click", () => {
-  currentDate = new Date();
-  render(entryDayForDate(currentDate));
+  showDate(new Date(), { updateUrl: true });
 });
+window.addEventListener("popstate", () => showDate(dateFromRoute() || new Date()));
 els.shareButton.addEventListener("click", generatePoster);
 els.saveButton.addEventListener("click", saveJournal);
 els.clearButton.addEventListener("click", () => {
