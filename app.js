@@ -263,14 +263,14 @@ function loadImage(src) {
 function posterSections() {
   const sections = [];
   if (language !== "en") {
-    sections.push({ label: "诗性默想", text: currentEntry?.quoteZh || "", font: "42px 'Noto Serif SC', serif", line: 66, maxLines: 11 });
-    sections.push({ label: "内在提问", text: currentInquiry?.zh || "", font: "33px 'Noto Serif SC', serif", line: 52, maxLines: 4 });
-    sections.push({ label: "今日练习", text: currentPractice?.zh || "", font: "33px 'Noto Serif SC', serif", line: 52, maxLines: 4 });
+    sections.push({ label: "诗性默想", text: currentEntry?.quoteZh || "", font: "42px 'Noto Serif SC', serif", line: 66, maxLines: language === "both" ? 7 : 12 });
+    sections.push({ label: "内在提问", text: currentInquiry?.zh || "", font: "33px 'Noto Serif SC', serif", line: 52, maxLines: language === "both" ? 3 : 4 });
+    sections.push({ label: "今日练习", text: currentPractice?.zh || "", font: "33px 'Noto Serif SC', serif", line: 52, maxLines: language === "both" ? 3 : 4 });
   }
   if (language !== "zh") {
-    sections.push({ label: "Poetic Meditation", text: currentEntry?.quoteEn || "", font: "31px Georgia, serif", line: 47, maxLines: 8 });
-    sections.push({ label: "Inner Inquiry", text: currentInquiry?.en || "", font: "27px Georgia, serif", line: 42, maxLines: 3 });
-    sections.push({ label: "Practice", text: currentPractice?.en || "", font: "27px Georgia, serif", line: 42, maxLines: 3 });
+    sections.push({ label: "Poetic Meditation", text: currentEntry?.quoteEn || "", font: "31px Georgia, serif", line: 47, maxLines: language === "both" ? 5 : 10 });
+    sections.push({ label: "Inner Inquiry", text: currentInquiry?.en || "", font: "27px Georgia, serif", line: 42, maxLines: 2 });
+    sections.push({ label: "Practice", text: currentPractice?.en || "", font: "27px Georgia, serif", line: 42, maxLines: 2 });
   }
   return sections;
 }
@@ -293,6 +293,7 @@ async function generatePoster() {
   const contentWidth = width - margin * 2;
   const qrSize = 190;
   const sections = posterSections();
+  const footerY = height - 255;
   const canvas = document.createElement("canvas");
   canvas.width = width;
   canvas.height = height;
@@ -347,17 +348,20 @@ async function generatePoster() {
 
   let y = 472;
   sections.forEach((section) => {
+    if (y > footerY - 84) return;
     ctx.fillStyle = "#1f6f6a";
     ctx.font = "800 24px Inter, sans-serif";
     ctx.fillText(section.label, margin, y);
     y += 48;
     ctx.fillStyle = "#202124";
     ctx.font = section.font;
-    y = drawWrappedText(ctx, section.text, margin, y, contentWidth, section.line, { maxLines: section.maxLines });
+    const remainingLines = Math.max(1, Math.floor((footerY - y - 34) / section.line));
+    y = drawWrappedText(ctx, section.text, margin, y, contentWidth, section.line, {
+      maxLines: Math.min(section.maxLines, remainingLines),
+    });
     y += 34;
   });
 
-  const footerY = height - 255;
   ctx.strokeStyle = "#ded2bd";
   ctx.lineWidth = 2;
   ctx.beginPath();
@@ -377,7 +381,7 @@ async function generatePoster() {
   els.posterPreview.src = dataUrl;
   els.downloadPoster.href = dataUrl;
   els.posterOutput.hidden = false;
-  els.shareStatus.textContent = "右下角二维码可长按访问网站";
+  els.shareStatus.textContent = "9:16 海报已生成，右下角二维码可长按访问网站";
 }
 
 async function loadData() {
