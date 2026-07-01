@@ -365,6 +365,22 @@ textarea {
   text-decoration: none;
 }
 
+.site-footer {
+  display: flex;
+  justify-content: center;
+  padding: 26px 0 4px;
+}
+
+.site-footer a {
+  color: var(--rust-dark);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--teal);
+}
+
 body.lang-zh .lang-en,
 body.lang-en .lang-zh {
   display: none;
