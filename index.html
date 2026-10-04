@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Serif+SC:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261004-v3" />
+  <link rel="stylesheet" href="./styles.css?v=20261004-v4" />
 </head>
 <body class="mystic-home">
   <div class="scroll-thread" aria-hidden="true"><span></span></div>
@@ -25,7 +25,7 @@
       <a href="./biography/">鲁米传记</a>
       <a href="./thought/">鲁米思想</a>
       <a href="./poetry/">诗歌数据库</a>
-      <a href="#journey">内在探索</a>
+      <a href="./journey/">内在探索</a>
       <a href="#lab">研究室</a>
       <a class="nav-accent" href="./daily/">365日课</a>
     </nav>
@@ -249,45 +249,52 @@
     </section>
 
     <section class="section journey" id="journey">
-      <div class="section-heading">
-        <p class="eyebrow">内在探索</p>
-        <h2 class="display-title"><span>不是解释鲁米，</span><span>而是让诗成为一面镜子</span></h2>
-        <p>这里的练习不替你下结论，也不把诗歌变成心理测验；它只是为阅读创造更慢、更真实的条件。</p>
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">RUMI INNER JOURNEY · 内在探索</p>
+          <h2 class="display-title"><span>让诗成为一面镜子，</span><span>也成为一条可以走的路</span></h2>
+        </div>
+        <p class="muted">不是把鲁米变成心理测验，而是从一首诗进入倾听、身体、书写、关系与行动，再把领悟带回现实生活。</p>
+      </div>
+
+      <div class="journey-gates-preview" aria-label="八道内在探索之门">
+        <a href="./journey/?gate=listen"><span>01</span><strong>倾听</strong><small>芦笛之门</small></a>
+        <a href="./journey/?gate=discern"><span>02</span><strong>辨认</strong><small>寻找之门</small></a>
+        <a href="./journey/?gate=mirror"><span>03</span><strong>照见</strong><small>心镜之门</small></a>
+        <a href="./journey/?gate=companionship"><span>04</span><strong>相遇</strong><small>同行之门</small></a>
+        <a href="./journey/?gate=fire"><span>05</span><strong>炼化</strong><small>火与爱之门</small></a>
+        <a href="./journey/?gate=release"><span>06</span><strong>松开</strong><small>海与空之门</small></a>
+        <a href="./journey/?gate=mystery"><span>07</span><strong>惊奇</strong><small>未知之门</small></a>
+        <a href="./journey/?gate=return"><span>08</span><strong>归返</strong><small>花园之门</small></a>
       </div>
 
       <div class="journey-grid">
         <article>
           <small>7 DAYS</small>
-          <h3>第一次遇见鲁米</h3>
-          <p>芦笛、渴望、沙姆斯、镜子、静默、爱、归返。</p>
-          <a href="#journey-detail" data-journey="7">查看旅程</a>
+          <h3>一首诗，一扇门</h3>
+          <p>用七天建立“慢读 → 静默 → 提问 → 书写 → 行动”的基本节奏。</p>
+          <a href="./journey/?path=7">进入七日路径 →</a>
         </article>
         <article>
           <small>21 DAYS</small>
-          <h3>与鲁米一起向内</h3>
-          <p>寻找 → 相遇 → 失去 → 空 → 爱 → 消融 → 返回生活。</p>
-          <a href="#journey-detail" data-journey="21">查看旅程</a>
+          <h3>从诗到生命</h3>
+          <p>精选七道门，每道停留三天，让文本、身体、关系与现实经验真正连接。</p>
+          <a href="./journey/?path=21">进入二十一日路径 →</a>
         </article>
         <article>
           <small>40 DAYS</small>
           <h3>鲁米之路</h3>
-          <p>把诗歌、静默、书写、深度聆听与现实生活放在同一条路上。</p>
-          <a href="#journey-detail" data-journey="40">查看旅程</a>
+          <p>较慢地走过八道门，最后回到关系、给予、边界与日常承担。</p>
+          <a href="./journey/?path=40">进入四十日路径 →</a>
         </article>
       </div>
 
-      <div id="journey-detail" class="journey-detail">
-        <p class="label">当前旅程</p>
-        <h3>7天 · 第一次遇见鲁米</h3>
-        <ol>
-          <li><strong>芦笛</strong>｜我从哪里来？</li>
-          <li><strong>渴望</strong>｜我真正寻找什么？</li>
-          <li><strong>沙姆斯</strong>｜谁曾真正看见我？</li>
-          <li><strong>镜子</strong>｜我如何看见自己？</li>
-          <li><strong>静默</strong>｜当语言停止，什么仍在？</li>
-          <li><strong>爱</strong>｜谁是爱者？谁是被爱者？</li>
-          <li><strong>归返</strong>｜我正在回到哪里？</li>
-        </ol>
+      <div class="journey-home-cta">
+        <div>
+          <strong>也可以不选天数。</strong>
+          <p>先从“我此刻正在经历什么”开始，系统会推荐一扇更适合现在的门。</p>
+        </div>
+        <a class="btn primary" href="./journey/#checkin">从此刻的处境开始 →</a>
       </div>
     </section>
 
@@ -389,6 +396,6 @@
     </div>
   </footer>
 
-  <script src="./app.js?v=20261004-v3"></script>
+  <script src="./app.js?v=20261004-v4"></script>
 </body>
 </html>

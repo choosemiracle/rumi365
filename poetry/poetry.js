@@ -104,6 +104,7 @@ function card(entry) {
           <div><dt>文本语境</dt><dd>${escapeHtml(entry.context)}</dd></div>
         </dl>
         <div class="entry-question"><strong>让诗照见我</strong><br>${escapeHtml(entry.question)}</div>
+        <a class="entry-journey-link" href="../journey/?poem=${encodeURIComponent(entry.id)}">用这首诗进入内在探索 →</a>
         <div class="entry-source">出处：${escapeHtml(entry.source)}</div>
       </details>
     </article>
@@ -129,6 +130,13 @@ async function init() {
     if (query) els.search.value = query;
 
     render();
+
+    if (window.location.hash) {
+      const targetId = decodeURIComponent(window.location.hash.slice(1));
+      requestAnimationFrame(() => {
+        document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    }
   } catch (error) {
     console.error(error);
     els.count.textContent = '诗歌数据库暂时无法读取。';

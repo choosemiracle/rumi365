@@ -122,6 +122,7 @@ button,input,select{font:inherit}
 .entry-detail dt{color:var(--rust);font:11px var(--sans)}
 .entry-detail dd{margin:0;color:#5a635e;font-size:13.5px}
 .entry-question{margin-top:15px;padding:14px 16px;border-radius:12px;background:var(--deep);color:#eef1ed;font-size:14px}
+.entry-journey-link{display:inline-block;margin-top:12px;padding-bottom:2px;border-bottom:1px solid rgba(141,76,67,.34);color:var(--rust);font:12px var(--sans)}
 .entry-source{margin-top:12px;color:var(--muted);font:11px var(--sans)}
 .atlas-wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:5vw;align-items:center}
 .atlas-wrap figure{margin:0;border-radius:22px;overflow:hidden;border:1px solid rgba(31,41,40,.1);box-shadow:var(--shadow)}
