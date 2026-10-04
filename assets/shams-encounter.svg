@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+<title id="title">鲁米与沙姆斯的抽象相遇图</title>
+<desc id="desc">两个不完全重叠的圆形光域与两条简洁的人形线条，象征相遇、映照与转化。</desc>
+<rect width="900" height="900" fill="#243a36"/>
+<g fill="none" stroke="#d8c49e">
+  <circle cx="370" cy="420" r="210" stroke-width="2" opacity=".72"/>
+  <circle cx="530" cy="420" r="210" stroke-width="2" opacity=".72"/>
+  <circle cx="450" cy="420" r="118" stroke-width="1" opacity=".36"/>
+  <circle cx="450" cy="420" r="290" stroke-width="1" opacity=".18"/>
+</g>
+<circle cx="450" cy="420" r="66" fill="#a58a58" opacity=".22"/>
+<g stroke="#f1eadf" stroke-width="5" fill="none" stroke-linecap="round">
+  <circle cx="355" cy="350" r="27"/>
+  <path d="M355 382C330 450 332 535 345 620M345 468L290 540M345 466L405 527"/>
+  <circle cx="545" cy="350" r="27"/>
+  <path d="M545 382C570 450 568 535 555 620M555 468L610 540M555 466L495 527"/>
+</g>
+<path d="M315 692C390 666 510 666 585 692" fill="none" stroke="#8b4f3d" stroke-width="4" stroke-linecap="round"/>
+</svg>

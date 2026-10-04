@@ -25,47 +25,47 @@ const weekdayZh = {
 
 const inquiries = [
   {
-    en: "What word or image in today's reading touches the most honest place in you?",
-    zh: "今日文字里，哪一个词或意象触碰了你里面最真实的地方？",
+    en: "Which word or image made you pause, even briefly?",
+    zh: "今日文字里，哪一个词或意象让你停了一下？",
   },
   {
-    en: "Where does this passage invite you to loosen control and return to the heart?",
-    zh: "这段话邀请你在哪件事上松开掌控，重新回到心？",
+    en: "Where does this passage touch your life as it is right now?",
+    zh: "这段文字与你此刻的生活，在哪里发生了联系？",
   },
   {
-    en: "What attachment, fear, or old identity is being named by this reading?",
-    zh: "这段文字照见了你怎样的执着、恐惧，或旧有身份？",
+    en: "What longing, fear, or attachment does this reading bring into view?",
+    zh: "这段文字照见了怎样的渴望、恐惧或执着？",
   },
   {
-    en: "If this reading became a prayer, what would it ask from the Beloved?",
-    zh: "若把这段文字化为祈祷，它会向挚爱者求什么？",
+    en: "If you do not explain the passage yet, what else can you hear in it?",
+    zh: "如果暂时不解释它，你还能从中听见什么？",
   },
   {
-    en: "What would be different today if you trusted this teaching for one small action?",
-    zh: "如果今天用一个小行动来信任这份教导，会有什么不同？",
+    en: "What is worth noticing today without rushing to change it?",
+    zh: "今天，有什么值得继续留意，而不急着改变？",
   },
 ];
 
 const practices = [
   {
-    en: "Read the passage aloud twice. After the second reading, sit in silence for five minutes and write one sentence.",
-    zh: "把今日文字朗读两遍。第二遍之后静坐五分钟，再写下一句话。",
+    en: "Read the passage aloud twice. After the second reading, sit in silence for three minutes and write one sentence.",
+    zh: "把今日文字朗读两遍。第二遍之后安静三分钟，再写下一句话。",
   },
   {
-    en: "Copy one line by hand. Let the handwriting slow your breath and reveal what the mind skips.",
-    zh: "手抄其中一句。让笔迹放慢呼吸，也让心看见头脑匆匆略过之处。",
+    en: "Copy one line by hand. Notice how your breath and body change as you slow down.",
+    zh: "手抄其中一句。放慢速度，同时留意呼吸和身体发生了什么。",
   },
   {
-    en: "Choose one phrase as a mantra. Carry it through a walk, a meal, or a difficult conversation.",
-    zh: "选一句作为今日默念。带着它散步、用餐，或进入一次不容易的交谈。",
+    en: "Choose one phrase to carry with you through a walk, a meal, or a difficult conversation.",
+    zh: "选一句带在今天身上。散步、用餐或进入一段不容易的交谈时，再想起它。",
   },
   {
-    en: "Place one hand on the heart. Ask, 'What is this teaching asking me to release?' Wait before answering.",
-    zh: "一只手放在心口，问：“这份教导请我释放什么？”先等待，再回答。",
+    en: "Close your eyes for one minute. Let one word from the reading remain, without trying to solve it.",
+    zh: "闭眼一分钟，只让诗中的一个词留下来，不急着理解或解决什么。",
   },
   {
-    en: "Turn the reading into a blessing for yourself and one other person.",
-    zh: "把今日文字化作祝福，送给自己，也送给另一个人。",
+    en: "Bring one line from today's reading into a real relationship or action, and notice what changes.",
+    zh: "把其中一句带进今天的一段关系或一个行动里，只观察有什么不同。",
   },
 ];
 
@@ -117,12 +117,19 @@ function entryDayForDate(date) {
 }
 
 function dateFromRoute() {
-  const path = window.location.pathname;
-  const relative = path.startsWith(basePath) ? path.slice(basePath.length) : path.replace(/^\/+/, "");
-  const parts = relative.split("/").filter(Boolean);
-  if (parts.length < 2) return null;
-  const month = Number(parts[0]);
-  const day = Number(parts[1]);
+  const dateParam = new URLSearchParams(window.location.search).get("date");
+  let month;
+  let day;
+
+  if (dateParam) {
+    [month, day] = dateParam.split("-").map(Number);
+  } else {
+    const path = window.location.pathname;
+    const relative = path.startsWith(basePath) ? path.slice(basePath.length) : "";
+    const parts = relative.split("/").filter(Boolean);
+    if (parts.length >= 2) [month, day] = parts.slice(0, 2).map(Number);
+  }
+
   if (!Number.isInteger(month) || !Number.isInteger(day)) return null;
   const year = new Date().getFullYear();
   const date = new Date(year, month - 1, day, 12);
@@ -133,7 +140,7 @@ function dateFromRoute() {
 function routeForDate(date) {
   const month = date.getMonth() + 1;
   const day = date.getDate();
-  return `${basePath}${month}/${day}`;
+  return `${basePath}?date=${month}-${day}`;
 }
 
 function showDate(date, options = {}) {
@@ -309,7 +316,7 @@ async function generatePoster() {
   els.shareStatus.textContent = "正在生成海报...";
   try {
     if (!posterBackground) {
-      posterBackground = await loadImage("assets/sufi-whirl-poster.png");
+      posterBackground = await loadImage("../assets/sufi-whirl-poster.png");
     }
   } catch (error) {
     els.shareStatus.textContent = "背景图加载失败，请刷新后重试";
@@ -414,7 +421,7 @@ async function generatePoster() {
 }
 
 async function loadData() {
-  const response = await fetch("data/rumi-days.json");
+  const response = await fetch("../data/rumi-days.json");
   if (!response.ok) throw new Error(`Unable to load data: ${response.status}`);
   records = await response.json();
   dailyEntries = records.filter((item) => item.type === "day");

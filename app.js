@@ -27,7 +27,7 @@ document.querySelectorAll('.theme-grid button').forEach(btn => {
     document.querySelectorAll('.theme-grid button').forEach(x => x.classList.remove('active'));
     btn.classList.add('active');
     document.querySelector('.theme-result').textContent =
-      '已选择「' + btn.dataset.theme + '」。下一版将优先把这一主题接入可追溯的诗歌条目与内在探索问题。';
+      '已选择「' + btn.dataset.theme + '」。这里将连接相关诗篇、核心意象、出处与内在探索问题。';
   });
 });
 
@@ -57,5 +57,5 @@ document.querySelectorAll('[data-journey]').forEach(link => {
 
 document.getElementById('check-quote')?.addEventListener('click', () => {
   const result = document.getElementById('quote-result');
-  result.textContent = '第一版只展示辨伪机制，不对这句话自动下结论。正式条目会显示：原典可查 / 意译 / 改写 / 尚未找到可靠原典，并附版本依据。';
+  result.textContent = '当前正在建设可追溯的辨伪索引。没有足够文本证据时，将明确标注“尚待核实”，而不是把网络流传语直接归给鲁米。';
 });

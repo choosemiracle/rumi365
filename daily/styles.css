@@ -43,6 +43,21 @@ button {
   padding: 24px 0 40px;
 }
 
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  margin: 0 0 14px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--rust-dark);
+  background: rgba(255, 253, 248, 0.72);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .hero {
   position: relative;
   min-height: min(690px, calc(100vh - 48px));
@@ -127,9 +142,10 @@ blockquote,
 
 h1 {
   margin: 0;
-  font-size: clamp(2.7rem, 8vw, 7.1rem);
-  line-height: 0.96;
-  letter-spacing: 0;
+  white-space: nowrap;
+  font-size: clamp(2.7rem, 7vw, 6rem);
+  line-height: 1.04;
+  letter-spacing: 0.01em;
 }
 
 .lede {
@@ -297,7 +313,19 @@ blockquote {
   top: 16px;
 }
 
+.journal-panel .panel-head {
+  display: block;
+}
+
+.journal-panel .panel-head h2 {
+  white-space: nowrap;
+  font-size: clamp(1.65rem, 2.4vw, 2.15rem);
+  line-height: 1.2;
+}
+
 #saveState {
+  display: block;
+  margin-top: 8px;
   color: var(--teal);
   font-size: 0.82rem;
   font-weight: 800;

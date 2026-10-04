@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="芦笛 RUMI：鲁米研究与内在探索。尊重原典与历史语境，也让诗重新进入今天的生命经验。" />
   <title>芦笛 · RUMI｜鲁米研究与内在探索</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css?v=20261004-2" />
 </head>
 <body>
   <header class="site-header">
@@ -20,62 +21,69 @@
       </span>
     </a>
     <nav class="main-nav" aria-label="主导航">
+      <a href="#poem-room">原典</a>
       <a href="#meet">认识鲁米</a>
-      <a href="#poetry">诗歌</a>
       <a href="#shams">沙姆斯</a>
       <a href="#themes">主题</a>
       <a href="#journey">内在探索</a>
       <a href="#lab">研究室</a>
-      <a href="./daily/">365日课</a>
+      <a class="nav-accent" href="./daily/">365日课</a>
     </nav>
     <button class="nav-toggle" aria-expanded="false" aria-label="打开导航">☰</button>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-copy">
+      <div class="hero-title-wrap">
         <p class="eyebrow">RUMI STUDIES · INNER JOURNEY</p>
-        <h1>从原典进入鲁米<br>从诗回到自己的生命</h1>
+        <h1 class="display-title hero-title">
+          <span>从原典进入鲁米，</span><span>从诗回到自己的生命</span>
+        </h1>
+      </div>
+
+      <div class="hero-copy">
         <p class="hero-lead">
-          一个关于鲁米生平、思想、诗歌与苏非传统的中文研究平台，
-          也是一个借由诗歌、静默、书写与对话进行内在探索的空间。
+          这里既研究鲁米的生平、作品、思想与苏非传统，
+          也尝试让一首诗成为可以停留、倾听、书写与对话的第三物。
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#meet">认识鲁米</a>
-          <a class="btn ghost" href="#poem-room">让一首诗带我进入</a>
-          <a class="btn ghost" href="./daily/">进入鲁米365日课</a>
+          <a class="btn primary" href="#poem-room">从一首诗开始</a>
+          <a class="btn ghost" href="#lab">进入鲁米研究室</a>
+          <a class="btn ghost" href="./daily/">鲁米365日课</a>
         </div>
+        <p class="hero-footnote">原典优先 · 版本可追溯 · 区分直译、诗译与现代改写</p>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="reed"></div>
-        <div class="ripple ripple-a"></div>
-        <div class="ripple ripple-b"></div>
-        <div class="ripple ripple-c"></div>
-      </div>
-      <div class="scroll-note">向下 · 进入</div>
+
+      <figure class="hero-visual">
+        <img src="./assets/reed-ripple.gif" alt="" width="720" height="720" />
+        <figcaption>
+          <span>REED · LISTENING · RETURN</span>
+          芦笛、倾听与归返
+        </figcaption>
+      </figure>
     </section>
 
     <section class="section today" id="poem-room">
       <div class="section-heading split">
         <div>
-          <p class="eyebrow">今日一诗</p>
-          <h2>先不解释，让诗停留一下</h2>
+          <p class="eyebrow">从原典开始</p>
+          <h2 class="display-title"><span>先不解释，</span><span>让诗停留一下</span></h2>
         </div>
-        <p class="muted">研究与探索，是进入同一首诗的两个方向。</p>
+        <p class="muted">研究与探索不是两条分开的路，而是进入同一首诗的两个方向。</p>
       </div>
 
       <article class="poem-card">
         <div class="poem-meta">
-          <span>主题：离别 · 渴望 · 归返</span>
-          <span>来源：第一版示例条目</span>
+          <span>《玛斯纳维》第一卷 · 《序诗》第1联</span>
+          <span>穆宏燕译 · 湖南文艺出版社</span>
         </div>
         <blockquote>
-          芦笛之所以歌唱，<br>
-          是因为它记得自己从哪里被割下。
+          请听这芦笛讲述些什么，<br>
+          它在把离愁和别恨诉说。
         </blockquote>
-        <p class="poem-note">
-          本站正式条目将同时标注原作、卷次、行号、波斯文、直译、诗译与版本来源；
-          本页目前以“产品原型”方式展示阅读结构，不把未经逐条核实的流行译句冒充原典。
+        <p class="poem-context">
+          《玛斯纳维》从“听”开始。芦笛不是装饰性的意象，而是整部作品的重要入口：
+          离开、渴望、寻找归宿，以及灵魂如何记得自己的来处。
         </p>
 
         <div class="dual-entry">
@@ -87,81 +95,96 @@
           <div class="grid two">
             <div>
               <p class="label">文本</p>
-              <h3>它究竟说了什么？</h3>
-              <p>进入原文、直译、诗译、出处与异译比较。第一版先把结构搭起来，后续逐首建立可追溯文本卡片。</p>
+              <h3>先确认它来自哪里</h3>
+              <p>正式诗歌条目会同时标注原作、卷次、行号、波斯文、转写、中文直译、诗译与异译比较。</p>
             </div>
             <div>
-              <p class="label">传统</p>
-              <h3>对鲁米而言，它意味着什么？</h3>
-              <p>把芦笛放回《玛斯纳维》的苏非语境：离别、渴望、回归，以及人与源头之间的关系。</p>
+              <p class="label">语境</p>
+              <h3>再回到鲁米的世界</h3>
+              <p>《序诗》的中文注释把芦笛与灵魂、离别和回归联系起来；理解这些关系，才能避免把诗缩减成一则现代励志语录。</p>
             </div>
           </div>
         </div>
 
         <div class="tab-panel" id="practice">
           <div class="practice-steps">
-            <div><span>01</span><strong>读</strong><p>慢慢读一遍，不急着找道理。</p></div>
+            <div><span>01</span><strong>读</strong><p>慢慢读一遍，不急着找结论。</p></div>
             <div><span>02</span><strong>停</strong><p>安静三十秒，让句子停在身体里。</p></div>
             <div><span>03</span><strong>照</strong><p>哪个词、哪个意象让你停了一下？</p></div>
-            <div><span>04</span><strong>问</strong><p>它正在照见你生命中的什么？</p></div>
+            <div><span>04</span><strong>问</strong><p>“离愁”与“归宿”正在照见什么经验？</p></div>
             <div><span>05</span><strong>听</strong><p>写五分钟，或让另一个人只是听你说。</p></div>
-            <div><span>06</span><strong>活</strong><p>今天，你愿意带走一个什么问题？</p></div>
+            <div><span>06</span><strong>活</strong><p>今天，有什么值得继续留意，而不急于回答？</p></div>
           </div>
         </div>
       </article>
     </section>
 
-    <section class="section" id="meet">
+    <section class="section method-section" id="method">
+      <div class="method-visual">
+        <img src="./assets/manuscript-study.svg" alt="展开书页与手稿边框的抽象图，象征原典、版本和注释研究" loading="lazy" />
+      </div>
+      <div class="method-copy">
+        <p class="eyebrow">我们的阅读方法</p>
+        <h2 class="display-title"><span>一首诗，</span><span>三层进入</span></h2>
+        <div class="method-list">
+          <article>
+            <span>01</span>
+            <div><h3>文本</h3><p>它究竟说了什么？先找出处、原文和版本，再谈意义。</p></div>
+          </article>
+          <article>
+            <span>02</span>
+            <div><h3>传统</h3><p>对鲁米而言，它意味着什么？把诗放回伊斯兰—苏非、波斯文学与十三世纪的语境。</p></div>
+          </article>
+          <article>
+            <span>03</span>
+            <div><h3>生命</h3><p>今天，它在哪里与我相遇？不把诗变成答案，让它成为一面镜子。</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section meet-section" id="meet">
       <div class="section-heading">
         <p class="eyebrow">认识鲁米</p>
-        <h2>不要从“金句”开始，先认识这个人</h2>
-        <p>诗人之前，他首先是一位生活在十三世纪伊斯兰世界中的学者、教师与苏非修行者。</p>
+        <h2 class="display-title"><span>不要从“金句”开始，</span><span>先认识这个人</span></h2>
+        <p>鲁米首先是十三世纪伊斯兰世界中的学者、教师与苏非修行者；诗歌，是这段生命历史的一部分，而不是脱离传统的格言集合。</p>
       </div>
 
-      <div class="timeline">
-        <article>
-          <span>1207</span>
-          <h3>出生与迁徙</h3>
-          <p>从更广阔的波斯文化世界进入安纳托利亚，最终在科尼亚生活与教导。</p>
-        </article>
-        <article>
-          <span>1244</span>
-          <h3>遇见沙姆斯</h3>
-          <p>一场相遇改变了鲁米的生命方向，也改变了后来世界认识鲁米的方式。</p>
-        </article>
-        <article>
-          <span>1240s–1260s</span>
-          <h3>诗、音乐与失落</h3>
-          <p>沙姆斯的出现与离开，让友谊、渴望、爱与消融成为鲁米诗歌最深的火焰之一。</p>
-        </article>
-        <article>
-          <span>1258–1273</span>
-          <h3>《玛斯纳维》</h3>
-          <p>故事、寓言、经文、日常经验与精神教导被编织成一部巨大的诗性世界。</p>
-        </article>
-        <article>
-          <span>1273</span>
-          <h3>离世</h3>
-          <p>他的作品继续穿越语言、宗教与时代，也不断被重新翻译、理解与误读。</p>
-        </article>
+      <div class="meet-layout">
+        <figure class="route-figure">
+          <img src="./assets/rumi-route.svg" alt="鲁米从大呼罗珊文化圈走向科尼亚的抽象迁徙路线图" loading="lazy" />
+          <figcaption>迁徙、学习、相遇、失去与写作，构成了鲁米作品背后的生命地理。</figcaption>
+        </figure>
+
+        <div class="timeline">
+          <article><span>1207</span><h3>大呼罗珊文化圈</h3><p>鲁米出生于波斯文化世界。与其把他简化成某个现代国家的“诗人”，不如先理解他所处的跨地域文化传统。</p></article>
+          <article><span>约1229</span><h3>定居科尼亚</h3><p>家族最终在科尼亚定居。鲁米后来在那里教学、讲道，并形成自己的弟子与同行者群体。</p></article>
+          <article><span>1244</span><h3>沙姆斯抵达</h3><p>11月29日，沙姆斯来到科尼亚。Lewis认为，此后鲁米外在的灵性表达明显发生变化，诗歌、音乐与 samāʿ 更突出。</p></article>
+          <article><span>1247–1248</span><h3>失去与寻找</h3><p>沙姆斯最后离开科尼亚。鲁米的寻找、失落和转化，后来深深进入《迪万·沙姆斯》的语言。</p></article>
+          <article><span>约1258–1261起</span><h3>《玛斯纳维》</h3><p>学界对确切起始年份有不同估计。Lewis认为更可能在1258至1261年间开始，并在此后持续多年。</p></article>
+          <article><span>1273</span><h3>离世</h3><p>12月17日，鲁米在科尼亚去世。随后数百年，他的作品不断被抄写、注释、翻译，也不断被重新理解。</p></article>
+        </div>
       </div>
     </section>
 
     <section class="section shams-section" id="shams">
+      <figure class="shams-art">
+        <img src="./assets/shams-encounter.svg" alt="两个光域相遇的抽象图，象征鲁米与沙姆斯的相遇、映照与转化" loading="lazy" />
+      </figure>
       <div class="shams-copy">
         <p class="eyebrow">鲁米与沙姆斯</p>
-        <h2>一个人，如何改变另一个人的生命？</h2>
+        <h2 class="display-title light-title"><span>一个人，</span><span>如何改变另一个人的生命？</span></h2>
         <p>
-          我们不把沙姆斯写成神秘传奇中的“催化剂”，而是尝试靠近历史中的沙姆斯：
-          一个有自己声音、脾气、判断与精神道路的人。
+          对沙姆斯的理解，不能只依赖后世传奇。除鲁米自己的作品外，
+          《沙姆斯言谈录》（Maqālāt）是研究鲁米精神转化最重要的第一手来源之一。
         </p>
+        <div class="shams-questions">
+          <p>历史上的沙姆斯是谁？</p>
+          <p>1244年的相遇究竟改变了什么？</p>
+          <p>为什么“沙姆斯”后来进入鲁米的诗歌声音？</p>
+          <p>我们怎样区分史料、传说与现代想象？</p>
+        </div>
         <a class="text-link" href="#lab">进入“沙姆斯研究线” →</a>
-      </div>
-      <div class="shams-questions">
-        <p>历史上的沙姆斯是谁？</p>
-        <p>鲁米为何把他的名字写进诗里？</p>
-        <p>师生、朋友、镜子，还是一种神圣临在？</p>
-        <p>失去一个人之后，关系如何继续存在？</p>
       </div>
     </section>
 
@@ -169,9 +192,9 @@
       <div class="section-heading split">
         <div>
           <p class="eyebrow">精神地图</p>
-          <h2>从你此刻所在的地方进入</h2>
+          <h2 class="display-title"><span>从你此刻所在的地方，</span><span>进入鲁米</span></h2>
         </div>
-        <p class="muted">主题不是给鲁米贴标签，而是帮助今天的读者找到进入文本的门。</p>
+        <p class="muted">主题只是入口，不替代原作结构。每一个主题最终都要回到具体诗篇、出处与语境。</p>
       </div>
 
       <div class="theme-grid">
@@ -188,13 +211,14 @@
         <button data-theme="音乐与身体"><span>11</span><strong>音乐与身体</strong><small>samāʿ · 呼吸 · 舞动</small></button>
         <button data-theme="日常生活"><span>12</span><strong>日常生活</strong><small>工作 · 关系 · 服务</small></button>
       </div>
-      <div class="theme-result" aria-live="polite">选择一个主题，第一版会把它作为下一批诗歌条目的入口。</div>
+      <div class="theme-result" aria-live="polite">选择一个主题，后续会进入相关诗篇、意象与研究条目。</div>
     </section>
 
     <section class="section journey" id="journey">
       <div class="section-heading">
         <p class="eyebrow">内在探索</p>
-        <h2>不是解释鲁米，而是让诗成为一面镜子</h2>
+        <h2 class="display-title"><span>不是解释鲁米，</span><span>而是让诗成为一面镜子</span></h2>
+        <p>这里的练习不替你下结论，也不把诗歌变成心理测验；它只是为阅读创造更慢、更真实的条件。</p>
       </div>
 
       <div class="journey-grid">
@@ -213,13 +237,13 @@
         <article>
           <small>40 DAYS</small>
           <h3>鲁米之路</h3>
-          <p>未来的深度实践版：诗歌、静默、书写、对话与现实生活。</p>
+          <p>把诗歌、静默、书写、深度聆听与现实生活放在同一条路上。</p>
           <a href="#journey-detail" data-journey="40">查看旅程</a>
         </article>
       </div>
 
       <div id="journey-detail" class="journey-detail">
-        <p class="label">当前原型</p>
+        <p class="label">当前旅程</p>
         <h3>7天 · 第一次遇见鲁米</h3>
         <ol>
           <li><strong>芦笛</strong>｜我从哪里来？</li>
@@ -234,25 +258,41 @@
     </section>
 
     <section class="section lab" id="lab">
-      <div class="section-heading">
-        <p class="eyebrow">RUMI LAB · 鲁米研究室</p>
-        <h2>把“读鲁米”变成可以追溯的研究</h2>
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">RUMI LAB · 鲁米研究室</p>
+          <h2 class="display-title"><span>把“读鲁米”，</span><span>变成可以追溯的研究</span></h2>
+        </div>
+        <p class="muted">这里关心的不只是“鲁米说了什么”，也关心：这句话在哪部作品里、经过了谁的翻译、处在什么传统中。</p>
       </div>
 
-      <div class="lab-grid">
-        <article><span>人物</span><h3>鲁米、沙姆斯与同行者</h3><p>人物关系、史料层级、传说与可考资料分开呈现。</p></article>
-        <article><span>作品</span><h3>《玛斯纳维》与《迪万·沙姆斯》</h3><p>按原作、卷次、诗体、主题建立结构化索引。</p></article>
-        <article><span>概念</span><h3>苏非术语辞典</h3><p>fanāʾ、baqāʾ、tawḥīd、dhikr、samāʿ、nafs、qalb……</p></article>
-        <article><span>地图</span><h3>鲁米的地理世界</h3><p>巴尔赫、尼沙普尔、巴格达、大马士革、科尼亚。</p></article>
-        <article><span>研究史</span><h3>从 Nicholson 到 Lewis</h3><p>不同学术传统如何理解、翻译和重构鲁米。</p></article>
-        <article><span>辨伪</span><h3>这真的是鲁米说的吗？</h3><p>标注原典可查、意译、改写与网络流传语。</p></article>
+      <div class="lab-layout">
+        <div class="lab-grid">
+          <article><span>人物</span><h3>鲁米、沙姆斯与同行者</h3><p>把人物关系、第一手资料、后世传记与现代想象分开。</p></article>
+          <article><span>作品</span><h3>《玛斯纳维》与《迪万·沙姆斯》</h3><p>按作品、卷次、诗体、主题与出处建立结构化索引。</p></article>
+          <article><span>概念</span><h3>苏非术语辞典</h3><p>fanāʾ、baqāʾ、tawḥīd、dhikr、samāʿ、nafs、qalb……</p></article>
+          <article><span>版本</span><h3>原典与译本比较</h3><p>区分波斯文、学术英译、现代改写与中文二次转译。</p></article>
+          <article><span>研究史</span><h3>从 Nicholson 到 Lewis</h3><p>观察不同学术传统如何理解、翻译和重构鲁米。</p></article>
+          <article><span>辨伪</span><h3>这真的是鲁米说的吗？</h3><p>标注原典可查、意译、改写、流行归名与尚待核实。</p></article>
+        </div>
+
+        <aside class="research-rules">
+          <p class="label">研究守则</p>
+          <ul>
+            <li><strong>先找出处。</strong> 没有出处，不把一句话直接标成“鲁米原诗”。</li>
+            <li><strong>区分版本。</strong> 直译、诗译与现代改写分别呈现。</li>
+            <li><strong>尊重语境。</strong> 不主动抹去鲁米的伊斯兰—苏非背景。</li>
+            <li><strong>允许当代阅读。</strong> 但清楚标明：哪些是文本，哪些是今天的回应。</li>
+          </ul>
+          <p class="source-note">核心研究参考：Franklin D. Lewis、William C. Chittick、《沙姆斯言谈录》相关研究，以及《玛斯纳维》中文全译本。</p>
+        </aside>
       </div>
     </section>
 
     <section class="section provenance" id="poetry">
       <div class="section-heading">
-        <p class="eyebrow">诗歌数据库 · 第一版结构</p>
-        <h2>每一首诗，都应该有它自己的“身份证”</h2>
+        <p class="eyebrow">诗歌数据库</p>
+        <h2 class="display-title"><span>每一首诗，</span><span>都有自己的“身份证”</span></h2>
       </div>
       <div class="data-card">
         <div><span>原作</span><strong>Masnavi / Divan / 其他</strong></div>
@@ -264,25 +304,37 @@
       </div>
     </section>
 
+    <section class="section daily-portal">
+      <div class="daily-image">
+        <img src="./assets/sufi-whirl-poster.png" alt="鲁米365日课视觉：旋转与光的诗意画面" loading="lazy" />
+      </div>
+      <div class="daily-copy">
+        <p class="eyebrow">RUMI 365 · 每日实践</p>
+        <h2 class="display-title"><span>每天留一点时间，</span><span>给一首诗，也给自己</span></h2>
+        <p>原有的“鲁米诗歌365”继续保留：每日阅读、中英双语、内在提问、练习、私人日记与分享海报。</p>
+        <a class="btn primary" href="./daily/">进入今日鲁米365 →</a>
+      </div>
+    </section>
+
     <section class="section quote-check">
       <div class="quote-check-inner">
         <p class="eyebrow">QUOTE CHECK</p>
-        <h2>“这真的是鲁米说的吗？”</h2>
-        <p>未来可以输入一句网络流传语，查看它的出处状态、最接近原文、传播路径与不同译本。</p>
+        <h2 class="display-title"><span>“这真的是</span><span>鲁米说的吗？”</span></h2>
+        <p>输入一句网络流传语，未来可查看出处状态、最接近的原文、传播路径与不同译本。没有足够证据时，我们宁愿标注“尚待核实”。</p>
         <div class="mock-search">
           <input value="你在寻找的，也在寻找你" aria-label="示例检索" />
           <button id="check-quote">核对出处</button>
         </div>
         <div id="quote-result" class="quote-result">
-          第一版暂不自动判定真伪；正式上线后，将只在有可靠文本证据时标注“可追溯”。
+          当前为功能预览。正式条目将显示：原典可查 / 意译 / 改写 / 流行归名 / 尚待核实。
         </div>
       </div>
     </section>
 
     <section class="section principles">
-      <blockquote>
-        不把鲁米从他的传统中带走，<br>
-        也不把鲁米锁死在他的时代里。
+      <p class="eyebrow">我们希望守住的边界</p>
+      <blockquote class="display-title principle-title">
+        <span>不把鲁米从他的传统中带走，</span><span>也不把鲁米锁死在他的时代里。</span>
       </blockquote>
       <p>前一句保证学术诚实，后一句保留诗在今天继续发生的可能。</p>
     </section>
@@ -293,9 +345,12 @@
       <strong>芦笛 · RUMI</strong>
       <p>Rumi Studies & Inner Journey</p>
     </div>
-    <p>第一版原型 · 研究 / 诗歌 / 内在探索</p>
+    <div class="footer-note">
+      <p>资料逐步校勘 · 不把现代改写冒充原典</p>
+      <a href="./daily/">鲁米365日课</a>
+    </div>
   </footer>
 
-  <script src="./app.js"></script>
+  <script src="./app.js?v=20261004-2"></script>
 </body>
 </html>

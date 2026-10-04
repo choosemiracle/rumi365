@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="每日学习鲁米诗歌的双语网站，用于个人内在探索、默观练习与灵修日记。"
+      content="每日鲁米诗歌的双语阅读与内在探索：一首诗、一个问题、一段安静的私人书写。"
     />
     <title>鲁米诗歌365</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
     <script>
       (function () {
-        var base = location.hostname.endsWith("github.io") ? "/rumi365/" : "/";
+        var base = location.hostname.endsWith("github.io") ? "/rumi365/daily/" : "/daily/";
         window.__RUMI_BASE_PATH__ = base;
         document.write('<base href="' + base + '">');
       })();
@@ -21,10 +22,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="daily/styles.css?v=20261004-1" />
+    <link rel="stylesheet" href="styles.css?v=20261004-2" />
   </head>
   <body>
     <main class="shell">
+      <a class="back-link" href="../">← 返回「芦笛 · RUMI」研究首页</a>
       <section class="hero" aria-labelledby="page-title">
         <div class="hero-media" aria-hidden="true">
           <div class="sun-disc"></div>
@@ -93,14 +95,14 @@
           <div class="panel-head">
             <div>
               <p class="eyebrow">Private Journal</p>
-              <h2 id="journal-title">个人灵修日记</h2>
+              <h2 id="journal-title">私人书写</h2>
             </div>
             <span id="saveState">已保存</span>
           </div>
           <textarea
             id="journal"
             rows="12"
-            placeholder="写下今天触动你的词、身体感受、祈祷或一个真实的看见..."
+            placeholder="写下今天触动你的词、身体感受、疑问，或一个真实的看见..."
           ></textarea>
           <div class="journal-actions">
             <button class="secondary" id="saveButton" type="button">保存</button>
@@ -146,7 +148,7 @@
       </footer>
     </main>
 
-    <script src="vendor/qrcode.js?v=20260630-3"></script>
-    <script src="daily/app.js?v=20261004-1"></script>
+    <script src="../vendor/qrcode.js?v=20260630-3"></script>
+    <script src="app.js?v=20261004-2"></script>
   </body>
 </html>

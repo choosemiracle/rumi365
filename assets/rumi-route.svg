@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">鲁米生命迁徙的抽象路线图</title>
+<desc id="desc">以五个节点和一条弧形路线象征从大呼罗珊到科尼亚的迁徙与精神旅程。</desc>
+<rect width="1200" height="720" fill="#eee8dd"/>
+<g opacity=".45" fill="none" stroke="#b9ae9c">
+  <path d="M90 160C280 55 460 80 620 165S955 300 1110 175" stroke-width="1"/>
+  <path d="M70 520C260 420 440 455 610 535S920 610 1120 495" stroke-width="1"/>
+  <path d="M210 70C175 230 175 420 245 650" stroke-width="1"/>
+  <path d="M950 60C1010 230 1015 420 935 665" stroke-width="1"/>
+</g>
+<g fill="none" stroke="#243a36" stroke-width="4" stroke-linecap="round">
+  <path d="M135 485C270 390 332 430 420 350C520 260 620 285 715 325C820 368 860 275 1055 210"/>
+</g>
+<g fill="#f7f3eb" stroke="#8b4f3d" stroke-width="4">
+  <circle cx="135" cy="485" r="15"/><circle cx="420" cy="350" r="15"/>
+  <circle cx="620" cy="300" r="15"/><circle cx="785" cy="340" r="15"/><circle cx="1055" cy="210" r="18"/>
+</g>
+<g fill="#a58a58">
+  <circle cx="135" cy="485" r="5"/><circle cx="420" cy="350" r="5"/>
+  <circle cx="620" cy="300" r="5"/><circle cx="785" cy="340" r="5"/><circle cx="1055" cy="210" r="6"/>
+</g>
+<g opacity=".12" fill="#8b4f3d">
+  <circle cx="1055" cy="210" r="84"/><circle cx="1055" cy="210" r="130" fill="none" stroke="#8b4f3d" stroke-width="2"/>
+</g>
+<path d="M0 652C240 600 345 715 575 655S900 590 1200 658V720H0Z" fill="#d8d0c3"/>
+</svg>

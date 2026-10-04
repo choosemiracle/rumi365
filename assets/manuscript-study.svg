@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+<title id="title">《玛斯纳维》研究页的抽象手稿图</title>
+<desc id="desc">展开的书页、细密的行线与几何边框，象征原典、版本与注释研究。</desc>
+<rect width="1000" height="760" fill="#e8e1d6"/>
+<path d="M120 100Q320 60 482 120V650Q310 605 120 650Z" fill="#f8f4ec" stroke="#9f927c" stroke-width="3"/>
+<path d="M880 100Q680 60 518 120V650Q690 605 880 650Z" fill="#f8f4ec" stroke="#9f927c" stroke-width="3"/>
+<path d="M500 118V652" stroke="#8b4f3d" stroke-width="3"/>
+<g stroke="#b8aa94" stroke-width="2" opacity=".86">
+  <path d="M165 180H430M165 220H445M165 260H422M165 300H450M165 340H412M165 380H438M165 420H425M165 460H445M165 500H405"/>
+  <path d="M570 180H835M555 220H835M578 260H835M550 300H835M588 340H835M562 380H835M575 420H835M555 460H835M595 500H835"/>
+</g>
+<g fill="none" stroke="#a58a58" stroke-width="3">
+  <rect x="148" y="145" width="315" height="410" rx="4"/>
+  <rect x="537" y="145" width="315" height="410" rx="4"/>
+  <path d="M148 145l28 28M463 145l-28 28M148 555l28-28M463 555l-28-28"/>
+  <path d="M537 145l28 28M852 145l-28 28M537 555l28-28M852 555l-28-28"/>
+</g>
+<circle cx="500" cy="605" r="18" fill="#8b4f3d" opacity=".62"/>
+</svg>
