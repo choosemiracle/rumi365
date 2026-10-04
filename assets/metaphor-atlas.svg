@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="t d">
+<title id="t">鲁米意象图谱</title><desc id="d">芦笛、镜子、海洋、火、酒、鸟、花园和太阳八种高频意象的图形化组合。</desc>
+<rect width="1200" height="780" rx="34" fill="#eee8dd"/>
+<g stroke="#243a36" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<!-- reed -->
+<path d="M155 145L145 300M151 190L115 165M149 235L184 210"/><ellipse cx="145" cy="318" rx="72" ry="20" stroke="#a58a58"/>
+<!-- mirror -->
+<rect x="360" y="125" width="150" height="210" rx="74" stroke="#a58a58"/><path d="M385 255L478 165" opacity=".45"/>
+<!-- ocean -->
+<path d="M650 210c40-36 80 36 120 0s80 36 120 0"/><path d="M650 250c40-36 80 36 120 0s80 36 120 0" opacity=".55"/>
+<!-- fire -->
+<path d="M1040 315c-70-70 20-110-18-185 90 68 110 170 18 185Z" stroke="#8b4f3d"/>
+<!-- wine -->
+<path d="M115 525h110c0 82-17 112-55 112s-55-30-55-112Z" stroke="#8b4f3d"/><path d="M170 637v48M128 685h84"/>
+<!-- bird/cage -->
+<path d="M385 675V520h130v155M405 520v155M435 520v155M465 520v155M495 520v155"/><path d="M420 600c38-55 70 30 100-10" stroke="#a58a58"/>
+<!-- garden -->
+<path d="M690 670V560M690 595c-44-58-90-8-72 20 20 30 56 8 72-20ZM690 610c50-60 100-8 78 24-20 28-58 4-78-24Z"/><circle cx="690" cy="540" r="22" stroke="#8b4f3d"/>
+<!-- sun -->
+<circle cx="1045" cy="600" r="55" stroke="#a58a58"/><path d="M1045 505v-38M1045 695v38M950 600h-38M1140 600h38M980 535l-28-28M1110 665l28 28M1110 535l28-28M980 665l-28 28"/>
+</g>
+<g font-family="serif" font-size="17" text-anchor="middle" fill="#243a36">
+<text x="145" y="365">芦笛 · 离别</text><text x="435" y="365">镜子 · 心</text><text x="770" y="315">海洋 · 源头</text><text x="1045" y="365">火 · 转化</text>
+<text x="170" y="730">酒 · 醉</text><text x="450" y="730">鸟 · 自由</text><text x="690" y="730">花园 · 滋养</text><text x="1045" y="730">太阳 · 光</text>
+</g>
+</svg>

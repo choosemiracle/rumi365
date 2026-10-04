@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261004-2" />
+  <link rel="stylesheet" href="./styles.css?v=20261004-v2" />
 </head>
 <body>
   <header class="site-header">
@@ -21,10 +21,9 @@
       </span>
     </a>
     <nav class="main-nav" aria-label="主导航">
-      <a href="#poem-room">原典</a>
-      <a href="#meet">认识鲁米</a>
-      <a href="#shams">沙姆斯</a>
-      <a href="#themes">主题</a>
+      <a href="./biography/">鲁米传记</a>
+      <a href="./thought/">鲁米思想</a>
+      <a href="./poetry/">诗歌数据库</a>
       <a href="#journey">内在探索</a>
       <a href="#lab">研究室</a>
       <a class="nav-accent" href="./daily/">365日课</a>
@@ -47,9 +46,9 @@
           也尝试让一首诗成为可以停留、倾听、书写与对话的第三物。
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#poem-room">从一首诗开始</a>
-          <a class="btn ghost" href="#lab">进入鲁米研究室</a>
-          <a class="btn ghost" href="./daily/">鲁米365日课</a>
+          <a class="btn primary" href="./poetry/">从一首诗开始</a>
+          <a class="btn ghost" href="./biography/">完整鲁米传记</a>
+          <a class="btn ghost" href="./thought/">深入鲁米思想</a>
         </div>
         <p class="hero-footnote">原典优先 · 版本可追溯 · 区分直译、诗译与现代改写</p>
       </div>
@@ -61,6 +60,31 @@
           芦笛、倾听与归返
         </figcaption>
       </figure>
+    </section>
+
+    <section class="section v2-portals" aria-labelledby="v2-portals-title">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">第二版 · 三条深度路径</p>
+          <h2 class="display-title" id="v2-portals-title"><span>不只“读鲁米”，</span><span>而是进入一个完整世界</span></h2>
+        </div>
+        <p class="muted">传记回答“这个人怎样走到这里”，思想回答“他的观看方式如何运作”，诗歌数据库则把每个概念重新带回具体文本。</p>
+      </div>
+
+      <div class="portal-grid">
+        <a class="portal-card portal-biography" href="./biography/">
+          <figure><img src="./assets/companions-map.svg" alt="鲁米与生命中关键同行者的关系图" loading="lazy" /></figure>
+          <div><span>01 · BIOGRAPHY</span><h3>鲁米传记</h3><p>从1207到1273：家族、迁徙、求学、布尔汉丁、沙姆斯、萨拉丁、霍萨姆丁，以及传说与史实的边界。</p><strong>进入完整传记 →</strong></div>
+        </a>
+        <a class="portal-card portal-thought" href="./thought/">
+          <figure><img src="./assets/thought-map.svg" alt="鲁米思想关系地图" loading="lazy" /></figure>
+          <div><span>02 · THOUGHT</span><h3>鲁米思想</h3><p>爱、真一、心、小我、消融、伙伴关系、samāʿ、故事与归返，不再拆成孤立的“金句主题”。</p><strong>进入思想地图 →</strong></div>
+        </a>
+        <a class="portal-card portal-poetry" href="./poetry/">
+          <figure><img src="./assets/metaphor-atlas.svg" alt="鲁米诗歌核心意象图谱" loading="lazy" /></figure>
+          <div><span>03 · POETRY ATLAS</span><h3>诗歌与意象数据库</h3><p>首批20条可追溯诗段，逐条整理意境、象征、比喻机制、文本语境与内在探索问题。</p><strong>进入诗歌数据库 →</strong></div>
+        </a>
+      </div>
     </section>
 
     <section class="section today" id="poem-room">
@@ -184,7 +208,7 @@
           <p>为什么“沙姆斯”后来进入鲁米的诗歌声音？</p>
           <p>我们怎样区分史料、传说与现代想象？</p>
         </div>
-        <a class="text-link" href="#lab">进入“沙姆斯研究线” →</a>
+        <a class="text-link" href="./biography/">在完整传记中继续阅读 →</a>
       </div>
     </section>
 
@@ -211,7 +235,7 @@
         <button data-theme="音乐与身体"><span>11</span><strong>音乐与身体</strong><small>samāʿ · 呼吸 · 舞动</small></button>
         <button data-theme="日常生活"><span>12</span><strong>日常生活</strong><small>工作 · 关系 · 服务</small></button>
       </div>
-      <div class="theme-result" aria-live="polite">选择一个主题，后续会进入相关诗篇、意象与研究条目。</div>
+      <div class="theme-result" aria-live="polite">选择一个主题，再进入诗歌数据库查看相关诗篇、意象与研究条目。</div>
     </section>
 
     <section class="section journey" id="journey">
@@ -295,12 +319,16 @@
         <h2 class="display-title"><span>每一首诗，</span><span>都有自己的“身份证”</span></h2>
       </div>
       <div class="data-card">
-        <div><span>原作</span><strong>Masnavi / Divan / 其他</strong></div>
-        <div><span>出处</span><strong>卷次 · 行号 · 版本</strong></div>
-        <div><span>语言</span><strong>波斯文 · 转写 · 中文</strong></div>
-        <div><span>译本</span><strong>直译 · 诗译 · 英译比较</strong></div>
-        <div><span>语境</span><strong>苏非传统 · 经文 · 意象</strong></div>
-        <div><span>实践</span><strong>静默 · 书写 · 开放问题</strong></div>
+        <div><span>出处</span><strong>六卷 · 联数 · 译者</strong></div>
+        <div><span>意境</span><strong>声音 · 空间 · 动作 · 温度</strong></div>
+        <div><span>象征</span><strong>此处指向什么</strong></div>
+        <div><span>比喻</span><strong>它如何改变观看</strong></div>
+        <div><span>语境</span><strong>故事 · 苏非传统 · 经文</strong></div>
+        <div><span>探索</span><strong>让诗照见我的问题</strong></div>
+      </div>
+      <div class="database-cta">
+        <p>第二版已建立第一批 <strong>20 条可追溯诗段</strong>，覆盖《玛斯纳维》六卷，并可按卷次、意象和主题筛选。</p>
+        <a class="btn primary" href="./poetry/">进入诗歌与意象数据库 →</a>
       </div>
     </section>
 
@@ -351,6 +379,6 @@
     </div>
   </footer>
 
-  <script src="./app.js?v=20261004-2"></script>
+  <script src="./app.js?v=20261004-v2"></script>
 </body>
 </html>

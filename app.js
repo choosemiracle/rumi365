@@ -22,12 +22,29 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
   });
 });
 
+const themeQueries = {
+  '离别与渴望': '渴望',
+  '爱': '爱',
+  '友谊与沙姆斯': '关系',
+  '自我与小我': '自我',
+  '静默': '心',
+  '困惑与惊奇': '认知',
+  '痛苦与破碎': '离别',
+  '死亡与重生': '转化',
+  '归返': '归返',
+  '合一': '合一',
+  '音乐与身体': '声音',
+  '日常生活': '关系',
+};
+
 document.querySelectorAll('.theme-grid button').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.theme-grid button').forEach(x => x.classList.remove('active'));
     btn.classList.add('active');
-    document.querySelector('.theme-result').textContent =
-      '已选择「' + btn.dataset.theme + '」。这里将连接相关诗篇、核心意象、出处与内在探索问题。';
+    const theme = btn.dataset.theme;
+    const query = themeQueries[theme] || theme;
+    document.querySelector('.theme-result').innerHTML =
+      '已选择「' + theme + '」。<a href="./poetry/?q=' + encodeURIComponent(query) + '">进入诗歌数据库继续查看 →</a>';
   });
 });
 

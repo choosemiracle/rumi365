@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="鲁米诗歌与意象数据库：按《玛斯纳维》卷次、主题与意象检索，阅读出处、意境、象征、比喻机制与内在探索问题。" />
+  <title>诗歌与意象数据库｜芦笛 · RUMI</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../pages.css?v=20261004-v2" />
+</head>
+<body>
+<header class="page-header">
+  <a class="page-brand" href="../"><span class="mark" aria-hidden="true"></span><span><strong>芦笛 · RUMI</strong><small>鲁米研究与内在探索</small></span></a>
+  <nav class="page-nav" aria-label="主导航">
+    <a href="../biography/">传记</a><a href="../thought/">思想</a><a class="active" href="./">诗歌数据库</a><a href="../daily/">365日课</a><a class="pill" href="../">研究首页</a>
+  </nav>
+  <button class="page-toggle" aria-expanded="false" aria-label="打开导航">☰</button>
+</header>
+
+<main class="page-main">
+  <section class="page-hero">
+    <div>
+      <p class="eyebrow">POETRY ATLAS · TEXT / IMAGE / METAPHOR</p>
+      <h1 class="page-title"><span>不要只摘一句鲁米，</span><span>看一幅意象怎样打开</span></h1>
+      <p class="hero-lede">第二版从《玛斯纳维》六卷中建立第一批可追溯诗段：每一条都保留卷次与联数，并进一步整理意境、象征、比喻机制、思想语境，以及它如何成为今天内在探索的“第三物”。</p>
+      <p class="hero-note">当前收录 20 条核心诗段 · 覆盖六卷 · 持续扩充。这里的“数据库”不是把鲁米变成标签，而是让标签重新把你带回原诗。</p>
+    </div>
+    <figure class="hero-visual">
+      <img src="../assets/history/masnavi-1278.jpg" alt="1278年科尼亚抄写的《玛斯纳维》开篇十八联手稿" />
+      <figcaption>1278年科尼亚《玛斯纳维》抄本开篇十八联，距鲁米去世约五年。手稿提醒我们：每一句网络“鲁米金句”之前，都应该先问一句——它从哪里来？</figcaption>
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="section-head split-head">
+      <div>
+        <p class="eyebrow">先理解数据库的逻辑</p>
+        <h2 class="section-title"><span>意象不是密码，</span><span>比喻也不是固定答案</span></h2>
+      </div>
+      <p>同一个“火”，在不同诗段里可以是神圣之爱，也可以是欲望；同一个“酒”，既可能指精神陶醉，也可能在故事中就是世俗酒。真正重要的是：它在这一段里做了什么。</p>
+    </div>
+
+    <div class="atlas-wrap">
+      <figure><img src="../assets/metaphor-atlas.svg" alt="鲁米常见意象图谱：芦笛、镜子、海洋、火、酒、鸟、花园、太阳" /></figure>
+      <div>
+        <div class="motif-list">
+          <div class="motif-item"><strong>意境</strong><span>这段诗首先让人“进入”怎样的空间、声音、温度与动作。</span></div>
+          <div class="motif-item"><strong>象征</strong><span>某个形象在这一段中指向什么，不把它扩大成永远不变的词典释义。</span></div>
+          <div class="motif-item"><strong>比喻机制</strong><span>鲁米如何通过尺度、反转、拟人、悖论、故事或身体经验改变读者的观看。</span></div>
+          <div class="motif-item"><strong>语境</strong><span>它在故事、古兰经、苏非修行或整卷叙事里处于什么位置。</span></div>
+          <div class="motif-item"><strong>出处</strong><span>作品、卷次、联数、中文译者；后续逐步补波斯文、转写与版本比较。</span></div>
+          <div class="motif-item"><strong>内在探索</strong><span>问题不是“这句话教导我什么”，而是“它让我看见了什么”。</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="database">
+    <div class="section-head">
+      <p class="eyebrow">可检索诗歌数据库 · v2</p>
+      <h2 class="section-title"><span>从芦笛、镜子与大海，</span><span>进入鲁米的诗性世界</span></h2>
+      <p>可以搜关键词，也可以按卷次、意象或主题筛选。每一张卡片都不是“金句卡”，而是一份微型文本研究。</p>
+    </div>
+
+    <div class="poetry-tools" aria-label="诗歌筛选工具">
+      <input id="poetry-search" type="search" placeholder="搜索：芦笛、镜子、海洋、归返、沙姆斯……" aria-label="搜索诗歌数据库" />
+      <select id="book-filter" aria-label="按卷次筛选">
+        <option value="">全部卷次</option>
+      </select>
+      <select id="motif-filter" aria-label="按意象或主题筛选">
+        <option value="">全部意象 / 主题</option>
+      </select>
+    </div>
+    <p class="poetry-count" id="poetry-count" aria-live="polite">正在读取诗歌条目……</p>
+    <div class="poetry-grid" id="poetry-grid"></div>
+    <div id="poetry-empty" class="callout" hidden>暂时没有匹配条目。可以换一个关键词，或清除筛选条件。</div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="eyebrow">八组核心意象</p>
+      <h2 class="section-title"><span>一首诗，多个入口</span><span>同一意象，也会变形</span></h2>
+    </div>
+    <div class="thought-axis">
+      <article class="axis-card"><span class="num">01</span><span class="term">REED · NAY</span><h3>芦笛：被割离之后才发出的声音</h3><p>它首先属于听觉。芦笛不是在“谈故乡”，而是在声音本身里携带失去故乡的痕迹。鲁米以此开启《玛斯纳维》。</p><div class="key">核心动作：被割离 → 中空 → 被吹奏 → 发声。</div></article>
+      <article class="axis-card"><span class="num">02</span><span class="term">MIRROR · HEART</span><h3>镜子：心不是制造真理，而是恢复反射</h3><p>黑铁、铁锈、擦拭、澄清、映月——鲁米把心灵训练写成非常具体的工艺过程。</p><div class="key">核心动作：蒙尘 → 研磨 → 澄明 → 映照。</div></article>
+      <article class="axis-card"><span class="num">03</span><span class="term">OCEAN · SOURCE</span><h3>大海：从局部形态回到关系与源头</h3><p>钵盂装不下海，泡沫不是海，水缸却可以与海相通。海洋意象不断调整“个体与整体”的关系。</p><div class="key">核心动作：局部 → 看见尺度 → 接通 → 不再孤立。</div></article>
+      <article class="axis-card"><span class="num">04</span><span class="term">FIRE · TRANSFORMATION</span><h3>火：同一种热，可能把人烧开，也可能把人烧窄</h3><p>爱的火焰使芦笛发声，欲火却使人失去辨识。鲁米故意让“火”承担相反功能。</p><div class="key">核心动作：加热 → 失去旧形 → 看它扩大还是吞噬生命。</div></article>
+      <article class="axis-card"><span class="num">05</span><span class="term">WINE · INTOXICATION</span><h3>酒：惯常意识松动之后，谁在主导？</h3><p>精神之酒、爱之酒、世俗酒不是一回事。醉意常用来描写理性边界松动，但必须看上下文。</p><div class="key">核心动作：饮下 → 失控 / 超越 → 重新辨识。</div></article>
+      <article class="axis-card"><span class="num">06</span><span class="term">BIRD · CAGE</span><h3>鸟与笼：自由不是“去哪儿”，而是能否活出本性</h3><p>精神之鸟会在笼中感到局促；被家鸡养大的鸭子仍然渴望海。自由与“记得自己是谁”彼此相连。</p><div class="key">核心动作：被困 / 被误养 → 记起 → 离笼 / 入海。</div></article>
+      <article class="axis-card"><span class="num">07</span><span class="term">GARDEN · WATER</span><h3>花园：语言真正有生命时，会改变内在生态</h3><p>鲁米常把心、雨水、溪流、花园串在一起。好的语言不是信息，而是让某种东西重新生长。</p><div class="key">核心动作：干涸 → 被灌溉 → 发芽 → 开花。</div></article>
+      <article class="axis-card"><span class="num">08</span><span class="term">LIGHT · SEEING</span><h3>光：争论有时不是观点问题，而是照明条件不同</h3><p>黑屋大象最关键的不是“每个人都有道理”，而是：没有光时，每个人只能把触摸到的局部当成全部。</p><div class="key">核心动作：黑暗 → 局部触摸 → 明烛 → 重新看整体。</div></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="image-pair">
+      <figure>
+        <img src="../assets/history/divan-shams-manuscript.jpg" alt="13至14世纪安纳托利亚《迪万·沙姆斯》与苏丹瓦拉德诗集手稿选页" />
+        <figcaption>约13世纪末至14世纪初的《迪万·沙姆斯》相关手稿选页。数据库下一阶段会把抒情诗与《玛斯纳维》分开建模，避免不同诗体混成“鲁米语录”。</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/manuscript-study.svg" alt="展开的书页、行线与几何边框组成的原典研究插图" />
+        <figcaption>第二版数据库的方向：原文、版本、译本、意象、语境与当代阅读并列，而不是用当代解释覆盖原诗。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="eyebrow">数据库下一层</p>
+      <h2 class="section-title"><span>第二版先把结构做实，</span><span>下一步进入波斯原文，</span><span>再做版本比较</span></h2>
+      <p>当前20条全部来自已上传的《玛斯纳维》六卷中文译本，并标注卷次、联数与译者。下一批将逐条补齐：波斯原文、拉丁转写、Nicholson / Arberry / Chittick 等英译比较、关键词词根，以及同一意象在《迪万·沙姆斯》中的变化。</p>
+    </div>
+    <div class="callout">本站不会把 Coleman Barks 一类现代英语再创作直接当作“波斯文原诗的忠实翻译”。它们可以作为现代接受史的一部分阅读，但会与原典、学术直译和中文诗译明确分层。</div>
+  </section>
+</main>
+
+<footer class="page-footer"><div><strong>芦笛 · RUMI</strong><p>Rumi Studies & Inner Journey</p></div><div><a href="../thought/">← 鲁米思想</a> · <a href="../daily/">鲁米365日课 →</a></div></footer>
+<script src="./poetry.js?v=20261004-v2"></script>
+</body>
+</html>

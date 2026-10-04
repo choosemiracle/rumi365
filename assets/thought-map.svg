@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+<title id="t">鲁米思想的关系地图</title><desc id="d">从真一与启示，经由爱、心、伙伴关系与修行，回到日常行动的关系图。</desc>
+<rect width="1200" height="760" rx="34" fill="#243a36"/>
+<g fill="none" stroke="#d6c39e" opacity=".32"><circle cx="600" cy="380" r="110"/><circle cx="600" cy="380" r="215"/><circle cx="600" cy="380" r="320"/></g>
+<circle cx="600" cy="380" r="86" fill="#a58a58" opacity=".25"/><circle cx="600" cy="380" r="42" fill="#a58a58"/>
+<g font-family="serif" text-anchor="middle" fill="#f7f2e8"><text x="600" y="370" font-size="24">真一 / 源头</text><text x="600" y="402" font-size="13" opacity=".75">tawḥīd · Qurʾān</text></g>
+<g font-family="serif" text-anchor="middle">
+<g><circle cx="600" cy="150" r="67" fill="#f3eee4"/><text x="600" y="145" font-size="20" fill="#243a36">爱</text><text x="600" y="171" font-size="12" fill="#6f7671">ʿishq</text></g>
+<g><circle cx="835" cy="245" r="67" fill="#f3eee4"/><text x="835" y="240" font-size="20" fill="#243a36">心</text><text x="835" y="266" font-size="12" fill="#6f7671">qalb</text></g>
+<g><circle cx="865" cy="520" r="74" fill="#f3eee4"/><text x="865" y="514" font-size="20" fill="#243a36">伙伴关系</text><text x="865" y="540" font-size="12" fill="#6f7671">ṣuḥba</text></g>
+<g><circle cx="600" cy="615" r="72" fill="#f3eee4"/><text x="600" y="610" font-size="20" fill="#243a36">归返生活</text><text x="600" y="636" font-size="12" fill="#6f7671">service</text></g>
+<g><circle cx="335" cy="520" r="74" fill="#f3eee4"/><text x="335" y="514" font-size="20" fill="#243a36">小我与修炼</text><text x="335" y="540" font-size="12" fill="#6f7671">nafs · adab</text></g>
+<g><circle cx="365" cy="245" r="72" fill="#f3eee4"/><text x="365" y="240" font-size="20" fill="#243a36">倾听与故事</text><text x="365" y="266" font-size="12" fill="#6f7671">samāʿ · mathal</text></g>
+</g>
+<g fill="none" stroke="#8b4f3d" stroke-width="4" stroke-linecap="round" opacity=".9">
+<path d="M600 236V294"/><path d="M677 323L770 276"/><path d="M685 425L790 492"/><path d="M600 466V540"/><path d="M515 425L410 492"/><path d="M523 323L430 276"/>
+</g>
+</svg>

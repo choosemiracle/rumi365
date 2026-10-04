@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+<title id="t">鲁米生命中的关键关系</title><desc id="d">以鲁米为中心，连接父亲巴哈丁、导师布尔汉丁、沙姆斯、萨拉丁、霍萨姆丁与苏丹·瓦拉德。</desc>
+<rect width="1200" height="760" rx="34" fill="#efe9de"/>
+<g fill="none" stroke="#b9ad99" stroke-width="2">
+<path d="M600 380C510 260 365 190 230 150"/><path d="M600 380C455 350 320 355 205 360"/>
+<path d="M600 380C520 485 400 570 255 620"/><path d="M600 380C680 250 830 180 985 150"/>
+<path d="M600 380C730 370 875 385 1010 395"/><path d="M600 380C700 495 840 565 980 620"/>
+</g>
+<circle cx="600" cy="380" r="105" fill="#243a36"/><circle cx="600" cy="380" r="132" fill="none" stroke="#a58a58" stroke-width="2" opacity=".55"/>
+<g font-family="serif" text-anchor="middle" fill="#f7f2e8"><text x="600" y="372" font-size="30">鲁米</text><text x="600" y="410" font-size="17" opacity=".75">Jalāl al-Dīn Rūmī</text></g>
+<g font-family="serif" text-anchor="middle">
+<g><circle cx="230" cy="150" r="74" fill="#f9f6ef" stroke="#8b4f3d"/><text x="230" y="145" font-size="21">巴哈丁</text><text x="230" y="172" font-size="13" fill="#6f7671">父亲 · 精神遗产</text></g>
+<g><circle cx="205" cy="360" r="74" fill="#f9f6ef" stroke="#8b4f3d"/><text x="205" y="355" font-size="21">布尔汉丁</text><text x="205" y="382" font-size="13" fill="#6f7671">导师 · 修炼</text></g>
+<g><circle cx="255" cy="620" r="74" fill="#f9f6ef" stroke="#8b4f3d"/><text x="255" y="615" font-size="21">苏丹·瓦拉德</text><text x="255" y="642" font-size="13" fill="#6f7671">儿子 · 记忆与传承</text></g>
+<g><circle cx="985" cy="150" r="78" fill="#f9f6ef" stroke="#a58a58" stroke-width="2"/><text x="985" y="145" font-size="21">沙姆斯</text><text x="985" y="172" font-size="13" fill="#6f7671">相遇 · 镜子 · 火</text></g>
+<g><circle cx="1010" cy="395" r="74" fill="#f9f6ef" stroke="#8b4f3d"/><text x="1010" y="390" font-size="21">萨拉丁</text><text x="1010" y="417" font-size="13" fill="#6f7671">陪伴 · 稳定</text></g>
+<g><circle cx="980" cy="620" r="78" fill="#f9f6ef" stroke="#a58a58" stroke-width="2"/><text x="980" y="615" font-size="21">霍萨姆丁</text><text x="980" y="642" font-size="13" fill="#6f7671">《玛斯纳维》共创者</text></g>
+</g>
+<g font-family="sans-serif" font-size="11" fill="#8b4f3d" letter-spacing="2"><text x="50" y="710">RELATIONSHIP MAP · NOT A LINEAR “MASTER → DISCIPLE” STORY</text></g>
+</svg>

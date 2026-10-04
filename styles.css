@@ -132,7 +132,6 @@ footer{
 h1,h2,h3{font-weight:500;margin:0}
 .display-title{
   white-space:nowrap;
-  text-wrap:pretty;
 }
 .display-title span{display:inline}
 .hero-title{
@@ -228,6 +227,27 @@ h1,h2,h3{font-weight:500;margin:0}
   gap:48px;
 }
 .muted{max-width:430px;margin:0;color:var(--muted);font-size:14px}
+.v2-portals{background:linear-gradient(180deg,#ebe4d9,var(--paper))}
+.portal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.portal-card{
+  display:flex;flex-direction:column;overflow:hidden;min-height:520px;
+  border:1px solid rgba(31,41,40,.13);border-radius:22px;background:rgba(251,250,246,.66);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.portal-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.portal-card figure{margin:0;overflow:hidden;background:var(--paper-deep);border-bottom:1px solid var(--line)}
+.portal-card figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.portal-card>div{display:flex;flex:1;flex-direction:column;padding:24px}
+.portal-card span{color:var(--rust);font-family:var(--sans);font-size:10px;letter-spacing:.14em}
+.portal-card h3{margin:10px 0 7px;font-size:27px}
+.portal-card p{margin:0 0 20px;color:var(--muted);font-size:14px}
+.portal-card strong{margin-top:auto;font-family:var(--sans);font-size:12px;font-weight:500}
+.portal-thought figure{background:var(--deep)}
+.portal-poetry figure{background:#eee8dd}
+.database-cta{display:flex;justify-content:space-between;align-items:center;gap:28px;margin-top:24px;padding:24px 26px;border-radius:18px;background:var(--deep);color:#f4f0e7}
+.database-cta p{margin:0;max-width:780px;color:#cbd1ce}
+.database-cta strong{color:white}
+.database-cta .btn{flex:0 0 auto;border-color:#f4f0e7;background:#f4f0e7;color:var(--deep)}
 .poem-card{
   padding:44px;
   background:var(--white);
@@ -425,6 +445,7 @@ h1,h2,h3{font-weight:500;margin:0}
 .theme-grid strong{display:block;margin:12px 0 3px;font-size:21px}
 .theme-grid small{color:var(--muted)}
 .theme-result{margin-top:14px;color:var(--muted);font-size:13px}
+.theme-result a{margin-left:6px;color:var(--rust);border-bottom:1px solid rgba(139,79,61,.4)}
 .journey{background:var(--paper-deep)}
 .journey-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .journey-grid article{
@@ -579,6 +600,9 @@ footer p{margin:4px 0;color:var(--muted)}
   .main-nav{gap:14px;font-size:12px}
   .hero{grid-template-columns:1fr 360px;gap:34px}
   .theme-grid{grid-template-columns:repeat(3,1fr)}
+  .portal-grid{grid-template-columns:1fr 1fr}
+  .portal-card:last-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(280px,.85fr) minmax(0,1.15fr);min-height:auto}
+  .portal-card:last-child figure{border-bottom:0;border-right:1px solid var(--line)}
   .lab-layout{grid-template-columns:1fr}
 }
 @media(max-width:900px){
@@ -595,7 +619,7 @@ footer p{margin:4px 0;color:var(--muted)}
     box-shadow:0 18px 30px rgba(31,41,40,.08);
   }
   .main-nav.open{display:flex}
-  .nav-toggle{display:block}
+  .nav-toggle{display:grid;place-items:center;position:absolute;right:18px;top:10px;z-index:50;width:44px;height:44px;padding:0;color:var(--ink);background:var(--paper);border:1px solid rgba(31,41,40,.12);border-radius:50%;line-height:1}
   .display-title{white-space:normal}
   .display-title span{display:block}
   .hero{
@@ -619,6 +643,11 @@ footer p{margin:4px 0;color:var(--muted)}
   .light-title{font-size:clamp(34px,6vw,48px)}
   .theme-grid{grid-template-columns:repeat(2,1fr)}
   .journey-grid{grid-template-columns:1fr}
+  .portal-grid{grid-template-columns:1fr}
+  .portal-card,.portal-card:last-child{display:flex;min-height:auto;grid-column:auto}
+  .portal-card:last-child figure{border-right:0;border-bottom:1px solid var(--line)}
+  .portal-card figure img{aspect-ratio:16/10}
+  .database-cta{display:block}.database-cta .btn{margin-top:16px}
   .lab-grid{grid-template-columns:1fr 1fr}
   .practice-steps{grid-template-columns:1fr 1fr}
 }
@@ -644,6 +673,8 @@ footer p{margin:4px 0;color:var(--muted)}
   .theme-grid,
   .lab-grid,
   .data-card{grid-template-columns:1fr}
+  .portal-card>div{padding:20px}
+  .portal-card h3{font-size:24px}
   .practice-steps>div{min-height:auto}
   .timeline{grid-template-columns:1fr}
   .timeline article,
