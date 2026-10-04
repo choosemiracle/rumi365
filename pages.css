@@ -169,3 +169,423 @@ button,input,select{font:inherit}
   .entry-detail div{grid-template-columns:1fr;gap:3px}
   .page-footer{display:block;padding:30px 22px}.page-footer>div+div{margin-top:14px}
 }
+
+
+/* ─────────────────────────────────────────────────────────────
+   V3 · MYSTIC ROOMS
+   Shared deep-page system with page-specific accents.
+   ───────────────────────────────────────────────────────────── */
+:root{
+  --paper:#efe6d4;
+  --paper-2:#e4d7c1;
+  --ink:#241f1a;
+  --muted:#70685c;
+  --line:#cbb99b;
+  --deep:#0d1a20;
+  --night:#09141b;
+  --night-2:#122a31;
+  --rust:#8d4b42;
+  --gold:#caa35f;
+  --saffron:#d8b56e;
+  --jade:#58786f;
+  --white:#fbf5e9;
+  --display:"Cormorant Garamond","Noto Serif SC","Songti SC",serif;
+  --shadow:0 30px 80px rgba(40,31,20,.14);
+  --shadow-dark:0 30px 80px rgba(0,0,0,.32);
+  --accent:#caa35f;
+  --accent-soft:rgba(202,163,95,.16);
+}
+.biography-page{--accent:#a04f5d;--accent-soft:rgba(160,79,93,.16)}
+.thought-page{--accent:#4f8b83;--accent-soft:rgba(79,139,131,.16)}
+.poetry-page{--accent:#c6a056;--accent-soft:rgba(198,160,86,.17)}
+html{background:#09141b}
+body{
+  background:
+    radial-gradient(circle at 88% 6%,var(--accent-soft),transparent 22%),
+    linear-gradient(180deg,#ede3d0 0%,#f3ebdc 42%,#e7dbc5 100%);
+}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{
+  outline:2px solid var(--accent);
+  outline-offset:3px;
+}
+.page-header{
+  min-height:68px;
+  padding-top:13px;
+  padding-bottom:13px;
+  color:#f0e7d5;
+  background:rgba(8,18,25,.9);
+  border-bottom-color:rgba(214,180,110,.18);
+  box-shadow:0 14px 38px rgba(0,0,0,.10);
+}
+.page-brand strong{color:#f4ead7;letter-spacing:.1em}
+.page-brand small{color:#95a7a2}
+.page-brand .mark{border-color:rgba(222,193,133,.65)}
+.page-brand .mark:before{background:#d5b36d}
+.page-brand .mark:after{border-color:#6fa096}
+.page-nav a{color:#c5ceca}
+.page-nav a:hover,.page-nav a.active{color:#f0d497}
+.page-nav .pill{
+  border-color:rgba(214,180,110,.32);
+  background:rgba(214,180,110,.06);
+  color:#ead19a;
+}
+.page-main{
+  width:min(calc(100% - 32px),var(--page));
+  margin:16px auto 0;
+  overflow:hidden;
+  border-radius:0 0 36px 36px;
+  box-shadow:0 34px 90px rgba(31,25,18,.10);
+}
+.page-hero{
+  position:relative;
+  min-height:720px;
+  padding:8vw 7vw 7vw;
+  overflow:hidden;
+  color:#f1e7d4;
+  border-bottom-color:rgba(215,181,110,.18);
+  background:
+    radial-gradient(circle at 76% 22%,var(--accent-soft),transparent 24%),
+    linear-gradient(130deg,rgba(7,18,25,.99),rgba(16,40,46,.96) 66%,rgba(26,48,49,.92)),
+    url("./assets/mystic-arch.svg") center/cover no-repeat;
+}
+.biography-page .page-hero{
+  background:
+    radial-gradient(circle at 78% 24%,rgba(160,79,93,.24),transparent 23%),
+    linear-gradient(132deg,#0a151d,#1b2730 52%,#40212d),
+    url("./assets/mystic-arch.svg") center/cover no-repeat;
+}
+.thought-page .page-hero{
+  background:
+    radial-gradient(circle at 78% 24%,rgba(79,139,131,.25),transparent 24%),
+    linear-gradient(132deg,#071820,#123139 55%,#173d43),
+    url("./assets/mystic-arch.svg") center/cover no-repeat;
+}
+.poetry-page .page-hero{
+  background:
+    radial-gradient(circle at 78% 24%,rgba(198,160,86,.21),transparent 24%),
+    linear-gradient(132deg,#0a1720,#15313a 58%,#2c342c),
+    url("./assets/mystic-arch.svg") center/cover no-repeat;
+}
+.page-hero:before{
+  content:"";
+  position:absolute;
+  width:520px;height:520px;
+  left:-160px;bottom:-260px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.10;
+  animation:page-rosette 60s linear infinite;
+}
+.page-hero>div,.page-hero>.hero-visual{position:relative;z-index:1}
+.page-hero .eyebrow{color:#ddbd78}
+.page-title{
+  color:#f6ecd8;
+  font-size:clamp(48px,4.9vw,74px);
+  line-height:1.19;
+  text-shadow:0 12px 40px rgba(0,0,0,.18);
+}
+.page-title span:last-child{color:#e1c27e}
+.hero-lede{color:#c4d0ca;font-size:18px;line-height:1.95}
+.hero-note{color:#90a29d;line-height:1.8}
+.source-chip{
+  border-color:rgba(218,186,122,.23);
+  color:#cdd6d2;
+  background:rgba(255,255,255,.035);
+  backdrop-filter:blur(8px);
+}
+.hero-visual{
+  position:relative;
+  border-color:rgba(220,188,125,.28);
+  border-radius:190px 190px 24px 24px;
+  background:#0d2027;
+  box-shadow:var(--shadow-dark);
+}
+.hero-visual:before{
+  content:"";
+  position:absolute;
+  inset:7% 7% 15%;
+  z-index:1;
+  pointer-events:none;
+  background:url("./assets/mystic-rosette.svg") center/55% no-repeat;
+  opacity:.11;
+}
+.hero-visual img{
+  position:relative;
+  z-index:2;
+  height:430px;
+  opacity:.9;
+  filter:saturate(.82) sepia(.1) contrast(1.03);
+}
+.hero-visual figcaption{
+  position:relative;
+  z-index:3;
+  color:#c8d0cb;
+  background:#0c1c23;
+  border-top:1px solid rgba(218,186,122,.17);
+}
+.section{
+  position:relative;
+  padding-top:116px;
+  padding-bottom:116px;
+  background:rgba(243,235,219,.88);
+  border-bottom-color:rgba(109,91,63,.12);
+}
+.section:nth-of-type(odd){
+  background:
+    radial-gradient(circle at 90% 8%,var(--accent-soft),transparent 20%),
+    rgba(237,226,205,.74);
+}
+.section-head{margin-bottom:52px}
+.eyebrow{color:#8f4b43;letter-spacing:.2em}
+.section-title{
+  color:#282722;
+  text-wrap:balance;
+}
+.split-head>p,.section-head p:not(.eyebrow){line-height:1.85}
+.fact-strip{
+  background:#c7b18d;
+  border-color:#c7b18d;
+  border-radius:22px;
+  box-shadow:0 18px 48px rgba(70,52,28,.07);
+}
+.fact-strip>div{
+  position:relative;
+  overflow:hidden;
+  background:#f8f0e2;
+}
+.fact-strip>div:after{
+  content:"";
+  position:absolute;
+  width:76px;height:76px;
+  right:-30px;bottom:-34px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.10;
+}
+.fact-strip span{color:#8e4c43}
+.fact-strip strong{color:#282722}
+.sticky-media figure,.full-media,.image-pair figure,.atlas-wrap figure{
+  border-color:#c6ae87;
+  border-radius:150px 150px 22px 22px;
+  background:#f8f0e1;
+  box-shadow:var(--shadow);
+}
+.sticky-media figure img,.full-media img,.image-pair img{
+  filter:saturate(.88) sepia(.07);
+}
+.life-chapters{
+  position:relative;
+  gap:18px;
+}
+.life-chapters:before{
+  content:"";
+  position:absolute;
+  left:-29px;top:22px;bottom:22px;
+  width:1px;
+  background:linear-gradient(var(--accent),rgba(202,163,95,.08));
+}
+.life-card{
+  position:relative;
+  overflow:hidden;
+  padding:30px 32px;
+  border-color:#c9b795;
+  border-radius:18px;
+  background:rgba(250,243,229,.82);
+  box-shadow:0 12px 30px rgba(69,50,26,.045);
+  transition:.25s ease;
+}
+.life-card:before{
+  content:"";
+  position:absolute;
+  left:-34px;top:36px;
+  width:9px;height:9px;
+  border:2px solid var(--accent);
+  border-radius:50%;
+  background:#f1e7d5;
+  box-shadow:0 0 0 5px var(--accent-soft);
+}
+.life-card:hover{
+  transform:translateY(-2px);
+  border-color:rgba(139,102,55,.45);
+  box-shadow:0 20px 42px rgba(65,45,20,.075);
+}
+.life-card time,.life-card .meta time{color:var(--accent)}
+.relation-note{border-top-color:#c9b99d}
+.relation-note h3{color:#2a2924}
+.work-card{
+  position:relative;
+  overflow:hidden;
+  border-color:#c8b593;
+  border-radius:22px;
+  background:rgba(249,241,226,.76);
+  box-shadow:0 12px 30px rgba(70,51,28,.04);
+}
+.work-card:after{
+  content:"";
+  position:absolute;
+  width:96px;height:96px;
+  right:-36px;bottom:-38px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.10;
+}
+.work-card small{color:var(--accent)}
+.callout{
+  border-left-color:var(--accent);
+  border-radius:0 18px 18px 0;
+  background:linear-gradient(90deg,var(--accent-soft),rgba(255,255,255,.22));
+}
+.thought-hero{color:#f1e7d4}
+.thought-axis{gap:18px}
+.axis-card{
+  min-height:310px;
+  border-color:#c7b18e;
+  border-radius:24px;
+  background:
+    radial-gradient(circle at 100% 0%,var(--accent-soft),transparent 28%),
+    rgba(249,242,229,.8);
+  box-shadow:0 14px 34px rgba(67,49,26,.045);
+  transition:.25s ease;
+}
+.axis-card:hover{transform:translateY(-3px);box-shadow:0 22px 46px rgba(55,44,27,.08)}
+.axis-card .num{color:var(--accent-soft)}
+.axis-card .term{color:var(--accent)}
+.axis-card .key{
+  border-top-color:#ccb999;
+  color:#4a514c;
+}
+.boundary-card{
+  position:relative;
+  overflow:hidden;
+  border:1px solid rgba(216,181,108,.17);
+  border-radius:24px;
+  background:linear-gradient(145deg,#10262d,#173a3b);
+  box-shadow:0 20px 46px rgba(15,39,42,.10);
+}
+.boundary-card:after{
+  content:"";
+  position:absolute;
+  width:105px;height:105px;
+  right:-35px;bottom:-40px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.11;
+}
+.poetry-tools{
+  position:sticky;
+  z-index:12;
+  top:82px;
+  padding:12px;
+  margin:0 0 24px;
+  border:1px solid rgba(128,98,52,.18);
+  border-radius:999px;
+  background:rgba(239,230,212,.88);
+  backdrop-filter:blur(16px);
+  box-shadow:0 16px 36px rgba(65,47,26,.08);
+}
+.poetry-tools input,.poetry-tools select{
+  border-color:#c8b28c;
+  background:#fbf4e8;
+}
+.poetry-tools input:focus,.poetry-tools select:focus{
+  border-color:var(--accent);
+  box-shadow:0 0 0 3px var(--accent-soft);
+}
+.poetry-count{color:#766d60}
+.poetry-grid{gap:18px}
+.poem-entry{
+  position:relative;
+  overflow:hidden;
+  padding:28px;
+  border-color:#c9b591;
+  border-radius:22px;
+  background:
+    linear-gradient(120deg,rgba(255,255,255,.34),rgba(255,255,255,.12)),
+    #f1e4cd;
+  box-shadow:0 14px 32px rgba(64,46,24,.04);
+}
+.poem-entry:after{
+  content:"";
+  position:absolute;
+  width:110px;height:110px;
+  right:-42px;top:-40px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.08;
+  pointer-events:none;
+}
+.poem-entry:hover{
+  transform:translateY(-4px);
+  border-color:#aa8a54;
+  box-shadow:0 24px 52px rgba(56,41,22,.09);
+}
+.poem-entry .entry-meta{color:#8d4c43}
+.poem-entry blockquote{
+  border-left-color:var(--accent);
+  color:#312c25;
+}
+.tag{
+  border:1px solid rgba(124,97,55,.12);
+  background:#e7d8bd;
+}
+.entry-more{border-top-color:#c9b896}
+.entry-more summary{color:#8d4c43}
+.entry-more summary:after{color:var(--accent)}
+.entry-detail{border-top-color:#c9b896}
+.entry-detail dt{color:#8d4c43}
+.entry-question{
+  border:1px solid rgba(215,180,109,.18);
+  background:linear-gradient(135deg,#10262e,#183a3e);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.motif-item{border-top-color:#c9b99c}
+.source-item{border-top-color:#c9b99c}
+.page-footer{
+  color:#d9dfdb;
+  background:#08131a;
+}
+.page-footer p{color:#879894}
+.page-footer a{color:#d6b570}
+@keyframes page-rosette{to{transform:rotate(360deg)}}
+@media(max-width:1050px){
+  .page-main{width:min(calc(100% - 20px),var(--page));margin-top:10px}
+  .page-hero{min-height:auto;padding-top:84px}
+  .life-chapters:before,.life-card:before{display:none}
+}
+@media(max-width:860px){
+  .page-header{background:rgba(8,18,25,.97)}
+  .page-nav{
+    background:#0b1a21;
+    border-bottom-color:rgba(214,180,110,.18);
+  }
+  .page-nav a{color:#d7dfdb}
+  .page-toggle{
+    color:#f0e6d2;
+    background:#11262e;
+    border-color:rgba(214,180,110,.28);
+  }
+  .page-main{border-radius:0 0 26px 26px}
+  .page-hero{padding-top:74px}
+  .hero-visual{border-radius:125px 125px 20px 20px}
+  .sticky-media figure,.full-media,.image-pair figure,.atlas-wrap figure{
+    border-radius:90px 90px 18px 18px;
+  }
+  .poetry-tools{
+    position:static;
+    border-radius:20px;
+    background:rgba(239,230,212,.96);
+  }
+}
+@media(max-width:620px){
+  .page-main{width:calc(100% - 12px);margin-top:6px}
+  .page-hero{padding:66px 18px 56px}
+  .page-title{font-size:36px;line-height:1.38}
+  .page-hero .page-title span{white-space:normal}
+  .hero-lede,.hero-note{max-width:100%;overflow-wrap:anywhere}
+  .hero-lede{font-size:16px}
+  .hero-visual{border-radius:96px 96px 16px 16px}
+  .hero-visual img{height:280px}
+  .section{padding:82px 18px}
+  .life-card,.axis-card,.poem-entry{padding:23px 20px}
+  .sticky-media figure,.full-media,.image-pair figure,.atlas-wrap figure{
+    border-radius:70px 70px 16px 16px;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .page-hero:before{animation:none}
+}

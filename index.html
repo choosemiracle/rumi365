@@ -8,10 +8,11 @@
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261004-v2" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Serif+SC:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=20261004-v3" />
 </head>
-<body>
+<body class="mystic-home">
+  <div class="scroll-thread" aria-hidden="true"><span></span></div>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="返回首页">
       <span class="brand-mark" aria-hidden="true"></span>
@@ -30,6 +31,14 @@
     </nav>
     <button class="nav-toggle" aria-expanded="false" aria-label="打开导航">☰</button>
   </header>
+
+  <aside class="journey-rail" aria-label="页面旅程">
+    <a href="#top" data-journey-section="top"><i></i><span>门槛</span></a>
+    <a href="#poem-room" data-journey-section="poem-room"><i></i><span>倾听</span></a>
+    <a href="#shams" data-journey-section="shams"><i></i><span>相遇</span></a>
+    <a href="#journey" data-journey-section="journey"><i></i><span>向内</span></a>
+    <a href="#lab" data-journey-section="lab"><i></i><span>求证</span></a>
+  </aside>
 
   <main id="top">
     <section class="hero">
@@ -51,6 +60,7 @@
           <a class="btn ghost" href="./thought/">深入鲁米思想</a>
         </div>
         <p class="hero-footnote">原典优先 · 版本可追溯 · 区分直译、诗译与现代改写</p>
+        <p class="hero-whisper">进入之前，先停一秒。听见什么，就从那里开始。</p>
       </div>
 
       <figure class="hero-visual">
@@ -65,7 +75,7 @@
     <section class="section v2-portals" aria-labelledby="v2-portals-title">
       <div class="section-heading split">
         <div>
-          <p class="eyebrow">第二版 · 三条深度路径</p>
+          <p class="eyebrow">三条深度路径</p>
           <h2 class="display-title" id="v2-portals-title"><span>不只“读鲁米”，</span><span>而是进入一个完整世界</span></h2>
         </div>
         <p class="muted">传记回答“这个人怎样走到这里”，思想回答“他的观看方式如何运作”，诗歌数据库则把每个概念重新带回具体文本。</p>
@@ -327,7 +337,7 @@
         <div><span>探索</span><strong>让诗照见我的问题</strong></div>
       </div>
       <div class="database-cta">
-        <p>第二版已建立第一批 <strong>20 条可追溯诗段</strong>，覆盖《玛斯纳维》六卷，并可按卷次、意象和主题筛选。</p>
+        <p>当前已建立第一批 <strong>20 条可追溯诗段</strong>，覆盖《玛斯纳维》六卷，并可按卷次、意象和主题筛选。</p>
         <a class="btn primary" href="./poetry/">进入诗歌与意象数据库 →</a>
       </div>
     </section>
@@ -379,6 +389,6 @@
     </div>
   </footer>
 
-  <script src="./app.js?v=20261004-v2"></script>
+  <script src="./app.js?v=20261004-v3"></script>
 </body>
 </html>

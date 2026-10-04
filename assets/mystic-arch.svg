@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="42%" r="56%">
+      <stop offset="0" stop-color="#D9B46B" stop-opacity=".22"/>
+      <stop offset=".5" stop-color="#2B7A78" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#0C1720" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stars" width="84" height="84" patternUnits="userSpaceOnUse">
+      <path d="M42 12l4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10Z" stroke="#D9B46B" stroke-opacity=".22" stroke-width=".8"/>
+      <circle cx="8" cy="8" r="1.2" fill="#D9B46B" fill-opacity=".34"/>
+      <circle cx="72" cy="58" r=".9" fill="#76A9A1" fill-opacity=".34"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <rect width="1200" height="900" fill="url(#stars)" opacity=".7"/>
+  <path d="M167 822V431C167 221 361 80 600 80s433 141 433 351v391" stroke="#D9B46B" stroke-opacity=".52" stroke-width="2"/>
+  <path d="M220 822V447C220 265 389 136 600 136s380 129 380 311v375" stroke="#76A9A1" stroke-opacity=".34" stroke-width="1.5"/>
+  <path d="M277 822V466C277 311 419 196 600 196s323 115 323 270v356" stroke="#D9B46B" stroke-opacity=".24"/>
+  <circle cx="600" cy="405" r="144" stroke="#D9B46B" stroke-opacity=".30"/>
+  <circle cx="600" cy="405" r="103" stroke="#76A9A1" stroke-opacity=".28"/>
+  <circle cx="600" cy="405" r="58" stroke="#D9B46B" stroke-opacity=".42"/>
+  <path d="M600 289l16 42 42 16-42 16-16 42-16-42-42-16 42-16 16-42Z" stroke="#D9B46B" stroke-opacity=".6"/>
+  <path d="M600 522c63 0 114 51 114 114s-51 114-114 114-114-51-114-114 51-114 114-114Z" stroke="#76A9A1" stroke-opacity=".2"/>
+  <path d="M405 822c28-41 62-69 103-85M795 822c-28-41-62-69-103-85" stroke="#D9B46B" stroke-opacity=".26"/>
+</svg>

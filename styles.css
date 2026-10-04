@@ -705,3 +705,626 @@ footer p{margin:4px 0;color:var(--muted)}
   footer{display:block;padding:30px 22px}
   .footer-note{margin-top:18px;text-align:left}
 }
+
+
+/* ─────────────────────────────────────────────────────────────
+   V3 · NIGHT GARDEN
+   A mystic, Persian/Seljuk-inspired experience layer.
+   Decorative language serves orientation, pause and depth;
+   long-form reading remains calm and legible.
+   ───────────────────────────────────────────────────────────── */
+:root{
+  --paper:#efe6d4;
+  --paper-deep:#e1d3bb;
+  --ink:#241f1a;
+  --muted:#6f675c;
+  --line:#cab99e;
+  --deep:#0d1a20;
+  --night:#0a141c;
+  --night-2:#11252c;
+  --lapis:#173d56;
+  --turquoise:#2e746f;
+  --pomegranate:#81384b;
+  --pomegranate-deep:#4f2031;
+  --saffron:#d2a85d;
+  --gold:#c8a05c;
+  --jade:#56766e;
+  --rust:#8d4b42;
+  --white:#fbf6ea;
+  --mist:#d9d0bd;
+  --display:"Cormorant Garamond","Noto Serif SC","Songti SC",serif;
+  --shadow:0 32px 90px rgba(19,19,15,.18);
+  --shadow-dark:0 34px 90px rgba(0,0,0,.34);
+}
+body{
+  background:
+    radial-gradient(circle at 12% 8%,rgba(210,168,93,.08),transparent 25%),
+    linear-gradient(180deg,#ece2cf 0%,#f2eadb 42%,#e7dcc8 100%);
+}
+body::selection{background:rgba(200,160,92,.28)}
+.site-header{
+  min-height:68px;
+  padding-top:13px;
+  padding-bottom:13px;
+  background:rgba(8,18,25,.88);
+  border-bottom:1px solid rgba(210,168,93,.2);
+  box-shadow:0 14px 38px rgba(0,0,0,.10);
+  color:#f4ead5;
+}
+.brand strong{color:#f5ecd9;letter-spacing:.1em}
+.brand small{color:#9fb3ae}
+.brand-mark{border-color:rgba(231,205,151,.65)}
+.brand-mark:before{background:#d7b773}
+.brand-mark:after{border-color:#78aaa0}
+.main-nav a{color:#c8d0cc}
+.main-nav a:hover{color:#f1d395}
+.main-nav .nav-accent{
+  border-color:rgba(215,183,115,.4);
+  background:rgba(215,183,115,.08);
+  color:#f1d395;
+}
+.scroll-thread{
+  position:fixed;
+  inset:0 0 auto 0;
+  z-index:80;
+  height:2px;
+  pointer-events:none;
+  background:rgba(255,255,255,.03);
+}
+.scroll-thread span{
+  display:block;
+  width:100%;
+  height:100%;
+  transform:scaleX(0);
+  transform-origin:left center;
+  background:linear-gradient(90deg,#2e746f,#d2a85d,#9d455b);
+  box-shadow:0 0 14px rgba(210,168,93,.55);
+}
+.journey-rail{
+  position:fixed;
+  z-index:26;
+  right:22px;
+  top:50%;
+  display:grid;
+  gap:9px;
+  transform:translateY(-50%);
+  padding:12px 9px;
+  border:1px solid rgba(210,168,93,.16);
+  border-radius:999px;
+  background:rgba(9,19,25,.74);
+  backdrop-filter:blur(14px);
+  box-shadow:0 16px 40px rgba(0,0,0,.16);
+}
+.journey-rail a{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:8px;
+  min-height:24px;
+  font:10px/1 var(--sans);
+  letter-spacing:.08em;
+  color:#81918d;
+}
+.journey-rail a i{
+  width:5px;height:5px;
+  border-radius:50%;
+  background:#73827f;
+  box-shadow:0 0 0 0 rgba(210,168,93,0);
+  transition:.25s ease;
+}
+.journey-rail a span{
+  position:absolute;
+  right:18px;
+  padding:6px 9px;
+  opacity:0;
+  pointer-events:none;
+  white-space:nowrap;
+  border:1px solid rgba(210,168,93,.18);
+  border-radius:999px;
+  background:rgba(9,19,25,.9);
+  transform:translateX(5px);
+  transition:.2s ease;
+}
+.journey-rail a:hover span,
+.journey-rail a.active span{opacity:1;transform:none}
+.journey-rail a.active{color:#f0d59b}
+.journey-rail a.active i{
+  width:8px;height:8px;
+  background:#d2a85d;
+  box-shadow:0 0 0 5px rgba(210,168,93,.12),0 0 18px rgba(210,168,93,.5);
+}
+.hero{
+  width:min(calc(100% - 32px),var(--page));
+  min-height:calc(100vh - 90px);
+  margin:16px auto 0;
+  padding:8vw 7vw 7vw;
+  overflow:hidden;
+  border:1px solid rgba(210,168,93,.18);
+  border-radius:0 0 42px 42px;
+  color:#f4ead7;
+  background:
+    linear-gradient(115deg,rgba(8,20,27,.98),rgba(12,30,37,.94) 48%,rgba(21,51,57,.9)),
+    url("./assets/mystic-arch.svg") center/cover no-repeat;
+  box-shadow:var(--shadow-dark);
+}
+.hero:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 78% 30%,rgba(210,168,93,.15),transparent 22%),
+    radial-gradient(circle at 18% 18%,rgba(46,116,111,.18),transparent 26%);
+}
+.hero:after{
+  left:7vw;right:7vw;
+  background:linear-gradient(90deg,transparent,rgba(210,168,93,.5),transparent);
+}
+.hero-title-wrap,.hero-copy,.hero-visual{position:relative;z-index:1}
+.hero .eyebrow{color:#d7b56f}
+.hero-title{
+  max-width:1220px;
+  color:#f6ecd7;
+  font-size:clamp(46px,5.35vw,82px);
+  line-height:1.18;
+  text-shadow:0 12px 48px rgba(0,0,0,.18);
+}
+.hero-title span:last-child{color:#e2c27f}
+.hero-lead{color:#c8d2cc;font-size:19px;line-height:1.92}
+.hero-actions{gap:12px}
+.hero .btn{
+  border-color:rgba(231,208,158,.42);
+  color:#eadfc8;
+  backdrop-filter:blur(8px);
+}
+.hero .btn.primary{
+  color:#142126;
+  border-color:#d2a85d;
+  background:linear-gradient(135deg,#e0bd75,#c7984c);
+  box-shadow:0 10px 28px rgba(210,168,93,.18);
+}
+.hero .btn.ghost{background:rgba(255,255,255,.035)}
+.hero .btn:hover{
+  transform:translateY(-2px);
+  border-color:rgba(239,210,148,.78);
+  box-shadow:0 12px 30px rgba(0,0,0,.14);
+}
+.hero-footnote{color:#899a95}
+.hero-whisper{
+  margin:28px 0 0;
+  max-width:430px;
+  padding-top:17px;
+  border-top:1px solid rgba(210,168,93,.22);
+  color:#d4c3a4;
+  font-size:15px;
+  font-style:italic;
+  letter-spacing:.04em;
+}
+.hero-visual{
+  min-height:480px;
+  border:1px solid rgba(227,199,139,.34);
+  border-radius:220px 220px 26px 26px;
+  background:
+    radial-gradient(circle at 50% 43%,rgba(210,168,93,.15),transparent 36%),
+    rgba(6,17,23,.54);
+  box-shadow:0 30px 70px rgba(0,0,0,.28),inset 0 0 0 1px rgba(255,255,255,.04);
+}
+.hero-visual:before{
+  content:"";
+  position:absolute;
+  inset:8% 8% 20%;
+  z-index:1;
+  pointer-events:none;
+  background:url("./assets/mystic-rosette.svg") center/58% no-repeat;
+  opacity:.18;
+  animation:mystic-turn 48s linear infinite;
+}
+.hero-visual img{
+  position:relative;
+  z-index:2;
+  height:100%;
+  min-height:480px;
+  object-fit:cover;
+  opacity:.84;
+  mix-blend-mode:screen;
+  filter:sepia(.22) saturate(.75) contrast(1.05);
+}
+.hero-visual figcaption{
+  z-index:3;
+  left:26px;right:26px;bottom:24px;
+  color:#d9cfbc;
+  border:1px solid rgba(210,168,93,.18);
+  background:rgba(7,19,25,.72);
+}
+.hero-visual figcaption span{color:#d8b36a}
+.section{position:relative}
+.section-heading h2,.method-copy h2,.daily-copy h2,
+.principle-title,.poem-card blockquote{
+  text-wrap:balance;
+}
+.eyebrow{
+  color:#8f4a44;
+  letter-spacing:.22em;
+}
+.v2-portals{
+  margin-top:22px;
+  padding-top:124px;
+  padding-bottom:124px;
+  overflow:hidden;
+  color:#eee4d1;
+  background:
+    url("./assets/mystic-arch.svg") 110% 54%/680px auto no-repeat,
+    linear-gradient(145deg,#0b1820,#10272d 62%,#143136);
+}
+.v2-portals:before{
+  content:"";
+  position:absolute;
+  width:440px;height:440px;
+  left:-170px;bottom:-230px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(129,56,75,.2),transparent 68%);
+}
+.v2-portals .section-heading h2{color:#f4ead7}
+.v2-portals .muted{color:#b8c4bf}
+.v2-portals .eyebrow{color:#d5b46e}
+.portal-grid{gap:18px}
+.portal-card{
+  position:relative;
+  min-height:550px;
+  border-color:rgba(216,185,116,.18);
+  border-radius:180px 180px 24px 24px;
+  color:#ece3d0;
+  background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));
+  box-shadow:0 20px 48px rgba(0,0,0,.12);
+}
+.portal-card:before{
+  content:"✦";
+  position:absolute;
+  z-index:3;
+  top:18px;left:50%;
+  width:30px;height:30px;
+  display:grid;place-items:center;
+  transform:translateX(-50%);
+  border:1px solid rgba(217,180,107,.38);
+  border-radius:50%;
+  color:#d7b46b;
+  background:#10242b;
+  font-size:11px;
+}
+.portal-card:hover{
+  transform:translateY(-7px);
+  border-color:rgba(216,185,116,.5);
+  box-shadow:0 30px 70px rgba(0,0,0,.22);
+}
+.portal-card figure{
+  border-bottom-color:rgba(216,185,116,.15);
+  background:#13262c;
+}
+.portal-card figure img{filter:saturate(.82) contrast(1.03)}
+.portal-card>div{padding:28px 26px 30px}
+.portal-card span{color:#d8b36b}
+.portal-card h3{font-size:30px;color:#f5ecd9}
+.portal-card p{color:#bec9c4;line-height:1.8}
+.portal-card strong{color:#e2c584}
+.today{
+  padding-top:128px;
+  padding-bottom:128px;
+}
+.today:before{
+  content:"";
+  position:absolute;
+  width:290px;height:290px;
+  right:3vw;top:64px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.12;
+  pointer-events:none;
+}
+.poem-card{
+  position:relative;
+  overflow:hidden;
+  padding:52px;
+  border-color:#c9b18a;
+  border-radius:32px 32px 14px 14px;
+  background:
+    linear-gradient(90deg,rgba(199,160,92,.06),transparent 20%,transparent 80%,rgba(46,116,111,.045)),
+    #f9f2e4;
+  box-shadow:0 24px 70px rgba(77,56,31,.10);
+}
+.poem-card:after{
+  content:"";
+  position:absolute;
+  right:-40px;bottom:-70px;
+  width:220px;height:220px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.085;
+}
+.poem-card blockquote{
+  position:relative;
+  z-index:1;
+  color:#2a302e;
+  font-size:clamp(34px,4vw,56px);
+}
+.poem-card blockquote:before{
+  content:"“";
+  position:absolute;
+  left:-14px;top:-54px;
+  color:rgba(129,56,75,.16);
+  font-family:var(--display);
+  font-size:110px;
+  line-height:1;
+}
+.tab-btn{border-color:#c8b594}
+.tab-btn.active{
+  border-color:#15323b;
+  background:#15323b;
+  color:#f2e7d1;
+}
+.method-section{
+  overflow:hidden;
+  color:#eee6d5;
+  background:
+    linear-gradient(115deg,rgba(14,36,42,.98),rgba(19,54,56,.95)),
+    url("./assets/mystic-arch.svg") left center/620px auto no-repeat;
+}
+.method-section .eyebrow{color:#d8b36b}
+.method-section .method-list{border-top-color:rgba(231,209,161,.18)}
+.method-section .method-list article{border-bottom-color:rgba(231,209,161,.13)}
+.method-section .method-list article>span{color:#d2a85d}
+.method-section .method-list p{color:#aebcb7}
+.method-visual{
+  border-color:rgba(216,180,107,.23);
+  border-radius:180px 180px 22px 22px;
+  background:#0e2027;
+  box-shadow:var(--shadow-dark);
+}
+.meet-section{
+  background:
+    radial-gradient(circle at 85% 22%,rgba(46,116,111,.09),transparent 22%),
+    transparent;
+}
+.route-figure img{
+  border-color:#c7b28d;
+  border-radius:150px 150px 20px 20px;
+  background:#f8f0e2;
+}
+.timeline{position:relative;border-top-color:#c5b18f}
+.timeline:before{
+  content:"";
+  position:absolute;
+  left:50%;top:0;bottom:0;
+  width:1px;
+  background:linear-gradient(#c5b18f,rgba(197,177,143,.15));
+}
+.timeline article{position:relative;border-bottom-color:#cbbba0}
+.timeline article:before{
+  content:"";
+  position:absolute;
+  top:31px;
+  width:7px;height:7px;
+  border:1px solid #a27c43;
+  border-radius:50%;
+  background:#f3eadb;
+  box-shadow:0 0 0 4px rgba(162,124,67,.08);
+}
+.timeline article:nth-child(odd):before{right:-4px}
+.timeline article:nth-child(even):before{left:-4px}
+.shams-section{
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 78% 24%,rgba(164,73,91,.24),transparent 26%),
+    radial-gradient(circle at 18% 70%,rgba(210,168,93,.12),transparent 28%),
+    linear-gradient(145deg,#0a151c,#1c2530 48%,#341c29);
+}
+.shams-section:after{
+  content:"";
+  position:absolute;
+  width:420px;height:420px;
+  right:-90px;bottom:-160px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.12;
+}
+.shams-art{
+  border-color:rgba(229,194,126,.2);
+  border-radius:190px 190px 24px 24px;
+  box-shadow:0 26px 70px rgba(0,0,0,.26);
+}
+.shams-copy .eyebrow{color:#d7b36c}
+.shams-questions p{border-bottom-color:rgba(232,205,151,.14)}
+.theme-grid{
+  gap:8px;
+  border:0;
+  background:transparent;
+}
+.theme-grid button{
+  position:relative;
+  overflow:hidden;
+  border:1px solid #cbb99a;
+  border-radius:18px;
+  background:rgba(248,240,226,.68);
+}
+.theme-grid button:after{
+  content:"";
+  position:absolute;
+  width:54px;height:54px;
+  right:-20px;bottom:-20px;
+  border:1px solid rgba(166,126,66,.18);
+  transform:rotate(45deg);
+}
+.theme-grid button:hover,.theme-grid button.active{
+  border-color:#a38451;
+  background:#faf3e5;
+  box-shadow:0 14px 32px rgba(80,55,25,.08);
+  transform:translateY(-2px);
+}
+.journey{
+  color:#efe6d5;
+  background:
+    radial-gradient(circle at 75% 30%,rgba(46,116,111,.22),transparent 24%),
+    radial-gradient(circle at 18% 78%,rgba(129,56,75,.18),transparent 27%),
+    linear-gradient(145deg,#0d1c24,#102a31);
+}
+.journey .eyebrow{color:#d5b36a}
+.journey .section-heading>p:not(.eyebrow){color:#a7b7b1}
+.journey-grid article{
+  border-color:rgba(217,181,109,.18);
+  border-radius:24px;
+  background:rgba(255,255,255,.035);
+  backdrop-filter:blur(8px);
+}
+.journey-grid small{color:#d8b46c}
+.journey-grid p{color:#aebbb7}
+.journey-grid a{border-bottom-color:#d8b46c;color:#e4c98e}
+.journey-detail{
+  border-color:rgba(217,181,109,.18);
+  background:rgba(255,255,255,.045);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.03);
+}
+.journey-detail .label{color:#d5b36a}
+.journey-detail li{border-bottom-color:rgba(218,191,137,.12)}
+.lab{background:#f3eadb}
+.lab-grid article{border-top-color:#b99d70}
+.research-rules{
+  position:relative;
+  overflow:hidden;
+  border:1px solid rgba(217,181,109,.18);
+  background:linear-gradient(145deg,#11282e,#17383b);
+  box-shadow:0 24px 54px rgba(19,41,43,.14);
+}
+.research-rules:after{
+  content:"";
+  position:absolute;
+  width:190px;height:190px;
+  right:-70px;bottom:-72px;
+  background:url("./assets/mystic-rosette.svg") center/contain no-repeat;
+  opacity:.12;
+}
+.data-card{border-color:#c7b28d;border-radius:22px}
+.data-card div{border-color:#d1c0a4;background:rgba(255,255,255,.15)}
+.database-cta{
+  border:1px solid rgba(217,181,109,.18);
+  border-radius:22px;
+  background:linear-gradient(135deg,#10252d,#153840);
+}
+.database-cta .btn{
+  border-color:#d3ae68;
+  background:#d3ae68;
+}
+.daily-portal{
+  color:#eee4d2;
+  background:
+    radial-gradient(circle at 82% 20%,rgba(210,168,93,.17),transparent 24%),
+    linear-gradient(135deg,#0b1820,#16343a);
+}
+.daily-portal .eyebrow{color:#d7b46d}
+.daily-copy>p:not(.eyebrow){color:#a9bab4}
+.daily-image{
+  border:1px solid rgba(218,183,110,.2);
+  border-radius:180px 180px 24px 24px;
+  box-shadow:var(--shadow-dark);
+}
+.daily-copy .btn.primary{
+  border-color:#d2a85d;
+  background:#d2a85d;
+  color:#142228;
+}
+.quote-check{
+  color:#f1e7d5;
+  background:
+    radial-gradient(circle at 85% 20%,rgba(210,168,93,.17),transparent 24%),
+    linear-gradient(135deg,#4b1f2d,#713246);
+}
+.quote-check .eyebrow{color:#e2c27e}
+.quote-check p{color:#d5c2c3}
+.mock-search input{
+  border-color:rgba(233,206,153,.4);
+  background:rgba(255,248,236,.94);
+}
+.mock-search button{
+  border-color:#d2a85d;
+  background:#d2a85d;
+  color:#2a1d16;
+}
+.quote-result{color:#d7c9c5}
+.principles{
+  overflow:hidden;
+  color:#efe6d6;
+  background:
+    url("./assets/mystic-rosette.svg") center/420px auto no-repeat,
+    linear-gradient(180deg,#10262d,#0a151c);
+}
+.principles .eyebrow{color:#d7b36b}
+.principle-title{
+  position:relative;
+  z-index:1;
+  max-width:1180px;
+  margin-inline:auto;
+  color:#f3e8d5;
+}
+.principles>p:last-child{color:#99aaa5}
+footer{
+  color:#d7ded9;
+  background:#081219;
+}
+footer p{color:#83928f}
+.footer-note a{color:#d5b36a}
+[data-reveal]{
+  opacity:0;
+  transform:translateY(22px);
+  transition:opacity .7s ease,transform .7s cubic-bezier(.22,.8,.22,1);
+}
+[data-reveal].in-view{opacity:1;transform:none}
+@keyframes mystic-turn{to{transform:rotate(360deg)}}
+@media(max-width:1100px){
+  .journey-rail{display:none}
+}
+@media(max-width:900px){
+  .site-header{background:rgba(8,18,25,.96)}
+  .main-nav{
+    background:#0c1b22;
+    border-bottom-color:rgba(210,168,93,.18);
+  }
+  .main-nav a{color:#d8e0dc}
+  .nav-toggle{
+    color:#f0e5cf;
+    background:#10252d;
+    border-color:rgba(210,168,93,.28);
+  }
+  .hero{
+    width:calc(100% - 20px);
+    margin-top:10px;
+    border-radius:0 0 28px 28px;
+    padding-top:82px;
+  }
+  .hero-visual{
+    min-height:420px;
+    border-radius:160px 160px 22px 22px;
+  }
+  .hero-visual img{min-height:420px}
+  .portal-card{border-radius:120px 120px 22px 22px}
+  .timeline:before,.timeline article:before{display:none}
+}
+@media(max-width:620px){
+  .hero{
+    padding:68px 22px 52px;
+    background:
+      linear-gradient(145deg,rgba(7,18,24,.98),rgba(14,41,45,.95)),
+      url("./assets/mystic-arch.svg") center/cover no-repeat;
+  }
+  .hero-title{font-size:36px;line-height:1.36}
+  .hero-title span{white-space:normal}
+  .hero-lead{overflow-wrap:anywhere}
+  .hero-whisper{font-size:14px}
+  .hero-visual{min-height:360px;border-radius:130px 130px 18px 18px}
+  .hero-visual img{min-height:360px}
+  .v2-portals{margin-top:12px;padding-top:88px;padding-bottom:88px}
+  .portal-card{border-radius:92px 92px 18px 18px}
+  .portal-card figure img{aspect-ratio:1/1.05}
+  .poem-card{padding:30px 22px;border-radius:24px 24px 12px 12px}
+  .today:before{width:170px;height:170px;right:-45px}
+  .daily-image,.method-visual,.shams-art,.route-figure img{border-radius:96px 96px 18px 18px}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-visual:before{animation:none}
+  [data-reveal]{opacity:1;transform:none;transition:none}
+}

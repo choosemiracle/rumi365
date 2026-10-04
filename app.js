@@ -76,3 +76,60 @@ document.getElementById('check-quote')?.addEventListener('click', () => {
   const result = document.getElementById('quote-result');
   result.textContent = '当前正在建设可追溯的辨伪索引。没有足够文本证据时，将明确标注“尚待核实”，而不是把网络流传语直接归给鲁米。';
 });
+
+const scrollThread = document.querySelector('.scroll-thread span');
+let scrollTicking = false;
+
+function updateScrollThread() {
+  const max = document.documentElement.scrollHeight - window.innerHeight;
+  const ratio = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+  if (scrollThread) scrollThread.style.transform = 'scaleX(' + ratio + ')';
+  scrollTicking = false;
+}
+
+window.addEventListener('scroll', () => {
+  if (!scrollTicking) {
+    requestAnimationFrame(updateScrollThread);
+    scrollTicking = true;
+  }
+}, { passive: true });
+updateScrollThread();
+
+const revealTargets = document.querySelectorAll(
+  '.section-heading, .portal-card, .poem-card, .method-visual, .method-copy, .route-figure, .timeline article, .shams-art, .shams-copy, .theme-grid, .journey-grid article, .journey-detail, .lab-grid article, .research-rules, .data-card, .database-cta, .daily-image, .daily-copy, .quote-check-inner, .principles blockquote'
+);
+
+revealTargets.forEach(el => el.setAttribute('data-reveal', ''));
+
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+  revealTargets.forEach(el => revealObserver.observe(el));
+} else {
+  revealTargets.forEach(el => el.classList.add('in-view'));
+}
+
+const journeyLinks = [...document.querySelectorAll('[data-journey-section]')];
+const journeySections = journeyLinks
+  .map(link => document.getElementById(link.dataset.journeySection))
+  .filter(Boolean);
+
+if (journeySections.length && 'IntersectionObserver' in window) {
+  const railObserver = new IntersectionObserver(entries => {
+    const visible = entries
+      .filter(entry => entry.isIntersecting)
+      .sort((a, b) => Math.abs(a.boundingClientRect.top) - Math.abs(b.boundingClientRect.top))[0];
+    if (!visible) return;
+    journeyLinks.forEach(link => {
+      link.classList.toggle('active', link.dataset.journeySection === visible.target.id);
+    });
+  }, { rootMargin: '-25% 0px -55% 0px', threshold: 0 });
+  journeySections.forEach(section => railObserver.observe(section));
+  journeyLinks[0]?.classList.add('active');
+}
